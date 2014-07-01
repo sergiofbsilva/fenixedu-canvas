@@ -1,3 +1,18 @@
+# [Bootstrap](http://getbootstrap.com) Demo Site for FenixEdu-Canvas
+
+The purpose of this repository is to run the [Bootstrap](http://getbootstrap.com) demo site with reloading of the changes made in [FenixEDU-Canvas](https://github.com/fenixedu/fenixedu-canvas)
+
+## Getting Started
+
+1. `cd <my-workspace>`
+2. `git clone git@github.com:FenixEdu/bootstrap.git` (directory `bootstrap` will be created)
+3. `git clone git@github.com:FenixEdu/fenixedu-canvas.git`(directory `fenixedu-canvas` will be created)
+4. `cd bootstrap`
+5. `npm install`
+6. `grunt serve`
+
+At this point whenever you change [FenixEDU-Canvas](https://github.com/fenixedu/fenixedu-canvas) `sass` files, the changes will be available at `http://localhost:9001/`
+
 # [Bootstrap](http://getbootstrap.com)
 [![Bower version](https://badge.fury.io/bo/bootstrap.svg)](http://badge.fury.io/bo/bootstrap)
 [![NPM version](https://badge.fury.io/js/bootstrap.svg)](http://badge.fury.io/js/bootstrap)
