@@ -298,6 +298,12 @@ module.exports = function (grunt) {
           'fonts/*'
         ],
         dest: 'docs/dist'
+      },
+      canvas: {
+        cwd:'../fenixedu-canvas/assets/fonts',
+	src:['**/*.*'],
+	dest:'_gh_pages/dist/fonts/',
+	expand:true
       }
     },
 
@@ -498,7 +504,7 @@ module.exports = function (grunt) {
   // Default task.
   grunt.registerTask('default', ['test', 'dist', 'build-glyphicons-data', 'build-customizer']);
 
-  grunt.registerTask('serve', ['compass:server', 'concurrent:target']);
+  grunt.registerTask('serve', ['copy:canvas', 'compass:server', 'concurrent:target']);
 
   // Version numbering task.
   // grunt change-version-number --oldver=A.B.C --newver=X.Y.Z
