@@ -5,11 +5,23 @@
   <p>Includes 200 glyphs in font format from the Glyphicon Halflings set. <a href="http://glyphicons.com/">Glyphicons</a> Halflings are normally not available for free, but their creator has made them available for Bootstrap free of cost. As a thank you, we only ask that you include a link back to <a href="http://glyphicons.com/">Glyphicons</a> whenever possible.</p>
   <div class="bs-glyphicons">
     <ul class="bs-glyphicons-list">
-      {% for iconClassName in site.data.glyphicons %}
-        <li>
-          <span class="glyphicon {{ iconClassName }}"></span>
-          <span class="glyphicon-class">glyphicon {{ iconClassName }}</span>
-        </li>
+      {% for icon in site.data.glyphicons %}
+        {% if icon.glyphicon and icon.icon %}
+          <li>
+            <span class="glyphicon {{ icon.glyphicon }}"></span>
+            <span class="glyphicon-class">glyphicon {{ icon.glyphicon }}, icon {{ icon.icon }}</span>
+          </li>
+        {% elsif icon.glyphicon %}
+          <li>
+            <span class="glyphicon {{ icon.glyphicon }}"></span>
+            <span class="glyphicon-class">glyphicon {{ icon.glyphicon }}</span>
+          </li>
+        {% elsif icon.icon %}
+          <li>
+            <span class="icon {{ icon.icon }}"></span>
+            <span class="glyphicon-class">icon {{ icon.icon }}</span>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </div>

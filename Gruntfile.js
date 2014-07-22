@@ -301,9 +301,9 @@ module.exports = function (grunt) {
       },
       canvas: {
         cwd:'../fenixedu-canvas/assets/fonts',
-	src:['**/*.*'],
-	dest:'_gh_pages/dist/fonts/',
-	expand:true
+	      src:['**/*.*'],
+	      dest:'_gh_pages/dist/fonts/',
+	      expand:true
       }
     },
 
