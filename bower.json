@@ -33,6 +33,7 @@
     "test-infra"
   ],
   "dependencies": {
-    "jquery": ">= 1.9.0"
+    "jquery": ">= 1.9.0",
+    "fancytree": "~2.2.0"
   }
 }
