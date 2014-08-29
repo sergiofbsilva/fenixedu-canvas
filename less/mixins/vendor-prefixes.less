@@ -100,14 +100,15 @@
 // Placeholder text
 .placeholder(@color: @input-color-placeholder) {
   &::-moz-placeholder           { color: @color;   // Firefox
-                                  opacity: 1; } // See https://github.com/twbs/bootstrap/pull/11526
-  &:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
-  &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+                                  opacity: 1; .transition(color 0.25s ease-in) } // See https://github.com/twbs/bootstrap/pull/11526
+  &:-ms-input-placeholder       { color: @color; .transition(color 0.25s ease-in) } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: @color; .transition(color 0.25s ease-in) } // Safari and Chrome
 }
 
 // Transformations
 .scale(@ratio) {
   -webkit-transform: scale(@ratio);
+      -moz-transform: scale(@ratio);
       -ms-transform: scale(@ratio); // IE9 only
        -o-transform: scale(@ratio);
           transform: scale(@ratio);
@@ -132,22 +133,28 @@
 }
 .skew(@x; @y) {
   -webkit-transform: skewX(@x) skewY(@y);
+      -moz-transform: skewX(@x) skewY(@y);
       -ms-transform: skewX(@x) skewY(@y); // See https://github.com/twbs/bootstrap/issues/4885; IE9+
        -o-transform: skewX(@x) skewY(@y);
           transform: skewX(@x) skewY(@y);
 }
 .translate(@x; @y) {
   -webkit-transform: translate(@x, @y);
+     -moz-transform: translate(@x, @y);
       -ms-transform: translate(@x, @y); // IE9 only
        -o-transform: translate(@x, @y);
           transform: translate(@x, @y);
 }
 .translate3d(@x; @y; @z) {
   -webkit-transform: translate3d(@x, @y, @z);
+     -moz-transform: translate3d(@x, @y, @z);
+      -ms-transform: translate3d(@x, @y, @z);
+      -o-transform: translate3d(@x, @y, @z);
           transform: translate3d(@x, @y, @z);
 }
 .rotate(@degrees) {
   -webkit-transform: rotate(@degrees);
+     -moz-transform: rotate(@degrees);
       -ms-transform: rotate(@degrees); // IE9 only
        -o-transform: rotate(@degrees);
           transform: rotate(@degrees);
@@ -186,6 +193,8 @@
 
 .transition(@transition) {
   -webkit-transition: @transition;
+     -moz-transition: @transition;
+      -ms-transition: @transition;
        -o-transition: @transition;
           transition: @transition;
 }

@@ -9,7 +9,7 @@
 .btn {
   display: inline-block;
   margin-bottom: 0; // For input.btn
-  font-weight: @btn-font-weight;
+  font-family: @btn-font-family;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -18,7 +18,7 @@
   white-space: nowrap;
   .button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
   .user-select(none);
-
+  .transition(all 0.25s ease-in);
   &,
   &:active,
   &.active {

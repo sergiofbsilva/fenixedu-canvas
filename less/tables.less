@@ -16,6 +16,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
+  table-layout: initial;
   margin-bottom: @line-height-computed;
   // Cells
   > thead,
@@ -31,12 +32,28 @@ th {
       }
     }
   }
-  // Bottom align for column headings
+  // Column headings
   > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid @table-border-color;
+    border-top: 1px solid @gray-light;
+    border-bottom: 1px solid @gray-light;
+    border-right: 1px solid @gray-light;
+    background: @gray-lighter;
+    font-family: @headings-font-family;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    &:first-child {border-left: 1px solid @gray-light;}
+
+    span.order {
+      float: right;
+      &:before {
+        font-size: 10px;
+      }
+    }
   }
-  // Remove top border from thead by default
+  /*// Remove top border from thead by default
   > caption + thead,
   > colgroup + thead,
   > thead:first-child {
@@ -46,10 +63,10 @@ th {
         border-top: 0;
       }
     }
-  }
+  }*/
   // Account for multiple tbody instances
   > tbody + tbody {
-    border-top: 2px solid @table-border-color;
+    border-top: 1px solid @table-border-color;
   }
 
   // Nesting
@@ -94,7 +111,7 @@ th {
   > thead > tr {
     > th,
     > td {
-      border-bottom-width: 2px;
+      border-bottom-width: 1px;
     }
   }
 }

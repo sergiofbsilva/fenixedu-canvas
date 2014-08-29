@@ -53,8 +53,8 @@
   background-color: @modal-content-bg;
   border: 1px solid @modal-content-fallback-border-color; //old browsers fallback (ie8 etc)
   border: 1px solid @modal-content-border-color;
-  border-radius: @border-radius-large;
-  .box-shadow(0 3px 9px rgba(0,0,0,.5));
+  border-radius: @border-radius-base;
+  .box-shadow(0 4px 8px rgba(204,204,204,.65));
   background-clip: padding-box;
   // Remove focus outline from opened modal
   outline: 0;
@@ -103,7 +103,7 @@
 .modal-footer {
   padding: @modal-inner-padding;
   text-align: right; // right align buttons
-  border-top: 1px solid @modal-footer-border-color;
+  //border-top: 1px solid @modal-footer-border-color;
   &:extend(.clearfix all); // clear it in case folks use .pull-* classes on buttons
 
   // Properly space out buttons
