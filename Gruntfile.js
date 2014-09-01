@@ -124,6 +124,7 @@ module.exports = function (grunt) {
           'docs/assets/js/_vendor/uglify.min.js',
           'docs/assets/js/_vendor/blob.js',
           'docs/assets/js/_vendor/filesaver.js',
+          'docs/assets/js/_vendor/jquery.fancytree.js',
           'docs/assets/js/raw-files.min.js',
           'docs/assets/js/_src/customizer.js'
         ],
@@ -286,7 +287,7 @@ module.exports = function (grunt) {
     copy: {
       fonts: {
         expand: true,
-        src: 'fonts/*',
+        src: 'fonts/**/*',
         dest: 'dist/'
       },
       docs: {
@@ -295,15 +296,9 @@ module.exports = function (grunt) {
         src: [
           '{css,js}/*.min.*',
           'css/*.map',
-          'fonts/*'
+          'fonts/**/*'
         ],
         dest: 'docs/dist'
-      },
-      canvas: {
-        cwd:'../fenixedu-canvas/assets/fonts',
-	      src:['**/*.*'],
-	      dest:'_gh_pages/dist/fonts/',
-	      expand:true
       }
     },
 
@@ -317,13 +312,7 @@ module.exports = function (grunt) {
     },
 
     jekyll: {
-      server : {
-        options : {
-          serve:true,
-          port:9001
-        }
-      },
-      docs : {}
+      docs: {}
     },
 
     jade: {
@@ -372,14 +361,6 @@ module.exports = function (grunt) {
       less: {
         files: 'less/*.less',
         tasks: 'less'
-      },
-      compass: {
-        files: ['../fenixedu-canvas/assets/**/*.{scss,sass}'],
-        tasks: ['compass:server']
-      },
-      jekyll: {
-        files: ['docs/**/*.html'],
-        tasks: ['jekyll:server']
       }
     },
 
@@ -410,43 +391,6 @@ module.exports = function (grunt) {
       npmUpdate: {
         command: 'npm update'
       }
-    },
-
-    compass: {
-      options: {
-        sassDir: '../fenixedu-canvas/assets/stylesheets',
-        cssDir: '_gh_pages/dist/css',
-        generatedImagesDir: '.tmp/images/generated',
-        imagesDir: '.tmp/images',
-        javascriptsDir: '../fenixedu-canvas/assets/javascript',
-        fontsDir: '../fenixedu-canvas/assets/fonts',
-        importPath: '../fenixedu-canvas/',
-        httpImagesPath: '/images',
-        httpGeneratedImagesPath: '/images/generated',
-        httpFontsPath: '/styles/fonts',
-        relativeAssets: false,
-        assetCacheBuster: false,
-        raw: 'Sass::Script::Number.precision = 10\n'
-      },
-      dist: {
-        options: {
-          generatedImagesDir: '.tmp/images/generated'
-        }
-      },
-      server: {
-        options: {
-          debugInfo: true
-        }
-      }
-    },
-
-    concurrent: {
-      target: {
-        tasks: ['jekyll:server', 'watch'],
-        options: {
-          logConcurrentOutput: true
-        }
-      }
     }
   });
 
@@ -456,7 +400,7 @@ module.exports = function (grunt) {
   require('time-grunt')(grunt);
 
   // Docs HTML validation task
-  grunt.registerTask('validate-html', ['jekyll:docs', 'validation']);
+  grunt.registerTask('validate-html', ['jekyll', 'validation']);
 
   var runSubset = function (subset) {
     return !process.env.TWBS_TEST || process.env.TWBS_TEST === subset;
@@ -504,7 +448,7 @@ module.exports = function (grunt) {
   // Default task.
   grunt.registerTask('default', ['test', 'dist', 'build-glyphicons-data', 'build-customizer']);
 
-  grunt.registerTask('serve', ['copy:canvas', 'compass:server', 'concurrent:target']);
+  //grunt.registerTask('serve', ['concurrent:target']);
 
   // Version numbering task.
   // grunt change-version-number --oldver=A.B.C --newver=X.Y.Z
@@ -538,7 +482,6 @@ module.exports = function (grunt) {
   });
 
   grunt.loadNpmTasks('grunt-concurrent');
-  grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-jekyll');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-copy');

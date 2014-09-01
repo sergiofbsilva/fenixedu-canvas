@@ -55,12 +55,12 @@ module.exports = function generateGlyphiconsData(grunt) {
     }
   }
 
-  for (var icon in icons) {
-    var value = icons[icon];
-    if (icon[0] === 'i') {
-      glyphiconsData += '- icon: ' + icon + '\n';
+  for (var mainIcon in icons) {
+    var value = icons[mainIcon];
+    if (mainIcon[0] === 'i') {
+      glyphiconsData += '- icon: ' + mainIcon + '\n';
     } else {
-      glyphiconsData += '- glyphicon: ' + icon + '\n';
+      glyphiconsData += '- glyphicon: ' + mainIcon + '\n';
     }
 
     if (value !== 1){
