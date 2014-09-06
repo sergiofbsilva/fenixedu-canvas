@@ -124,7 +124,6 @@ module.exports = function (grunt) {
           'docs/assets/js/_vendor/uglify.min.js',
           'docs/assets/js/_vendor/blob.js',
           'docs/assets/js/_vendor/filesaver.js',
-          'docs/assets/js/_vendor/jquery.fancytree.js',
           'docs/assets/js/raw-files.min.js',
           'docs/assets/js/_src/customizer.js'
         ],
@@ -299,6 +298,16 @@ module.exports = function (grunt) {
           'fonts/**/*'
         ],
         dest: 'docs/dist'
+      },
+      fancytree: {
+        cwd: './',
+        expand: true,
+        src: [
+            'fancytree/js/*.js',
+            'fancytree/skin-fenixedu/*.{css,less,gif}',
+            'fancytree/*.{css,less}'
+        ],
+        dest: './dist'
       }
     },
 
@@ -439,11 +448,14 @@ module.exports = function (grunt) {
   grunt.registerTask('less-compile', ['less:compileCore', 'less:compileTheme']);
   grunt.registerTask('dist-css', ['less-compile', 'autoprefixer', 'usebanner', 'csscomb', 'cssmin']);
 
+  // Fancytree distribution task.
+  grunt.registerTask('dist-fancytree', 'copy:fancytree');
+
   // Docs distribution task.
   grunt.registerTask('dist-docs', 'copy:docs');
 
   // Full distribution task.
-  grunt.registerTask('dist', ['clean', 'dist-css', 'copy:fonts', 'dist-js', 'dist-docs']);
+  grunt.registerTask('dist', ['clean', 'dist-css', 'copy:fonts', 'dist-js', 'dist-fancytree', 'dist-docs']);
 
   // Default task.
   grunt.registerTask('default', ['test', 'dist', 'build-glyphicons-data', 'build-customizer']);

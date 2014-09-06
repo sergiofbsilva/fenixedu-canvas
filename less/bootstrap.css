@@ -270,237 +270,7 @@ margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
-.icon,
-.icon-cc,
-.glyphicon-copyright-mark,
-.icon-gauge,
-.glyphicon-dashboard,
-.icon-droplet,
-.glyphicon-tint,
-.icon-credit-card,
-.glyphicon-credit-card,
-.icon-floppy,
-.glyphicon-floppy-disk,
-.icon-megaphone,
-.glyphicon-bullhorn,
-.icon-drive,
-.glyphicon-hdd,
-.icon-cloud,
-.glyphicon-cloud,
-.icon-chart-bar,
-.glyphicon-stats,
-.icon-globe,
-.glyphicon-globe,
-.icon-install,
-.glyphicon-download-alt,
-.icon-inbox,
-.glyphicon-inbox,
-.icon-magnet,
-.glyphicon-magnet,
-.icon-mobile,
-.glyphicon-phone,
-.icon-briefcase,
-.glyphicon-briefcase,
-.icon-signal,
-.glyphicon-signal,
-.icon-list,
-.glyphicon-th-list,
-.icon-leaf,
-.glyphicon-leaf,
-.icon-paper-plane,
-.glyphicon-send,
-.icon-target,
-.glyphicon-screenshot,
-.icon-flight,
-.glyphicon-plane,
-.icon-flash,
-.glyphicon-flash,
-.icon-cw,
-.glyphicon-repeat,
-.icon-arrows-ccw,
-.glyphicon-refresh,
-.icon-shuffle,
-.glyphicon-random,
-.icon-switch,
-.glyphicon-transfer,
-.icon-play,
-.glyphicon-play,
-.icon-stop,
-.glyphicon-stop,
-.icon-pause,
-.glyphicon-pause,
-.icon-record,
-.glyphicon-record,
-.icon-to-end,
-.glyphicon-step-forward,
-.icon-to-start,
-.glyphicon-step-backward,
-.icon-fast-forward,
-.glyphicon-forward,
-.icon-fast-backward,
-.glyphicon-backward,
-.icon-up,
-.glyphicon-arrow-up,
-.icon-right,
-.glyphicon-arrow-right,
-.icon-left,
-.glyphicon-arrow-left,
-.icon-down,
-.glyphicon-arrow-down,
-.icon-up-open,
-.glyphicon-chevron-up,
-.icon-right-open,
-.glyphicon-chevron-right,
-.icon-left-open,
-.glyphicon-chevron-left,
-.icon-down-open,
-.glyphicon-chevron-down,
-.icon-up-circled,
-.glyphicon-circle-arrow-up,
-.icon-right-circled,
-.glyphicon-circle-arrow-right,
-.icon-down-circled,
-.glyphicon-circle-arrow-down,
-.icon-left-circled,
-.glyphicon-circle-arrow-left,
-.icon-popup,
-.glyphicon-new-window,
-.icon-resize-small,
-.glyphicon-resize-small,
-.icon-resize-full,
-.glyphicon-resize-full,
-.icon-block,
-.glyphicon-ban-circle,
-.icon-adjust,
-.glyphicon-adjust,
-.icon-folder,
-.glyphicon-folder-close,
-.icon-phone,
-.glyphicon-earphone,
-.icon-cog,
-.glyphicon-cog,
-.icon-tools,
-.glyphicon-wrench,
-.icon-basket,
-.glyphicon-shopping-cart,
-.icon-calendar,
-.glyphicon-calendar,
-.icon-login,
-.glyphicon-log-in,
-.icon-logout,
-.glyphicon-log-out,
-.icon-clock,
-.glyphicon-time,
-.icon-book,
-.glyphicon-book,
-.icon-location,
-.glyphicon-map-marker,
-.icon-download,
-.glyphicon-download,
-.icon-thumbs-down,
-.glyphicon-thumbs-down,
-.icon-thumbs-up,
-.glyphicon-thumbs-up,
-.icon-attention,
-.glyphicon-warning-sign,
-.icon-flag,
-.glyphicon-flag,
-.icon-bell,
-.glyphicon-bell,
-.icon-bookmark,
-.glyphicon-bookmark,
-.icon-upload,
-.glyphicon-upload,
-.icon-upload-cloud,
-.glyphicon-cloud-upload,
-.icon-forward,
-.glyphicon-share-alt,
-.icon-export,
-.glyphicon-share,
-.icon-pencil,
-.glyphicon-pencil,
-.glyphicon-edit,
-.icon-print,
-.glyphicon-print,
-.icon-retweet,
-.glyphicon-retweet,
-.icon-comment,
-.glyphicon-comment,
-.icon-tag,
-.glyphicon-tag,
-.icon-eye,
-.glyphicon-eye-open,
-.icon-lock,
-.glyphicon-lock,
-.icon-attach,
-.glyphicon-paperclip,
-.icon-link,
-.glyphicon-link,
-.icon-cancel,
-.glyphicon-remove,
-.icon-layout,
-.glyphicon-th-large,
-.icon-camera,
-.glyphicon-camera,
-.icon-picture,
-.glyphicon-picture,
-.icon-video,
-.glyphicon-film,
-.icon-home,
-.glyphicon-home,
-.icon-help-circled,
-.glyphicon-question-sign,
-.icon-minus-squared,
-.glyphicon-minus-sign,
-.icon-star-empty,
-.glyphicon-star-empty,
-.icon-star,
-.glyphicon-star,
-.icon-heart-empty,
-.glyphicon-heart-empty,
-.icon-heart,
-.glyphicon-heart,
-.icon-minus,
-.glyphicon-minus,
-.icon-note-beamed,
-.glyphicon-music,
-.icon-cancel-circled,
-.glyphicon-remove-circle,
-.icon-cancel-squared,
-.glyphicon-remove-sign,
-.icon-plus,
-.glyphicon-plus,
-.icon-search,
-.glyphicon-search,
-.icon-plus-squared,
-.glyphicon-plus-sign,
-.icon-mail,
-.glyphicon-envelope,
-.icon-filter,
-.glyphicon-filter,
-.icon-check,
-.glyphicon-ok,
-.glyphicon-check,
-.icon-filetype-std,
-.glyphicon-file,
-.icon-info-circle,
-.glyphicon-info-sign,
-.icon-trash,
-.glyphicon-trash,
-.icon-user,
-.glyphicon-user,
-.icon-down-dir,
-.glyphicon-collapse-down,
-.icon-up-dir,
-.glyphicon-collapse-up,
-.icon-right-dir,
-.glyphicon-expand,
-.icon-filetype-application,
-.icon-filetype-message,
-.icon-filetype-model,
-.icon-filetype-multipart,
-.icon-filetype-example,
-.icon-filetype-folder {
+.icon {
   font-family: "fenixedu-icons";
   font-style: normal;
   font-weight: normal;
@@ -1289,6 +1059,25 @@ margin-left: .2em;*/
 .icon-cc:before,
 .glyphicon-copyright-mark:before {
   content: "\e837";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-traffic-cone:before {
   content: "\e838";
@@ -1302,6 +1091,25 @@ margin-left: .2em;*/
 .icon-gauge:before,
 .glyphicon-dashboard:before {
   content: "\e83b";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-rocket:before {
   content: "\e83c";
@@ -1333,6 +1141,25 @@ margin-left: .2em;*/
 .icon-droplet:before,
 .glyphicon-tint:before {
   content: "\e845";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-air:before {
   content: "\e846";
@@ -1340,10 +1167,48 @@ margin-left: .2em;*/
 .icon-credit-card:before,
 .glyphicon-credit-card:before {
   content: "\e847";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-floppy:before,
 .glyphicon-floppy-disk:before {
   content: "\e848";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-clipboard:before {
   content: "\e849";
@@ -1351,6 +1216,25 @@ margin-left: .2em;*/
 .icon-megaphone:before,
 .glyphicon-bullhorn:before {
   content: "\e84a";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-database:before {
   content: "\e84b";
@@ -1358,6 +1242,25 @@ margin-left: .2em;*/
 .icon-drive:before,
 .glyphicon-hdd:before {
   content: "\e84c";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-bucket:before {
   content: "\e84d";
@@ -1389,10 +1292,48 @@ margin-left: .2em;*/
 .icon-cloud:before,
 .glyphicon-cloud:before {
   content: "\e856";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-chart-bar:before,
 .glyphicon-stats:before {
   content: "\e857";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-chart-line:before {
   content: "\e858";
@@ -1400,10 +1341,48 @@ margin-left: .2em;*/
 .icon-globe:before,
 .glyphicon-globe:before {
   content: "\e859";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-install:before,
 .glyphicon-download-alt:before {
   content: "\e85a";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-chart-pie:before {
   content: "\e85b";
@@ -1414,6 +1393,25 @@ margin-left: .2em;*/
 .icon-inbox:before,
 .glyphicon-inbox:before {
   content: "\e85d";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cd:before {
   content: "\e85e";
@@ -1424,6 +1422,25 @@ margin-left: .2em;*/
 .icon-magnet:before,
 .glyphicon-magnet:before {
   content: "\e860";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-network:before {
   content: "\e861";
@@ -1431,6 +1448,25 @@ margin-left: .2em;*/
 .icon-mobile:before,
 .glyphicon-phone:before {
   content: "\e862";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-brush:before {
   content: "\e863";
@@ -1462,10 +1498,48 @@ margin-left: .2em;*/
 .icon-briefcase:before,
 .glyphicon-briefcase:before {
   content: "\e86c";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-signal:before,
 .glyphicon-signal:before {
   content: "\e86d";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-list-add:before {
   content: "\e86e";
@@ -1479,6 +1553,25 @@ margin-left: .2em;*/
 .icon-list:before,
 .glyphicon-th-list:before {
   content: "\e871";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-palette:before {
   content: "\e872";
@@ -1486,14 +1579,71 @@ margin-left: .2em;*/
 .icon-leaf:before,
 .glyphicon-leaf:before {
   content: "\e873";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-paper-plane:before,
 .glyphicon-send:before {
   content: "\e874";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-target:before,
 .glyphicon-screenshot:before {
   content: "\e875";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-progress-3:before {
   content: "\e876";
@@ -1501,6 +1651,25 @@ margin-left: .2em;*/
 .icon-flight:before,
 .glyphicon-plane:before {
   content: "\e877";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-moon:before {
   content: "\e878";
@@ -1514,6 +1683,25 @@ margin-left: .2em;*/
 .icon-flash:before,
 .glyphicon-flash:before {
   content: "\e87b";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-left-thin:before {
   content: "\e87c";
@@ -1530,10 +1718,48 @@ margin-left: .2em;*/
 .icon-cw:before,
 .glyphicon-repeat:before {
   content: "\e880";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-arrows-ccw:before,
 .glyphicon-refresh:before {
   content: "\e881";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-level-down:before {
   content: "\e882";
@@ -1544,6 +1770,25 @@ margin-left: .2em;*/
 .icon-shuffle:before,
 .glyphicon-random:before {
   content: "\e884";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-loop:before {
   content: "\e885";
@@ -1551,38 +1796,209 @@ margin-left: .2em;*/
 .icon-switch:before,
 .glyphicon-transfer:before {
   content: "\e886";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-play:before,
 .glyphicon-play:before {
   content: "\e887";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-stop:before,
 .glyphicon-stop:before {
   content: "\e888";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-pause:before,
 .glyphicon-pause:before {
   content: "\e889";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-record:before,
 .glyphicon-record:before {
   content: "\e88a";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-to-end:before,
 .glyphicon-step-forward:before {
   content: "\e88b";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-to-start:before,
 .glyphicon-step-backward:before {
   content: "\e88c";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-fast-forward:before,
 .glyphicon-forward:before {
   content: "\e88d";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-fast-backward:before,
 .glyphicon-backward:before {
   content: "\e88e";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-progress-0:before {
   content: "\e88f";
@@ -1605,18 +2021,94 @@ margin-left: .2em;*/
 .icon-up:before,
 .glyphicon-arrow-up:before {
   content: "\e895";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-right:before,
 .glyphicon-arrow-right:before {
   content: "\e896";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-left:before,
 .glyphicon-arrow-left:before {
   content: "\e897";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-down:before,
 .glyphicon-arrow-down:before {
   content: "\e898";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-up-open-big:before {
   content: "\e899";
@@ -1645,34 +2137,186 @@ margin-left: .2em;*/
 .icon-up-open:before,
 .glyphicon-chevron-up:before {
   content: "\e8a1";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-right-open:before,
 .glyphicon-chevron-right:before {
   content: "\e8a2";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-left-open:before,
 .glyphicon-chevron-left:before {
   content: "\e8a3";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-down-open:before,
 .glyphicon-chevron-down:before {
   content: "\e8a4";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-up-circled:before,
 .glyphicon-circle-arrow-up:before {
   content: "\e8a5";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-right-circled:before,
 .glyphicon-circle-arrow-right:before {
   content: "\e8a6";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-down-circled:before,
 .glyphicon-circle-arrow-down:before {
   content: "\e8a7";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-left-circled:before,
 .glyphicon-circle-arrow-left:before {
   content: "\e8a8";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-window:before {
   content: "\e8a9";
@@ -1683,22 +2327,117 @@ margin-left: .2em;*/
 .icon-popup:before,
 .glyphicon-new-window:before {
   content: "\e8ab";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-resize-small:before,
 .glyphicon-resize-small:before {
   content: "\e8ac";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-resize-full:before,
 .glyphicon-resize-full:before {
   content: "\e8ad";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-block:before,
 .glyphicon-ban-circle:before {
   content: "\e8ae";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-adjust:before,
 .glyphicon-adjust:before {
   content: "\e8af";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-light-up:before {
   content: "\e8b0";
@@ -1712,6 +2451,25 @@ margin-left: .2em;*/
 .icon-folder:before,
 .glyphicon-folder-close:before {
   content: "\e8b3";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-archive:before {
   content: "\e8b4";
@@ -1725,14 +2483,71 @@ margin-left: .2em;*/
 .icon-phone:before,
 .glyphicon-earphone:before {
   content: "\e8b7";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cog:before,
 .glyphicon-cog:before {
   content: "\e8b8";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-tools:before,
 .glyphicon-wrench:before {
   content: "\e8b9";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-share:before {
   content: "\e8ba";
@@ -1743,6 +2558,25 @@ margin-left: .2em;*/
 .icon-basket:before,
 .glyphicon-shopping-cart:before {
   content: "\e8bc";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-bag:before {
   content: "\e8bd";
@@ -1750,14 +2584,71 @@ margin-left: .2em;*/
 .icon-calendar:before,
 .glyphicon-calendar:before {
   content: "\e8be";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-login:before,
 .glyphicon-log-in:before {
   content: "\e8bf";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-logout:before,
 .glyphicon-log-out:before {
   content: "\e8c0";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-doc:before {
   content: "\e8c1";
@@ -1792,6 +2683,25 @@ margin-left: .2em;*/
 .icon-clock:before,
 .glyphicon-time:before {
   content: "\e8cb";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-book-open:before {
   content: "\e8cc";
@@ -1802,6 +2712,25 @@ margin-left: .2em;*/
 .icon-book:before,
 .glyphicon-book:before {
   content: "\e8ce";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cup:before {
   content: "\e8cf";
@@ -1818,6 +2747,25 @@ margin-left: .2em;*/
 .icon-location:before,
 .glyphicon-map-marker:before {
   content: "\e8d3";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-address:before {
   content: "\e8d4";
@@ -1825,10 +2773,48 @@ margin-left: .2em;*/
 .icon-download:before,
 .glyphicon-download:before {
   content: "\e8d5";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-thumbs-down:before,
 .glyphicon-thumbs-down:before {
   content: "\e8d6";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-vcard:before {
   content: "\e8d7";
@@ -1839,18 +2825,94 @@ margin-left: .2em;*/
 .icon-thumbs-up:before,
 .glyphicon-thumbs-up:before {
   content: "\e8d9";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-attention:before,
 .glyphicon-warning-sign:before {
   content: "\e8da";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-flag:before,
 .glyphicon-flag:before {
   content: "\e8db";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-bell:before,
 .glyphicon-bell:before {
   content: "\e8dc";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-bookmarks:before {
   content: "\e8dd";
@@ -1858,6 +2920,25 @@ margin-left: .2em;*/
 .icon-bookmark:before,
 .glyphicon-bookmark:before {
   content: "\e8de";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-chat:before {
   content: "\e8df";
@@ -1865,10 +2946,48 @@ margin-left: .2em;*/
 .icon-upload:before,
 .glyphicon-upload:before {
   content: "\e8e0";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-upload-cloud:before,
 .glyphicon-cloud-upload:before {
   content: "\e8e1";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-reply:before {
   content: "\e8e2";
@@ -1879,6 +2998,25 @@ margin-left: .2em;*/
 .icon-forward:before,
 .glyphicon-share-alt:before {
   content: "\e8e4";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-quote:before {
   content: "\e8e5";
@@ -1889,11 +3027,49 @@ margin-left: .2em;*/
 .icon-export:before,
 .glyphicon-share:before {
   content: "\e8e7";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-pencil:before,
 .glyphicon-pencil:before,
 .glyphicon-edit:before {
   content: "\e8e8";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-feather:before {
   content: "\e8e9";
@@ -1901,10 +3077,48 @@ margin-left: .2em;*/
 .icon-print:before,
 .glyphicon-print:before {
   content: "\e8ea";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-retweet:before,
 .glyphicon-retweet:before {
   content: "\e8eb";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-keyboard:before {
   content: "\e8ec";
@@ -1912,14 +3126,71 @@ margin-left: .2em;*/
 .icon-comment:before,
 .glyphicon-comment:before {
   content: "\e8ed";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-tag:before,
 .glyphicon-tag:before {
   content: "\e8ee";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-eye:before,
 .glyphicon-eye-open:before {
   content: "\e8ef";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-lock-open:before {
   content: "\e8f0";
@@ -1927,18 +3198,94 @@ margin-left: .2em;*/
 .icon-lock:before,
 .glyphicon-lock:before {
   content: "\e8f1";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-attach:before,
 .glyphicon-paperclip:before {
   content: "\e8f2";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-link:before,
 .glyphicon-link:before {
   content: "\e8f3";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cancel:before,
 .glyphicon-remove:before {
   content: "\e8f4";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-menu:before {
   content: "\e8f5";
@@ -1946,18 +3293,94 @@ margin-left: .2em;*/
 .icon-layout:before,
 .glyphicon-th-large:before {
   content: "\e8f6";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-camera:before,
 .glyphicon-camera:before {
   content: "\e8f7";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-picture:before,
 .glyphicon-picture:before {
   content: "\e8f8";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-video:before,
 .glyphicon-film:before {
   content: "\e8f9";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-user-add:before {
   content: "\e8fa";
@@ -1965,6 +3388,25 @@ margin-left: .2em;*/
 .icon-home:before,
 .glyphicon-home:before {
   content: "\e8fb";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-back:before {
   content: "\e8fc";
@@ -1972,6 +3414,25 @@ margin-left: .2em;*/
 .icon-help-circled:before,
 .glyphicon-question-sign:before {
   content: "\e8fd";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-help:before {
   content: "\e8fe";
@@ -1979,6 +3440,25 @@ margin-left: .2em;*/
 .icon-minus-squared:before,
 .glyphicon-minus-sign:before {
   content: "\e8ff";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-users:before {
   content: "\e900";
@@ -1986,18 +3466,94 @@ margin-left: .2em;*/
 .icon-star-empty:before,
 .glyphicon-star-empty:before {
   content: "\e901";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-star:before,
 .glyphicon-star:before {
   content: "\e902";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-heart-empty:before,
 .glyphicon-heart-empty:before {
   content: "\e903";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-heart:before,
 .glyphicon-heart:before {
   content: "\e904";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-minus-circled:before {
   content: "\e905";
@@ -2005,22 +3561,117 @@ margin-left: .2em;*/
 .icon-minus:before,
 .glyphicon-minus:before {
   content: "\e906";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-note-beamed:before,
 .glyphicon-music:before {
   content: "\e907";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cancel-circled:before,
 .glyphicon-remove-circle:before {
   content: "\e908";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-cancel-squared:before,
 .glyphicon-remove-sign:before {
   content: "\e909";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-plus:before,
 .glyphicon-plus:before {
   content: "\e90a";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-music:before {
   content: "\e90b";
@@ -2028,6 +3679,25 @@ margin-left: .2em;*/
 .icon-search:before,
 .glyphicon-search:before {
   content: "\e90c";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-plus-circled:before {
   content: "\e90d";
@@ -2035,6 +3705,25 @@ margin-left: .2em;*/
 .icon-plus-squared:before,
 .glyphicon-plus-sign:before {
   content: "\e90e";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-flashlight:before {
   content: "\e90f";
@@ -2042,10 +3731,48 @@ margin-left: .2em;*/
 .icon-mail:before,
 .glyphicon-envelope:before {
   content: "\e910";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-filter:before,
 .glyphicon-filter:before {
   content: "\e911";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-hash:before {
   content: "\e913";
@@ -2084,6 +3811,25 @@ margin-left: .2em;*/
 .glyphicon-ok:before,
 .glyphicon-check:before {
   content: "\e91e";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-filetype-audio:before {
   content: "\e91f";
@@ -2118,6 +3864,25 @@ margin-left: .2em;*/
 .icon-filetype-std:before,
 .glyphicon-file:before {
   content: "\e929";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-filetype-stds:before {
   content: "\e92a";
@@ -2128,6 +3893,25 @@ margin-left: .2em;*/
 .icon-info-circle:before,
 .glyphicon-info-sign:before {
   content: "\e92c";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-info:before {
   content: "\e92d";
@@ -2135,18 +3919,94 @@ margin-left: .2em;*/
 .icon-trash:before,
 .glyphicon-trash:before {
   content: "\e92e";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-user:before,
 .glyphicon-user:before {
   content: "\e92f";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-down-dir:before,
 .glyphicon-collapse-down:before {
   content: "\e930";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-up-dir:before,
 .glyphicon-collapse-up:before {
   content: "\e931";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-left-dir:before {
   content: "\e932";
@@ -2154,6 +4014,25 @@ margin-left: .2em;*/
 .icon-right-dir:before,
 .glyphicon-expand:before {
   content: "\e933";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .icon-sort-down:before {
   content: "\e934";
@@ -2166,6 +4045,63 @@ margin-left: .2em;*/
 }
 .icon-laptop:before {
   content: "\e937";
+}
+.icon-filetype-application:before,
+.icon-filetype-message:before,
+.icon-filetype-model:before,
+.icon-filetype-multipart:before,
+.icon-filetype-example:before {
+  content: "\e929";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-filetype-image:before {
+  content: "\e921";
+}
+.icon-filetype-text:before {
+  content: "\e926";
+}
+.icon-filetype-video:before {
+  content: "\e922";
+}
+.icon-filetype-folder:before {
+  content: "\e8b3";
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  text-align: center;
+  position: relative;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant: normal;
+  text-transform: none;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 * {
   -webkit-box-sizing: border-box;
