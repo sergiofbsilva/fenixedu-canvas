@@ -27,14 +27,24 @@ th {
       > td {
         padding: @table-cell-padding;
         line-height: @line-height-base;
-        vertical-align: top;
+        vertical-align: middle;
         border-top: 1px solid @table-border-color;
       }
     }
   }
+
+  > tbody > tr {
+    > td {
+    border-bottom: 1px solid @table-border-color;
+    }
+    &:last-of-type > td {
+      border-bottom: none;
+    }
+  }
+
   // Column headings
   > thead > tr > th {
-    vertical-align: bottom;
+    vertical-align: middle;
     border-top: 1px solid @gray-light;
     border-bottom: 1px solid @gray-light;
     border-right: 1px solid @gray-light;
