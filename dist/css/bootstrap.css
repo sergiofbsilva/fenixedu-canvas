@@ -48,7 +48,7 @@ abbr[title] {
 }
 b,
 strong {
-  font-weight: bold;
+  font-weight: 600;
 }
 dfn {
   font-style: italic;
@@ -4625,7 +4625,7 @@ h5,
 .h5 {
   font-size: 13px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 700;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -5628,6 +5628,7 @@ th {
 }
 .table > tbody > tr > td {
   border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid transparent;
 }
 .table > tbody > tr:last-of-type > td {
   border-bottom: none;
