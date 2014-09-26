@@ -4,19 +4,22 @@
 
 
 .close {
+  .icon();
+  .icon-cancel-squared();
+  &:before {font-size: (@font-size-base * 1.5);}
   float: right;
-  font-size: (@font-size-base * 1.5);
   font-weight: @close-font-weight;
   line-height: 1;
-  color: @close-color;
+  color: inherit;
   text-shadow: @close-text-shadow;
 
   &:hover,
   &:focus {
-    color: darken(@close-color, 5%);
     text-decoration: none;
     cursor: pointer;
   }
+
+  span {display: none;}
 
   // Additional properties for button version
   // iOS requires the button element instead of an anchor tag.
@@ -29,3 +32,4 @@
     -webkit-appearance: none;
   }
 }
+
