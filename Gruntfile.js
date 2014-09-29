@@ -369,7 +369,8 @@ module.exports = function (grunt) {
       },
       less: {
         files: 'less/*.less',
-        tasks: 'less'
+        //tasks: ['less','uglify', 'copy:docs']
+	tasks: ['dist']
       }
     },
 

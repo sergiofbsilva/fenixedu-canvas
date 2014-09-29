@@ -184,11 +184,40 @@ table {
 
 // Generate the contextual variants
 .table-row-variant(active; @table-bg-active);
-.table-row-variant(success; @state-success-bg);
-.table-row-variant(info; @state-info-bg);
-.table-row-variant(warning; @state-warning-bg);
-.table-row-variant(danger; @state-danger-bg);
+.table-row-variant(success; @state-success-border);
+.table-row-variant(info; @state-info-border);
+.table-row-variant(warning; @state-warning-border);
+.table-row-variant(danger; @state-danger-border);
 
+.table > thead > tr,
+.table > tbody > tr,
+.table > tfoot > tr {
+
+  > td.active,
+  > th.active,
+  &.active > td,
+  &.active > th {
+    position: relative;
+    background-color: @gray-lighter;
+    border-bottom: 1px solid @gray-light;
+
+    &:after {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: @gray-light;
+      margin-top: -1px;
+    }
+  }
+
+  &.active {
+    border-left: 1px solid @gray-light;
+    border-right: 1px solid @gray-light;
+  }
+}
 
 // Responsive tables
 //
