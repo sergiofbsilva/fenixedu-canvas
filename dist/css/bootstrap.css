@@ -8371,6 +8371,11 @@ a.thumbnail.active {
 .alert > p + p {
   margin-top: 5px;
 }
+.alert a {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: underline;
+}
 .alert-dismissable,
 .alert-dismissible {
   padding-right: 32px;
