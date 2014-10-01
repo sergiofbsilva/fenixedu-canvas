@@ -5,9 +5,8 @@ The purpose of this repository is to run the [Bootstrap](http://getbootstrap.com
 ## Getting Started
 
 1. `cd <my-workspace>`
-2. `git clone git@github.com:FenixEdu/bootstrap.git` (directory `bootstrap` will be created)
 3. `git clone git@github.com:FenixEdu/fenixedu-canvas.git`(directory `fenixedu-canvas` will be created)
-4. `cd bootstrap`
+4. `cd fenixedu-canvas`
 5. `npm install`
 6. `grunt serve`
 
