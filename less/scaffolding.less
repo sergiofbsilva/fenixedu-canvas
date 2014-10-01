@@ -33,12 +33,11 @@ body {
   background-color: @body-bg;
 }
 
-.titleStyle {
+.titleStyle(@fontSize: @font-size-h4) {
   font-family: @headings-font-family;
-  font-size: @font-size-h4;
+  font-size: @fontSize;
   font-weight: 300;
 }
-
 
 // Reset fonts for relevant elements
 input,
