@@ -295,10 +295,14 @@ abbr[data-original-title] {
 
 // Blockquotes
 blockquote {
-  padding: (@line-height-computed / 2) @line-height-computed;
+  display: inline-block;
+  //padding: (@line-height-computed / 2) @line-height-computed;
+  padding: (@line-height-computed * 1.5) 0;
   margin: 0 0 @line-height-computed;
   font-size: @blockquote-font-size;
-  border-left: 5px solid @blockquote-border-color;
+  font-style: italic;
+  border-top: 1px solid @blockquote-border-color;
+  border-bottom: 1px solid @blockquote-border-color;
 
   p,
   ul,
@@ -314,12 +318,19 @@ blockquote {
   small,
   .small {
     display: block;
-    font-size: 80%; // back to default font-size
+    margin-top: (@line-height-computed);
+    font-size: 90%; // back to default font-size
     line-height: @line-height-base;
-    color: @blockquote-small-color;
+    color: @brand-primary;
 
     &:before {
-      content: '\2014 \00A0'; // em dash, nbsp
+      //content: '\2014 \00A0'; // em dash, nbsp
+    }
+
+    cite {
+      color: @blockquote-small-color;
+      font-style: inherit;
+      display: block;
     }
   }
 }
@@ -329,9 +340,8 @@ blockquote {
 // Heads up: `blockquote.pull-right` has been deprecated as of v3.1.0.
 .blockquote-reverse,
 blockquote.pull-right {
-  padding-right: 15px;
-  padding-left: 0;
-  border-right: 5px solid @blockquote-border-color;
+  border-top: 1px solid @blockquote-border-color;
+  border-bottom: 1px solid @blockquote-border-color;
   border-left: 0;
   text-align: right;
 
@@ -341,7 +351,7 @@ blockquote.pull-right {
   .small {
     &:before { content: ''; }
     &:after {
-      content: '\00A0 \2014'; // nbsp, em dash
+      //content: '\00A0 \2014'; // nbsp, em dash
     }
   }
 }
