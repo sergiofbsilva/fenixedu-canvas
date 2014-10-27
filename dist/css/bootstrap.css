@@ -6852,7 +6852,7 @@ tbody.collapse.in {
   height: 0;
   margin-left: 0;
   vertical-align: middle;
-  border-top: 5px solid #bbb;
+  border-top: 5px solid #fff;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
 }
@@ -6894,7 +6894,7 @@ tbody.collapse.in {
 }
 .dropdown-menu > li > a {
   display: block;
-  padding: 3px 20px;
+  padding: 6px 20px;
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
@@ -6944,7 +6944,7 @@ tbody.collapse.in {
 }
 .dropdown-header {
   display: block;
-  padding: 3px 20px;
+  padding: 6px 20px;
   font-size: 13px;
   line-height: 1.42857143;
   color: #bbb;
@@ -7086,6 +7086,15 @@ tbody.collapse.in {
 }
 .dropup .btn-lg .caret {
   border-width: 0 5px 5px;
+}
+.btn-default.dropdown-toggle .caret,
+.btn-default .dropdown-toggle .caret {
+  border-top: 5px solid #bbb;
+}
+.dropup .btn-default.dropdown-toggle .caret,
+.dropup .btn-default .dropdown-toggle .caret {
+  border-top: 0;
+  border-bottom: 5px solid #bbb;
 }
 .btn-group-vertical > .btn,
 .btn-group-vertical > .btn-group,
@@ -7235,7 +7244,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   vertical-align: middle;
 }
 .input-group-addon {
-  padding: 6px 22px;
+  padding: 6px 18px;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -7251,7 +7260,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-radius: 1px;
 }
 .input-group-addon.input-lg {
-  padding: 10px 35px;
+  padding: 10px 20px;
   font-size: 17px;
   border-radius: 3px;
 }
