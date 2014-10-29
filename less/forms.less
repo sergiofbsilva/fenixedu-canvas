@@ -33,7 +33,7 @@ label {
   display: inline-block;
   max-width: 100%; // Force IE8 to wrap long content (see https://github.com/twbs/bootstrap/issues/13141)
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 
@@ -116,7 +116,7 @@ output {
   display: block;
   width: 100%;
   height: @input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
-  padding: @padding-base-vertical @padding-base-horizontal;
+  padding: @input-padding-vertical @input-padding-horizontal;
   font-size: @font-size-base;
   line-height: @line-height-small;
   color: @input-color;
@@ -215,7 +215,7 @@ input[type="month"] {
   label {
     padding-left: 20px;
     margin-bottom: 0;
-    font-weight: normal;
+    font-weight: 400;
     cursor: pointer;
   }
 }
@@ -240,7 +240,7 @@ input[type="month"] {
   padding-left: 20px;
   margin-bottom: 0;
   vertical-align: middle;
-  font-weight: normal;
+  font-weight: 400;
   cursor: pointer;
 }
 .radio-inline + .radio-inline,
@@ -311,7 +311,7 @@ input[type="checkbox"] {
 }
 
 .input-lg {
-  .input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+  .input-size(@input-height-large; @padding-large-vertical; @padding-small-horizontal; @font-size-large; @line-height-large; @border-radius-large);
 }
 
 
@@ -354,6 +354,10 @@ input[type="checkbox"] {
 // Feedback states
 .has-success {
   .form-control-validation(@state-success-text; @state-success-text; @state-success-bg);
+  [class*="icon"] {
+    right: 7.5px;
+    top: 30px;
+  }
 }
 .has-warning {
   .form-control-validation(@state-warning-text; @state-warning-text; @state-warning-bg);
@@ -366,6 +370,10 @@ input[type="checkbox"] {
 // Reposition feedback icon if label is hidden with "screenreader only" state
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
+}
+
+.has-feedback.has-success label.sr-only ~ .form-control-feedback {
+  top: 8px;
 }
 
 
@@ -460,6 +468,10 @@ input[type="checkbox"] {
     .has-feedback .form-control-feedback {
       top: 0;
     }
+
+    .has-feedback.has-success .form-control-feedback {
+      top: 8px;
+    }
   }
 }
 
@@ -510,7 +522,11 @@ input[type="checkbox"] {
   // `position: relative;` on them. Also accounts for the grid gutter padding.
   .has-feedback .form-control-feedback {
     top: 0;
-    right: (@grid-gutter-width / 2);
+    right: (@grid-gutter-width);
+  }
+
+  .has-feedback.has-success .form-control-feedback {
+    top: 8px;
   }
 
   // Form group sizes

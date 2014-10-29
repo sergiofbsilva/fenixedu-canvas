@@ -90,7 +90,7 @@ margin-left: .2em;*/
 }
 
 .glyphicon {
-.icon-font("glyphicons");
+  .icon-font("glyphicons");
 }
 
 .icon {
@@ -614,6 +614,23 @@ margin-left: .2em;*/
 .icon-sort-up                                     { &:before { content: "\e935"; } }
 .icon-sort                                        { &:before { content: "\e936"; } }
 .icon-laptop                                      { &:before { content: "\e937"; } }
+
+.icon-check-squared {
+  .icon-check();
+  background: @brand-success;
+  border-radius: @border-radius-base;
+  margin-right: 0;
+  line-height: 0.55!important;
+  width: 17px!important;
+  height: 17px!important;
+
+  &:before {
+    .icon();
+    color: #fff;
+    font-size: @font-size-base;
+    margin-right: 0;
+  }
+}
 
 .icon-filetype-application,
 .icon-filetype-message,

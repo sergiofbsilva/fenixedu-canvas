@@ -4236,6 +4236,62 @@ margin-left: .2em;*/
 .icon-laptop:before {
   content: "\e937";
 }
+.icon-check-squared {
+  width: 17px!important;
+  height: 17px!important;
+  margin-right: 0;
+  line-height: .55!important;
+  background: #9ac338;
+  border-radius: 2px;
+}
+.icon-check-squared:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e91e";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-check-squared:before {
+  position: relative;
+  display: inline-block;
+  margin-right: 0;
+  font-family: "fenixedu-icons";
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  font-size: 21px;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  color: #fff;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .icon-filetype-application:before,
 .icon-filetype-message:before,
 .icon-filetype-model:before,
@@ -6041,7 +6097,7 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-weight: bold;
+  font-weight: 600;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -6165,7 +6221,7 @@ input[type="month"].input-lg {
 .checkbox label {
   padding-left: 20px;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 400;
   cursor: pointer;
 }
 .radio input[type="radio"],
@@ -6185,7 +6241,7 @@ input[type="month"].input-lg {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 0;
-  font-weight: normal;
+  font-weight: 400;
   vertical-align: middle;
   cursor: pointer;
 }
@@ -6243,7 +6299,7 @@ select[multiple].input-sm {
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
   height: 39px;
-  padding: 10px 35px;
+  padding: 10px 20px;
   font-size: 17px;
   line-height: 1;
   border-radius: 3px;
@@ -6309,6 +6365,10 @@ select[multiple].input-lg {
 .has-success .form-control-feedback {
   color: #81a32f;
 }
+.has-success [class*="icon"] {
+  top: 30px;
+  right: 7.5px;
+}
 .has-warning .help-block,
 .has-warning .control-label,
 .has-warning .radio,
@@ -6364,6 +6424,9 @@ select[multiple].input-lg {
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
 }
+.has-feedback.has-success label.sr-only ~ .form-control-feedback {
+  top: 8px;
+}
 .help-block {
   display: block;
   margin-top: 5px;
@@ -6416,6 +6479,9 @@ select[multiple].input-lg {
   .form-inline .has-feedback .form-control-feedback {
     top: 0;
   }
+  .form-inline .has-feedback.has-success .form-control-feedback {
+    top: 8px;
+  }
 }
 .form-horizontal .radio,
 .form-horizontal .checkbox,
@@ -6442,7 +6508,10 @@ select[multiple].input-lg {
 }
 .form-horizontal .has-feedback .form-control-feedback {
   top: 0;
-  right: 10px;
+  right: 20px;
+}
+.form-horizontal .has-feedback.has-success .form-control-feedback {
+  top: 8px;
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
@@ -7185,7 +7254,7 @@ tbody.collapse.in {
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn {
   height: 39px;
-  padding: 10px 35px;
+  padding: 10px 20px;
   font-size: 17px;
   line-height: 1;
   border-radius: 3px;
@@ -7790,6 +7859,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-form .has-feedback .form-control-feedback {
     top: 0;
+  }
+  .navbar-form .has-feedback.has-success .form-control-feedback {
+    top: 8px;
   }
 }
 @media (max-width: 767px) {
