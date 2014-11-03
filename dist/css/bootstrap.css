@@ -5864,7 +5864,7 @@ th {
 }
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #f3f3f3;
+  background-color: #fff;
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
@@ -6002,18 +6002,18 @@ table th[class*="col-"] {
   background-color: #f3f3f3;
   border-bottom: 1px solid #ddd;
 }
-.table > thead > tr > td.active:before,
-.table > tbody > tr > td.active:before,
-.table > tfoot > tr > td.active:before,
-.table > thead > tr > th.active:before,
-.table > tbody > tr > th.active:before,
-.table > tfoot > tr > th.active:before,
-.table > thead > tr.active > td:before,
-.table > tbody > tr.active > td:before,
-.table > tfoot > tr.active > td:before,
-.table > thead > tr.active > th:before,
-.table > tbody > tr.active > th:before,
-.table > tfoot > tr.active > th:before {
+.table > thead > tr > td.active:after,
+.table > tbody > tr > td.active:after,
+.table > tfoot > tr > td.active:after,
+.table > thead > tr > th.active:after,
+.table > tbody > tr > th.active:after,
+.table > tfoot > tr > th.active:after,
+.table > thead > tr.active > td:after,
+.table > tbody > tr.active > td:after,
+.table > tfoot > tr.active > td:after,
+.table > thead > tr.active > th:after,
+.table > tbody > tr.active > th:after,
+.table > tfoot > tr.active > th:after {
   position: absolute;
   top: 0;
   left: 0;
@@ -9202,7 +9202,6 @@ margin-left: .2em;*/
   font-size: 21px;
   font-style: normal;
   font-weight: normal;
-  font-weight: 400;
   font-variant: normal;
   line-height: 1;
   color: inherit;
