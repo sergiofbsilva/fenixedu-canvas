@@ -8138,13 +8138,15 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline-block;
 }
 .breadcrumb > li + li:before {
-  padding: 0 2.5px 0 7.5px;
+  padding-left: 6px;
   color: #444;
   content: "›\00a0";
 }
-.breadcrumb > li .active {
+.breadcrumb > li .active,
+.breadcrumb > li.active {
   font-weight: 600;
   color: #444;
+  cursor: default;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
