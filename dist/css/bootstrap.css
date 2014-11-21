@@ -4863,7 +4863,7 @@ mark,
   text-transform: capitalize;
 }
 .text-muted {
-  color: #ddd;
+  color: #bbb;
 }
 .text-primary {
   color: #39f;
@@ -5882,6 +5882,7 @@ margin-left: .2em;*/
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 997;
   width: 25px;
   height: 100%;
   pointer-events: none;
@@ -5951,11 +5952,14 @@ margin-left: .2em;*/
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 998;
   width: 100%;
   height: 1px;
   margin-top: 0;
   content: '';
   background: #ddd;
+  -webkit-box-shadow: -1px 1px 1px #fff;
+          box-shadow: -1px 1px 1px #fff;
 }
 .table-hover > tbody > tr:hover > td,
 .table-hover > tbody > tr:hover > th {
@@ -5977,11 +5981,14 @@ margin-left: .2em;*/
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 998;
   width: 100%;
   height: 1px;
   margin-top: 0;
   content: '';
   background: #ddd;
+  -webkit-box-shadow: -1px 1px 1px #fff;
+          box-shadow: -1px 1px 1px #fff;
 }
 table col[class*="col-"] {
   position: static;
@@ -6130,11 +6137,14 @@ table th[class*="col-"] {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 998;
   width: 100%;
   height: 1px;
   margin-top: 0;
   content: '';
   background: #ddd;
+  -webkit-box-shadow: -1px 1px 1px #fff;
+          box-shadow: -1px 1px 1px #fff;
 }
 .table > thead > tr.active,
 .table > tbody > tr.active,
