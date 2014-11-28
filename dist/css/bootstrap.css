@@ -326,10 +326,6 @@ th {
   position: relative;
   display: inline-block;
   font-family: "glyphicons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -341,6 +337,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -348,10 +347,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -363,6 +358,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1136,10 +1134,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1152,6 +1146,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1169,10 +1166,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1185,6 +1178,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1220,10 +1216,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1236,6 +1228,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1247,10 +1242,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1263,6 +1254,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1271,10 +1265,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1287,6 +1277,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1298,10 +1291,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1314,6 +1303,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1325,10 +1317,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1341,6 +1329,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1376,10 +1367,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1392,6 +1379,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1400,10 +1390,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1416,6 +1402,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1427,10 +1416,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1443,6 +1428,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1451,10 +1439,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1467,6 +1451,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1481,10 +1468,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1497,6 +1480,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1511,10 +1497,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1527,6 +1509,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1538,10 +1523,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1554,6 +1535,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1589,10 +1573,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1605,6 +1585,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1613,10 +1596,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1629,6 +1608,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1646,10 +1628,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1662,6 +1640,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1673,10 +1654,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1689,6 +1666,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1697,10 +1677,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1713,6 +1689,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1721,10 +1700,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1737,6 +1712,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1748,10 +1726,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1764,6 +1738,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1781,10 +1758,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1797,6 +1770,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1817,10 +1793,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1833,6 +1805,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1841,10 +1816,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1857,6 +1828,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1871,10 +1845,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1887,6 +1857,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1898,10 +1871,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1914,6 +1883,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1922,10 +1894,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1938,6 +1906,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1946,10 +1917,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1962,6 +1929,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1970,10 +1940,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -1986,6 +1952,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1994,10 +1963,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2010,6 +1975,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2018,10 +1986,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2034,6 +1998,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2042,10 +2009,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2058,6 +2021,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2066,10 +2032,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2082,6 +2044,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2090,10 +2055,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2106,6 +2067,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2132,10 +2096,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2148,6 +2108,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2156,10 +2119,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2172,6 +2131,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2180,10 +2142,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2196,6 +2154,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2204,10 +2165,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2220,6 +2177,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2252,10 +2212,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2268,6 +2224,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2276,10 +2235,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2292,6 +2247,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2300,10 +2258,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2316,6 +2270,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2324,10 +2281,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2340,6 +2293,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2348,10 +2304,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2364,6 +2316,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2372,10 +2327,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2388,6 +2339,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2396,10 +2350,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2412,6 +2362,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2420,10 +2373,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2436,6 +2385,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2450,10 +2402,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2466,6 +2414,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2474,10 +2425,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2490,6 +2437,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2498,10 +2448,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2514,6 +2460,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2522,10 +2471,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2538,6 +2483,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2546,10 +2494,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2562,6 +2506,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2579,10 +2526,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2595,6 +2538,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2612,10 +2558,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2628,6 +2570,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2636,10 +2581,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2652,6 +2593,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2660,10 +2604,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2676,6 +2616,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2690,10 +2633,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2706,6 +2645,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2717,10 +2659,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2733,6 +2671,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2741,10 +2682,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2757,6 +2694,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2765,10 +2705,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2781,6 +2717,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2819,10 +2758,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2835,6 +2770,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2849,10 +2787,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2865,6 +2799,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2885,10 +2822,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2901,6 +2834,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2912,10 +2848,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2928,6 +2860,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2936,10 +2871,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2952,6 +2883,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2966,10 +2900,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2982,6 +2912,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -2990,10 +2923,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3006,6 +2935,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3014,10 +2946,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3030,6 +2958,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3038,10 +2969,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3054,6 +2981,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3065,10 +2995,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3081,6 +3007,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3092,10 +3021,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3108,6 +3033,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3116,10 +3044,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3132,6 +3056,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3146,10 +3073,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3162,6 +3085,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3176,10 +3102,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3192,6 +3114,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3201,10 +3126,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3217,6 +3138,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3228,10 +3152,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3244,6 +3164,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3252,10 +3175,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3268,6 +3187,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3279,10 +3201,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3295,6 +3213,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3303,10 +3224,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3319,6 +3236,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3327,10 +3247,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3343,6 +3259,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3354,10 +3273,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3370,6 +3285,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3378,10 +3296,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3394,6 +3308,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3402,10 +3319,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3418,6 +3331,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3426,10 +3342,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3442,6 +3354,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3453,10 +3368,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3469,6 +3380,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3477,10 +3391,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3493,6 +3403,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3501,10 +3414,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3517,6 +3426,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3525,10 +3437,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3541,6 +3449,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3552,10 +3463,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3568,6 +3475,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3579,10 +3489,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3595,6 +3501,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3606,10 +3515,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3622,6 +3527,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3633,10 +3541,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3649,6 +3553,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3657,10 +3564,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3673,6 +3576,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3681,10 +3587,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3697,6 +3599,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3705,10 +3610,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3721,6 +3622,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3732,10 +3636,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3748,6 +3648,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3756,10 +3659,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3772,6 +3671,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3780,10 +3682,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3796,6 +3694,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3804,10 +3705,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3820,6 +3717,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3828,10 +3728,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3844,6 +3740,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3855,10 +3754,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3871,6 +3766,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3882,10 +3780,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3898,6 +3792,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3909,10 +3806,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3925,6 +3818,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3933,10 +3829,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -3949,6 +3841,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -3995,10 +3890,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4011,6 +3902,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4049,10 +3943,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4065,6 +3955,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4079,10 +3972,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4095,6 +3984,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4106,10 +3998,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4122,6 +4010,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4130,10 +4021,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4146,6 +4033,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4154,10 +4044,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4170,6 +4056,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4178,10 +4067,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4194,6 +4079,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4205,10 +4093,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4221,6 +4105,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4248,10 +4135,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4264,6 +4147,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4272,15 +4158,14 @@ margin-left: .2em;*/
   display: inline-block;
   margin-right: 0;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-size: 14px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   line-height: 1;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
   color: #fff;
@@ -4300,10 +4185,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4316,6 +4197,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -4332,10 +4216,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -4348,6 +4228,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -5856,7 +5739,6 @@ th {
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed
 margin-left: .2em;*/
-  font-size: 21px;
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
   font-size: 16px;
@@ -9324,14 +9206,13 @@ a.list-group-item-danger.active:focus {
 .close {
   position: relative;
   display: inline-block;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
   float: right;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-weight: 400;
@@ -9351,10 +9232,6 @@ margin-left: .2em;*/
   position: relative;
   display: inline-block;
   font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  font-size: 21px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -9367,6 +9244,9 @@ margin-left: .2em;*/
   speak: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
