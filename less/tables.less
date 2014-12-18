@@ -46,6 +46,7 @@ th {
     border-bottom: 1px solid @table-border-color;
     border-right: 1px solid @table-border-color;
     background: @gray-lighter;
+    color: @gray-darker;
     font-family: @headings-font-family;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
@@ -93,9 +94,7 @@ th {
   &.faded > tbody > tr {
 
     > td {
-      overflow: hidden;
-      white-space: nowrap;
-      text-overflow: clip;
+      .text-overflow();
 
       &:after {
         content: "";
@@ -193,12 +192,12 @@ th {
     > td,
     > th {
       position: relative;
-      background-color: @table-bg-accent;
-      border-top: 1px solid @table-border-color;
-      border-bottom: 1px solid @table-border-color;
+      background-color: lighten(@gray-lighter, 2%);
+      border-top: 1px solid @gray-lighter;
+      border-bottom: 1px solid @gray-lighter;
 
-      &:first-of-type {border-left: 1px solid @table-border-color;}
-      &:last-of-type {border-right: 1px solid @table-border-color;}
+      &:first-of-type {border-left: 1px solid @gray-lighter;}
+      &:last-of-type {border-right: 1px solid @gray-lighter;}
 
       &:before {
       content: '';
@@ -208,7 +207,7 @@ th {
       width: 100%;
       top: 0;
       left: 0;
-      background: @table-border-color;
+      background: @gray-lighter;
       .box-shadow(-1px 1px 1px #fff);
       z-index: 998;
     }
@@ -231,7 +230,7 @@ th {
       border-top: 1px solid @table-border-color;
       border-bottom: 1px solid @table-border-color;
 
-      &:first-of-type {border-left: 1px solid @table-border-color;}
+      &:first-of-type {border-left: 1px solid @table-border-color; padding-left: (@table-cell-padding - 1px);}
       &:last-of-type {border-right: 1px solid @table-border-color;}
 
       &:before {
