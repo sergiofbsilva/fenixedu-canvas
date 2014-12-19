@@ -262,8 +262,12 @@ dd {
   line-height: @line-height-base;
 }
 dt {
-  color: @gray-dark;
-  margin-top: 8px;
+  .titleStyle(inherit);
+  color: @gray-darker;
+  margin: 18px 0 4px;
+  padding-top: 18px; 
+  border-top: 1px solid @gray-lighter;
+  &:first-child {border-top: none;}
 }
 dd {
   margin-left: 0; // Undo browser default
@@ -282,14 +286,25 @@ dd {
   @media (min-width: @grid-float-breakpoint) {
     dt {
       float: left;
-      width: (@dl-horizontal-offset - 20);
+      width: @dl-horizontal-offset;
       clear: left;
-      text-align: right;
+      text-align: left;
       margin-top: 0;
-      .text-overflow();
+      border-top: none;
+      padding-right: 20px;
+      //.text-overflow();
     }
     dd {
-      margin-left: @dl-horizontal-offset;
+      padding-left: @dl-horizontal-offset;
+      border-top: 1px solid @gray-lighter;
+      padding-top: 18px;
+      &:first-child {border-top: none;}
+      margin-bottom: 18px;
+
+      + dd {
+        border-top: none;
+        padding-top: 0;
+      }
     }
   }
 }
