@@ -1257,11 +1257,12 @@ h1[id] {
   background-color: #f9f9f9;
   border: 1px solid #fff;
 }
-.bs-glyphicons .glyphicon {
+.bs-glyphicons .glyphicon, .bs-glyphicons .icon {
   margin-top: 5px;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 22px;
 }
+
 .bs-glyphicons .glyphicon-class {
   display: block;
   text-align: center;

@@ -16,6 +16,14 @@
   > li {
     display: inline-block;
 
+    a {
+      color: @gray-darker;
+      &:hover {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+
     + li:before {
       content: "@{breadcrumb-separator}\00a0"; // Unicode space added since inline-block means non-collapsing white-space
       padding-left: 6px;
