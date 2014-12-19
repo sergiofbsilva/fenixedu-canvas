@@ -27,12 +27,12 @@
 //** Background color for `<body>`.
 @body-bg:               #fff;
 //** Global text color on `<body>`.
-@text-color:            @gray-darker;
+@text-color:            darken(@gray-darker, 25%);
 
 //** Global textual link color.
-@link-color:            @gray-darker;
+@link-color:            darken(@brand-primary, 10%);
 //** Link hover color set via `darken()` function.
-@link-hover-color:      darken(@link-color, 5%);
+@link-hover-color:      darken(@link-color, 10%);
 
 
 //== Typography
@@ -45,7 +45,7 @@
 @font-family-monospace:   "sourcecodepro", Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base:        @font-family-sans-serif;
 
-@font-size-base:          14px;
+@font-size-base:          15px;
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.95)); // ~12px
 
