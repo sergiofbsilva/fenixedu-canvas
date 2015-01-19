@@ -616,19 +616,16 @@ margin-left: .2em;*/
 
 .icon-check-squared {
   .icon-check();
-  background: @brand-success;
+  position: relative;
+  display: inline-block;
+  float: left;
+
+  background: #fff;
+  border: 1px solid @gray-light;
+  padding: 7.5px;
+  
   border-radius: @border-radius-base;
   margin-right: 0;
-  line-height: 0.55!important;
-  width: 17px!important;
-  height: 17px!important;
-
-  &:before {
-    .icon();
-    color: #fff;
-    font-size: @font-size-base;
-    margin-right: 0;
-  }
 }
 
 .icon-filetype-application,

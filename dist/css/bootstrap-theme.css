@@ -1,6 +1,6 @@
 /*!
  * Bootstrap v3.2.0 (http://getbootstrap.com)
- * Copyright 2011-2014 Twitter, Inc.
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
@@ -35,29 +35,29 @@
 }
 .btn-default {
   text-shadow: 0 1px 0 #fff;
-  background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #d4d4d4 100%);
-  background-image:      -o-linear-gradient(top, #f3f3f3 0%, #d4d4d4 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#d4d4d4));
-  background-image:         linear-gradient(to bottom, #f3f3f3 0%, #d4d4d4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff3f3f3', endColorstr='#ffd4d4d4', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #f8f8f8 0%, #dadada 100%);
+  background-image:      -o-linear-gradient(top, #f8f8f8 0%, #dadada 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f8f8f8), to(#dadada));
+  background-image:         linear-gradient(to bottom, #f8f8f8 0%, #dadada 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff8f8f8', endColorstr='#ffdadada', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #cfcfcf;
+  border-color: #d4d4d4;
   border-color: #ccc;
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #d4d4d4;
+  background-color: #dadada;
   background-position: 0 -15px;
 }
 .btn-default:active,
 .btn-default.active {
-  background-color: #d4d4d4;
-  border-color: #cfcfcf;
+  background-color: #dadada;
+  border-color: #d4d4d4;
 }
 .btn-default:disabled,
 .btn-default[disabled] {
-  background-color: #d4d4d4;
+  background-color: #dadada;
   background-image: none;
 }
 .btn-primary {
