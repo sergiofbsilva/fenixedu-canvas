@@ -35,6 +35,7 @@ label {
   margin-bottom: 8px;
   color: @gray-darker;
   font-family: @headings-font-family;
+  font-weight: 400;
 }
 
 
@@ -364,7 +365,7 @@ input[type="checkbox"] {
 // Feedback icon (requires .glyphicon classes)
 .form-control-feedback {
   position: absolute;
-  top: (@line-height-computed + 5); // Height of the `label` and its margin
+  top: (@line-height-computed + 10); // Height of the `label` and its margin
   right: 0;
   z-index: 2; // Ensure icon is above input groups
   display: block;
@@ -372,7 +373,10 @@ input[type="checkbox"] {
   height: @input-height-base;
   line-height: @input-height-base;
   text-align: center;
+
+  &:before {font-size: @font-size-large;}
 }
+
 .input-lg + .form-control-feedback {
   width: @input-height-large;
   height: @input-height-large;
@@ -388,8 +392,21 @@ input[type="checkbox"] {
 .has-success {
   .form-control-validation(@state-success-text; @state-success-text; @state-success-bg);
   [class*="icon"] {
-    right: 7.5px;
-    top: 30px;
+      &.form-control-feedback {
+      border: 1px solid @brand-success;
+      background: @brand-success;
+      margin-right: 10px;
+      width: 0;
+      height: 0;
+      top: 38px;
+
+      &:before {
+        position: absolute;
+        top: -2px;
+        right: -3px;
+        color: #fff;
+      }
+    }
   }
 }
 .has-warning {
@@ -544,7 +561,7 @@ input[type="checkbox"] {
   // labels on narrow viewports stack the same as a default form example.
   @media (min-width: @screen-sm-min) {
     .control-label {
-      text-align: right;
+      text-align: left;
       margin-bottom: 0;
       padding-top: (@padding-base-vertical + 1); // Default padding plus a border
     }
