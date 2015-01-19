@@ -163,7 +163,7 @@ th {
 // Add borders all around the table and between all the columns.
 
 .table-bordered {
-  border: 1px solid @table-border-color;
+  //border: 1px solid @table-border-color;
   > thead,
   > tbody,
   > tfoot {
@@ -188,6 +188,11 @@ th {
 // Default zebra-stripe styles (alternating gray and transparent backgrounds)
 
 .table-striped {
+
+  > tbody > tr {
+    border: 1px solid transparent;
+  }
+
   > tbody > tr:nth-child(odd) {
     > td,
     > th {
@@ -213,6 +218,21 @@ th {
     }
 
     }
+  }
+}
+
+.table-striped.table-bordered {
+  > tbody > tr:nth-child(odd) {
+      > td,
+      > th {
+        border: 1px solid @table-border-color;
+        &:first-of-type {border-left: 1px solid @table-border-color;}
+        &:last-of-type {border-right: 1px solid @table-border-color;}
+
+        &:before {
+          background: @table-border-color;
+        }
+      }
   }
 }
 
