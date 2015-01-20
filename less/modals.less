@@ -95,7 +95,17 @@
 .modal-title {
   margin: 0;
   line-height: @modal-title-line-height;
+  margin-bottom: 2.5px;
+  cursor: default;
 }
+
+.modal-header span.explanation, .modal-header small.explanation, .modal-header small {
+    font-family: @font-family-base;
+    font-size: @font-size-small;
+    font-style: italic; 
+    color: @gray-dark;
+    cursor: default;
+  }
 
 // Modal body
 // Where all modal content resides (sibling of .modal-header and .modal-footer)
