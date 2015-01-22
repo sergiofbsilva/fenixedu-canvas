@@ -4837,7 +4837,7 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: 10.5px;
-  line-height: 1.92857143;
+  line-height: 1.42857143;
 }
 ul ul,
 ol ul,
@@ -4846,14 +4846,73 @@ ol ol {
   margin-bottom: 0;
   margin-left: 18px;
 }
+ul.list-styled {
+  position: relative;
+  list-style: none;
+}
+ul.list-styled li:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e933";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ul.list-styled li:before {
+  position: relative;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  position: absolute;
+  display: inline-block;
+  margin: 5px -15px;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  color: #bbb;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul.list-styled ul {
+  list-style: none;
+}
 .list-unstyled {
   padding-left: 0;
   list-style: none;
+}
+.list-unstyled li:before {
+  content: '';
 }
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
+}
+.list-inline li:before {
+  content: '';
 }
 .list-inline > li {
   display: inline-block;
@@ -4877,7 +4936,10 @@ dt {
   color: #444;
   border-top: 1px solid #f3f3f3;
 }
-dt:first-child {
+dt:first-of-type {
+  border-top: none;
+}
+dt:first-of-type + dd {
   border-top: none;
 }
 dd {
@@ -5726,6 +5788,193 @@ th {
   vertical-align: middle;
   cursor: default;
   border-bottom: 1px solid #f3f3f3;
+}
+.table > thead > tr > th small,
+.table > tbody > tr > th small,
+.table > tfoot > tr > th small,
+.table > thead > tr > td small,
+.table > tbody > tr > td small,
+.table > tfoot > tr > td small,
+.table > thead > tr > th span.itemDetailedInfo,
+.table > tbody > tr > th span.itemDetailedInfo,
+.table > tfoot > tr > th span.itemDetailedInfo,
+.table > thead > tr > td span.itemDetailedInfo,
+.table > tbody > tr > td span.itemDetailedInfo,
+.table > tfoot > tr > td span.itemDetailedInfo {
+  margin-left: 5px;
+  color: #888;
+}
+.table > thead > tr > th small:before,
+.table > tbody > tr > th small:before,
+.table > tfoot > tr > th small:before,
+.table > thead > tr > td small:before,
+.table > tbody > tr > td small:before,
+.table > tfoot > tr > td small:before,
+.table > thead > tr > th span.itemDetailedInfo:before,
+.table > tbody > tr > th span.itemDetailedInfo:before,
+.table > tfoot > tr > th span.itemDetailedInfo:before,
+.table > thead > tr > td span.itemDetailedInfo:before,
+.table > tbody > tr > td span.itemDetailedInfo:before,
+.table > tfoot > tr > td span.itemDetailedInfo:before {
+  margin: 0 7.5px 0 2.5px;
+  color: inherit;
+  letter-spacing: .025em;
+  content: "\2013";
+}
+.table > tfoot > tr.new_tr_element > td,
+.table > tfoot > tr.add > td {
+  position: relative;
+}
+.table > tfoot > tr.new_tr_element > td:before,
+.table > tfoot > tr.add > td:before {
+  position: relative;
+  position: absolute;
+  top: 13px;
+  left: 7px;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  color: #39f;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.table > tfoot > tr.new_tr_element > td > input,
+.table > tfoot > tr.add > td > input {
+  position: relative;
+  top: -5px;
+  padding-left: 30px;
+  background-color: transparent;
+  border: none;
+}
+.table > tfoot > tr.new_tr_element > td > input::-moz-placeholder,
+.table > tfoot > tr.add > td > input::-moz-placeholder {
+  color: #444;
+  opacity: 1;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:-ms-input-placeholder,
+.table > tfoot > tr.add > td > input:-ms-input-placeholder {
+  color: #444;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input::-webkit-input-placeholder,
+.table > tfoot > tr.add > td > input::-webkit-input-placeholder {
+  color: #444;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus,
+.table > tfoot > tr.add > td > input:focus {
+  left: -10px;
+  display: block;
+  width: 100%;
+  width: 102.5%;
+  height: 35px;
+  padding: 10px 10px;
+  padding-left: 39px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #444;
+  background-color: #fff;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-color: #ddd;
+  border-radius: 3px;
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus:focus,
+.table > tfoot > tr.add > td > input:focus:focus {
+  border-color: #bbb;
+  outline: 0;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus::-moz-placeholder,
+.table > tfoot > tr.add > td > input:focus::-moz-placeholder {
+  color: #888;
+  opacity: 1;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td > input:focus:-ms-input-placeholder {
+  color: #888;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td > input:focus::-webkit-input-placeholder {
+  color: #888;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus[disabled],
+.table > tfoot > tr.add > td > input:focus[disabled],
+.table > tfoot > tr.new_tr_element > td > input:focus[readonly],
+.table > tfoot > tr.add > td > input:focus[readonly],
+fieldset[disabled] .table > tfoot > tr.new_tr_element > td > input:focus,
+fieldset[disabled] .table > tfoot > tr.add > td > input:focus {
+  cursor: not-allowed;
+  background-color: #f3f3f3;
+  opacity: 1;
+}
+textarea.table > tfoot > tr.new_tr_element > td > input:focus,
+textarea.table > tfoot > tr.add > td > input:focus {
+  height: auto;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus::-moz-placeholder,
+.table > tfoot > tr.add > td > input:focus::-moz-placeholder {
+  color: #888;
+  opacity: 1;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td > input:focus:-ms-input-placeholder {
+  color: #888;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.new_tr_element > td > input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td > input:focus::-webkit-input-placeholder {
+  color: #888;
+  -webkit-transition: color .25s ease-in;
+       -o-transition: color .25s ease-in;
+          transition: color .25s ease-in;
+}
+.table > tfoot > tr.folder > td:before {
+  content: "\e92b";
+}
+.table > tfoot > tr.file > td:before {
+  content: "\e923";
+}
+.table > tfoot > tr.user > td:before {
+  content: "\e8fa";
 }
 .table > tfoot > tr:last-of-type > td {
   border-bottom: none;
@@ -8686,6 +8935,19 @@ a.thumbnail.active {
        -o-transition: width .6s ease;
           transition: width .6s ease;
 }
+.progress.progress-thin {
+  position: relative;
+  height: 8px;
+}
+.progress-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 15px;
+  line-height: 21px;
+  text-decoration: none;
+  cursor: default;
+  border-bottom: 1px dotted #bbb;
+}
 .progress-striped .progress-bar,
 .progress-bar-striped {
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
@@ -9447,7 +9709,18 @@ button.close {
 }
 .modal-title {
   margin: 0;
+  margin-bottom: 2.5px;
   line-height: 1.42857143;
+  cursor: default;
+}
+.modal-header span.explanation,
+.modal-header small.explanation,
+.modal-header small {
+  font-family: "sourcesanspro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #888;
+  cursor: default;
 }
 .modal-body {
   position: relative;
