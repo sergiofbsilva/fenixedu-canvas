@@ -391,23 +391,6 @@ input[type="checkbox"] {
 // Feedback states
 .has-success {
   .form-control-validation(@state-success-text; @state-success-text; @state-success-bg);
-  [class*="icon"] {
-      &.form-control-feedback {
-      border: 1px solid @brand-success;
-      background: @brand-success;
-      margin-right: 10px;
-      width: 0;
-      height: 0;
-      top: 38px;
-
-      &:before {
-        position: absolute;
-        top: -2px;
-        right: -3px;
-        color: #fff;
-      }
-    }
-  }
 }
 .has-warning {
   .form-control-validation(@state-warning-text; @state-warning-text; @state-warning-bg);
@@ -420,10 +403,6 @@ input[type="checkbox"] {
 // Reposition feedback icon if label is hidden with "screenreader only" state
 .has-feedback label.sr-only ~ .form-control-feedback {
   top: 0;
-}
-
-.has-feedback.has-success label.sr-only ~ .form-control-feedback {
-  top: 8px;
 }
 
 
@@ -519,10 +498,6 @@ input[type="checkbox"] {
     .has-feedback .form-control-feedback {
       top: 0;
     }
-
-    .has-feedback.has-success .form-control-feedback {
-      top: 8px;
-    }
   }
 }
 
@@ -574,10 +549,6 @@ input[type="checkbox"] {
   .has-feedback .form-control-feedback {
     top: 0;
     right: (@grid-gutter-width);
-  }
-
-  .has-feedback.has-success .form-control-feedback {
-    top: 8px;
   }
 
   // Form group sizes
