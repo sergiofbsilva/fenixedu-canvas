@@ -1,0 +1,61 @@
+
+
+// Drag n' Drop Box
+// -------------------------
+
+.drop-box {
+	background: @gray-lighter;
+	border: 1px dashed @gray;
+	width: 100%;
+	height: 165px;
+	.text-center();
+	color: @gray;
+	display: table;
+
+	p {
+		display: table-cell;
+		vertical-align: middle;
+		cursor: default;
+
+		span {
+			font-family: @headings-font-family;
+			font-weight: 600;
+			font-size: (@font-size-h3 * 1.25);
+			display: block;
+			.icon-upload-cloud();
+			&:before {
+				display: block!important;
+				font-size: (@font-size-h1 * 1.5)!important;
+			}
+		}
+	}
+
+	&.shared p span {.icon-export();}
+	&.repository p span {.icon-database();}
+	&.favorite p span {.icon-star();}
+}
+
+&.dragover .drop-box {border: 1px dashed @brand-primary; color: @brand-primary; .transition(all 0.15s ease-in-out); }
+&.dragover-err .drop-box {border: 1px dashed @brand-danger; color: @brand-danger;}
+
+
+// On body
+
+body.dragover {
+	border-right: 3px solid @brand-primary;
+	border-left: 3px solid @brand-primary;
+	opacity: 0.90;
+
+
+	&:before, &:after {
+		content: "";
+		position: fixed;
+		background: @brand-primary;
+		left: 0;
+		right: 0;
+		height: 3px;
+	}
+
+	&:before {top: 0;}
+	&:after {bottom: 0;}
+}

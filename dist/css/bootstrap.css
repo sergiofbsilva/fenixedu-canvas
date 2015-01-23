@@ -10481,4 +10481,128 @@ button.close {
     display: none !important;
   }
 }
+.drop-box {
+  display: table;
+  width: 100%;
+  height: 165px;
+  color: #bbb;
+  text-align: center;
+  background: #f3f3f3;
+  border: 1px dashed #bbb;
+}
+.drop-box p {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+.drop-box p span {
+  display: block;
+  font-family: "titillium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26.25px;
+  font-weight: 600;
+}
+.drop-box p span:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e8e1";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.drop-box p span:before {
+  display: block!important;
+  font-size: 58.5px !important;
+}
+.drop-box.shared p span:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e8e7";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.drop-box.repository p span:before {
+  content: "\e84b";
+}
+.drop-box.favorite p span:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e902";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.dragover .drop-box {
+  color: #39f;
+  border: 1px dashed #39f;
+  -webkit-transition: all .15s ease-in-out;
+       -o-transition: all .15s ease-in-out;
+          transition: all .15s ease-in-out;
+}
+.dragover-err .drop-box {
+  color: #b22;
+  border: 1px dashed #b22;
+}
+body.dragover {
+  border-right: 3px solid #39f;
+  border-left: 3px solid #39f;
+  opacity: .90;
+}
+body.dragover:before,
+body.dragover:after {
+  position: fixed;
+  right: 0;
+  left: 0;
+  height: 3px;
+  content: "";
+  background: #39f;
+}
+body.dragover:before {
+  top: 0;
+}
+body.dragover:after {
+  bottom: 0;
+}
 /*# sourceMappingURL=bootstrap.css.map */
