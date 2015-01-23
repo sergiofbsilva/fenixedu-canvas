@@ -31,6 +31,29 @@ th {
         border-bottom: 1px solid @gray-lighter;
         //border-top: 1px solid transparent;
         cursor: default;
+
+        &:last-of-type {position:  relative;}
+
+        small, span.itemDetailedInfo {
+          color: @gray-dark;
+          margin-left: 5px;
+
+          &:before {
+            content: "\2013";
+            margin: 0 7.5px 0 2.5px;
+            color: inherit;
+            letter-spacing: 0.025em;
+          }
+        }
+
+        .progress {
+          height: 1px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          margin-bottom: -1px;
+          width: 100%;
+        }
       }
     }
   }
