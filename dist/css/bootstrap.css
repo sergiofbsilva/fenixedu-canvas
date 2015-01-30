@@ -4821,6 +4821,9 @@ ul.list-styled {
   position: relative;
   list-style: none;
 }
+ul.list-styled li {
+  line-height: 1.78571429;
+}
 ul.list-styled li:before {
   position: relative;
   display: inline-block;

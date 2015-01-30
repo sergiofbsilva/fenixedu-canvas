@@ -220,12 +220,28 @@ ul,
 ol {
   margin-top: 0;
   margin-bottom: (@line-height-computed / 2);
-  line-height: (@line-height-base * 1.35);
+  line-height: @line-height-base;
   ul,
   ol {
     margin-bottom: 0;
     margin-left: 18px;
   }
+}
+
+ul.list-styled {
+  list-style: none;
+  position: relative;
+  li {
+    .icon-right-dir();
+    line-height: (@line-height-base * 1.25);
+    &:before {
+      .icon();
+      position: absolute;
+      margin: 5px -15px;
+      color: @gray;
+    }
+  }
+  ul {list-style: none;}
 }
 
 // List options
@@ -234,6 +250,7 @@ ol {
 .list-unstyled {
   padding-left: 0;
   list-style: none;
+  li:before {content: '';}
 }
 
 // Inline turns list items into inline-block
@@ -263,7 +280,10 @@ dt {
   margin: 18px 0 4px;
   padding-top: 18px; 
   border-top: 1px solid @gray-lighter;
-  &:first-child {border-top: none;}
+  &:first-of-type {
+    border-top: none;
+    + dd {border-top: none;}
+  }
 }
 dd {
   margin-left: 0; // Undo browser default
