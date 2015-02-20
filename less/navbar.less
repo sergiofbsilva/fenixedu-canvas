@@ -655,3 +655,155 @@
     }
   }
 }
+
+
+// FenixEdu navbar
+.navbar.navbar-fenixedu {
+  background-color: #fff;
+  border-color: @gray-lighter;
+  min-height: 60px;
+
+  .navbar-brand {
+    color: lihten(@gray-dark, 10%);
+    &:hover,
+    &:focus {
+      color: @gray-dark;
+      background-color: transparent;
+    }
+  }
+
+  .navbar-text {
+    color: @gray-dark;
+  }
+
+  .navbar-nav {
+    > li > a {
+      color: @gray-dark;
+      font-weight: 300;
+      padding-top:    16.5px;
+      padding-bottom: 16.5px;
+
+      &:hover,
+      &:focus {
+        color: @gray-darker;
+        background-color: transparent;
+      }
+    }
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @gray-darker;
+        background-color: transparent;
+      }
+
+      &:after {
+        content: '';
+        width: 0;
+        height: 0;
+        display: block;
+        border-left: 7.5px solid transparent;
+        border-right: 7.5px solid transparent;
+        border-bottom: 7.5px solid orange;
+      }
+
+      ul {
+        background-color: orange;
+      }
+    }
+    > .disabled > a {
+      &,
+      &:hover,
+      &:focus {
+        color: @gray;
+        background-color: transparent;
+      }
+    }
+  }
+
+  .navbar-toggle {
+    border-color: @navbar-default-toggle-border-color;
+    &:hover,
+    &:focus {
+      background-color: @navbar-default-toggle-hover-bg;
+    }
+    .icon-bar {
+      background-color: @navbar-default-toggle-icon-bar-bg;
+    }
+  }
+
+  .navbar-collapse,
+  .navbar-form {
+    border-color: @navbar-default-border;
+  }
+
+  // Dropdown menu items
+  .navbar-nav {
+    // Remove background color from open dropdown
+    > .open > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @navbar-default-link-active-bg;
+        color: @navbar-default-link-active-color;
+      }
+    }
+
+    @media (max-width: @grid-float-breakpoint-max) {
+      // Dropdowns get custom display when collapsed
+      .open .dropdown-menu {
+        > li > a {
+          color: @navbar-default-link-color;
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-hover-color;
+            background-color: @navbar-default-link-hover-bg;
+          }
+        }
+        > .active > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-active-color;
+            background-color: @navbar-default-link-active-bg;
+          }
+        }
+        > .disabled > a {
+          &,
+          &:hover,
+          &:focus {
+            color: @navbar-default-link-disabled-color;
+            background-color: @navbar-default-link-disabled-bg;
+          }
+        }
+      }
+    }
+  }
+
+
+  // Links in navbars
+  //
+  // Add a class to ensure links outside the navbar nav are colored correctly.
+
+  .navbar-link {
+    color: @gray-dark;
+    &:hover {
+      color: @gray-darker;
+    }
+  }
+
+  .btn-link {
+    color: @gray-dark;
+    &:hover,
+    &:focus {
+      color: @gray-darker;
+    }
+    &[disabled],
+    fieldset[disabled] & {
+      &:hover,
+      &:focus {
+        color: @gray;
+      }
+    }
+  }
+}

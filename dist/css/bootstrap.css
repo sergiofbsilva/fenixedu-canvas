@@ -5847,38 +5847,48 @@ margin-left: .2em;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.table > tfoot > tr.new_tr_element > td > input,
-.table > tfoot > tr.add > td > input {
+.table > tfoot > tr.new_tr_element > td input,
+.table > tfoot > tr.add > td input,
+.table > tfoot > tr.new_tr_element > td textarea,
+.table > tfoot > tr.add > td textarea {
   position: relative;
   top: -5px;
   padding-left: 30px;
   background-color: transparent;
   border: none;
 }
-.table > tfoot > tr.new_tr_element > td > input::-moz-placeholder,
-.table > tfoot > tr.add > td > input::-moz-placeholder {
+.table > tfoot > tr.new_tr_element > td input::-moz-placeholder,
+.table > tfoot > tr.add > td input::-moz-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea::-moz-placeholder,
+.table > tfoot > tr.add > td textarea::-moz-placeholder {
   color: #444;
   opacity: 1;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:-ms-input-placeholder,
-.table > tfoot > tr.add > td > input:-ms-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input:-ms-input-placeholder,
+.table > tfoot > tr.add > td input:-ms-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:-ms-input-placeholder,
+.table > tfoot > tr.add > td textarea:-ms-input-placeholder {
   color: #444;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input::-webkit-input-placeholder,
-.table > tfoot > tr.add > td > input::-webkit-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input::-webkit-input-placeholder,
+.table > tfoot > tr.add > td input::-webkit-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea::-webkit-input-placeholder,
+.table > tfoot > tr.add > td textarea::-webkit-input-placeholder {
   color: #444;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus,
-.table > tfoot > tr.add > td > input:focus {
+.table > tfoot > tr.new_tr_element > td input:focus,
+.table > tfoot > tr.add > td input:focus,
+.table > tfoot > tr.new_tr_element > td textarea:focus,
+.table > tfoot > tr.add > td textarea:focus {
   left: -10px;
   display: block;
   width: 100%;
@@ -5899,64 +5909,86 @@ margin-left: .2em;*/
        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
           transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus:focus,
-.table > tfoot > tr.add > td > input:focus:focus {
+.table > tfoot > tr.new_tr_element > td input:focus:focus,
+.table > tfoot > tr.add > td input:focus:focus,
+.table > tfoot > tr.new_tr_element > td textarea:focus:focus,
+.table > tfoot > tr.add > td textarea:focus:focus {
   border-color: #bbb;
   outline: 0;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus::-moz-placeholder,
-.table > tfoot > tr.add > td > input:focus::-moz-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus::-moz-placeholder,
+.table > tfoot > tr.add > td input:focus::-moz-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus::-moz-placeholder,
+.table > tfoot > tr.add > td textarea:focus::-moz-placeholder {
   color: #888;
   opacity: 1;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus:-ms-input-placeholder,
-.table > tfoot > tr.add > td > input:focus:-ms-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td input:focus:-ms-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td textarea:focus:-ms-input-placeholder {
   color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus::-webkit-input-placeholder,
-.table > tfoot > tr.add > td > input:focus::-webkit-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td textarea:focus::-webkit-input-placeholder {
   color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus[disabled],
-.table > tfoot > tr.add > td > input:focus[disabled],
-.table > tfoot > tr.new_tr_element > td > input:focus[readonly],
-.table > tfoot > tr.add > td > input:focus[readonly],
-fieldset[disabled] .table > tfoot > tr.new_tr_element > td > input:focus,
-fieldset[disabled] .table > tfoot > tr.add > td > input:focus {
+.table > tfoot > tr.new_tr_element > td input:focus[disabled],
+.table > tfoot > tr.add > td input:focus[disabled],
+.table > tfoot > tr.new_tr_element > td textarea:focus[disabled],
+.table > tfoot > tr.add > td textarea:focus[disabled],
+.table > tfoot > tr.new_tr_element > td input:focus[readonly],
+.table > tfoot > tr.add > td input:focus[readonly],
+.table > tfoot > tr.new_tr_element > td textarea:focus[readonly],
+.table > tfoot > tr.add > td textarea:focus[readonly],
+fieldset[disabled] .table > tfoot > tr.new_tr_element > td input:focus,
+fieldset[disabled] .table > tfoot > tr.add > td input:focus,
+fieldset[disabled] .table > tfoot > tr.new_tr_element > td textarea:focus,
+fieldset[disabled] .table > tfoot > tr.add > td textarea:focus {
   cursor: not-allowed;
   background-color: #f3f3f3;
   opacity: 1;
 }
-textarea.table > tfoot > tr.new_tr_element > td > input:focus,
-textarea.table > tfoot > tr.add > td > input:focus {
+textarea.table > tfoot > tr.new_tr_element > td input:focus,
+textarea.table > tfoot > tr.add > td input:focus,
+textarea.table > tfoot > tr.new_tr_element > td textarea:focus,
+textarea.table > tfoot > tr.add > td textarea:focus {
   height: auto;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus::-moz-placeholder,
-.table > tfoot > tr.add > td > input:focus::-moz-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus::-moz-placeholder,
+.table > tfoot > tr.add > td input:focus::-moz-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus::-moz-placeholder,
+.table > tfoot > tr.add > td textarea:focus::-moz-placeholder {
   color: #888;
   opacity: 1;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus:-ms-input-placeholder,
-.table > tfoot > tr.add > td > input:focus:-ms-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td input:focus:-ms-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus:-ms-input-placeholder,
+.table > tfoot > tr.add > td textarea:focus:-ms-input-placeholder {
   color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
 }
-.table > tfoot > tr.new_tr_element > td > input:focus::-webkit-input-placeholder,
-.table > tfoot > tr.add > td > input:focus::-webkit-input-placeholder {
+.table > tfoot > tr.new_tr_element > td input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td input:focus::-webkit-input-placeholder,
+.table > tfoot > tr.new_tr_element > td textarea:focus::-webkit-input-placeholder,
+.table > tfoot > tr.add > td textarea:focus::-webkit-input-placeholder {
   color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
@@ -5970,6 +6002,9 @@ textarea.table > tfoot > tr.add > td > input:focus {
 }
 .table > tfoot > tr.user > td:before {
   content: "\e8fa";
+}
+.table > tfoot > tr.comment > td:before {
+  content: "\e8df";
 }
 .table > tfoot > tr:last-of-type > td {
   border-bottom: none;
@@ -8476,6 +8511,118 @@ fieldset[disabled] .navbar-inverse .btn-link:hover,
 .navbar-inverse .btn-link[disabled]:focus,
 fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
+}
+.navbar.navbar-fenixedu {
+  min-height: 60px;
+  background-color: #fff;
+  border-color: #f3f3f3;
+}
+.navbar.navbar-fenixedu .navbar-brand {
+  color: lihten(#888, 10%);
+}
+.navbar.navbar-fenixedu .navbar-brand:hover,
+.navbar.navbar-fenixedu .navbar-brand:focus {
+  color: #888;
+  background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-text {
+  color: #888;
+}
+.navbar.navbar-fenixedu .navbar-nav > li > a {
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+  font-weight: 300;
+  color: #888;
+}
+.navbar.navbar-fenixedu .navbar-nav > li > a:hover,
+.navbar.navbar-fenixedu .navbar-nav > li > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav > .active > a,
+.navbar.navbar-fenixedu .navbar-nav > .active > a:hover,
+.navbar.navbar-fenixedu .navbar-nav > .active > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav > .active > a:after {
+  display: block;
+  width: 0;
+  height: 0;
+  content: '';
+  border-right: 7.5px solid transparent;
+  border-bottom: 7.5px solid orange;
+  border-left: 7.5px solid transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav > .active > a ul {
+  background-color: orange;
+}
+.navbar.navbar-fenixedu .navbar-nav > .disabled > a,
+.navbar.navbar-fenixedu .navbar-nav > .disabled > a:hover,
+.navbar.navbar-fenixedu .navbar-nav > .disabled > a:focus {
+  color: #bbb;
+  background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-toggle {
+  border-color: #ddd;
+}
+.navbar.navbar-fenixedu .navbar-toggle:hover,
+.navbar.navbar-fenixedu .navbar-toggle:focus {
+  background-color: #ddd;
+}
+.navbar.navbar-fenixedu .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar.navbar-fenixedu .navbar-collapse,
+.navbar.navbar-fenixedu .navbar-form {
+  border-color: #ddd;
+}
+.navbar.navbar-fenixedu .navbar-nav > .open > a,
+.navbar.navbar-fenixedu .navbar-nav > .open > a:hover,
+.navbar.navbar-fenixedu .navbar-nav > .open > a:focus {
+  color: #39f;
+  background-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > li > a {
+    color: #888;
+  }
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #39f;
+    background-color: transparent;
+  }
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar.navbar-fenixedu .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #bbb;
+    background-color: transparent;
+  }
+}
+.navbar.navbar-fenixedu .navbar-link {
+  color: #888;
+}
+.navbar.navbar-fenixedu .navbar-link:hover {
+  color: #444;
+}
+.navbar.navbar-fenixedu .btn-link {
+  color: #888;
+}
+.navbar.navbar-fenixedu .btn-link:hover,
+.navbar.navbar-fenixedu .btn-link:focus {
+  color: #444;
+}
+.navbar.navbar-fenixedu .btn-link[disabled]:hover,
+fieldset[disabled] .navbar.navbar-fenixedu .btn-link:hover,
+.navbar.navbar-fenixedu .btn-link[disabled]:focus,
+fieldset[disabled] .navbar.navbar-fenixedu .btn-link:focus {
+  color: #bbb;
 }
 .breadcrumb {
   padding: 12px 10px;
