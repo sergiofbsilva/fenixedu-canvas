@@ -664,7 +664,7 @@
   min-height: 60px;
 
   .navbar-brand {
-    color: lihten(@gray-dark, 10%);
+    color: lighten(@gray-dark, 10%);
     &:hover,
     &:focus {
       color: @gray-dark;
@@ -680,8 +680,8 @@
     > li > a {
       color: @gray-dark;
       font-weight: 300;
-      padding-top:    16.5px;
-      padding-bottom: 16.5px;
+      padding-top: 20px;
+      padding-bottom: 20px;
 
       &:hover,
       &:focus {
@@ -689,7 +689,7 @@
         background-color: transparent;
       }
     }
-    > .active > a {
+    .active > a {
       &,
       &:hover,
       &:focus {
@@ -699,18 +699,17 @@
 
       &:after {
         content: '';
-        width: 0;
-        height: 0;
         display: block;
         border-left: 7.5px solid transparent;
         border-right: 7.5px solid transparent;
-        border-bottom: 7.5px solid orange;
-      }
-
-      ul {
-        background-color: orange;
+        border-bottom: 7.5px solid @brand-primary;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        .translate(-50%, 0);
       }
     }
+
     > .disabled > a {
       &,
       &:hover,
