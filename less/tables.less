@@ -80,7 +80,7 @@ th {
           padding-left: (@table-cell-padding * 3);
           border: none;
           background-color: transparent;
-          .placeholder(@gray-darker);
+          .placeholder(@gray-dark);
 
           &:focus {
             .form-control();
@@ -96,7 +96,7 @@ th {
     }
 
     &.folder > td {.icon-folder-new();}
-    &.file > td {.icon-filetype-new();}
+    &.file { cursor: pointer; > td {.icon-filetype-new();} input { cursor: pointer;}}
     &.user > td {.icon-user-add();}
     &.comment > td {.icon-chat();}
 
@@ -149,6 +149,7 @@ th {
 
     > td {
       .text-overflow();
+      position: relative;
 
       &:after {
         content: "";
@@ -164,11 +165,12 @@ th {
 
     }
 
-    &.active {
+    &:hover, &.active {
     > td:after {
       width: 25px;
       #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
     }
+    > td {border-bottom: 1px solid @table-border-color;}
     }
   }
 
@@ -319,6 +321,10 @@ th {
       .box-shadow(-1px 1px 1px #fff);
       z-index: 998;
     }
+    }
+
+    > td {
+      cursor: pointer;
     }
   }
 }
