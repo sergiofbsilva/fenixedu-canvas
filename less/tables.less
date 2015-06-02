@@ -120,40 +120,28 @@ th {
 
     &:first-of-type {border-left: 1px solid @table-border-color;}
 
-    span.order {
-      float: right;
-      &:before {
-        font-size: 10px;
-      }
-    }
-
-    &.sort {
+    &.sort, &.sorted {
       position: relative;
       cursor: pointer;
 
       i {
         position: absolute;
-        top: 6px;
+        top: 30%;
         right: 10px;
+        visibility: hidden;
         &:before {
           font-size: 16px;
           color: @gray;
         }
       }
 
-      &:not(.sorted) {
-        &:hover {
-          .icon-sort();
-          &:before {
-            .icon();
-            font-size: 16px;
-            color: @gray;
-            position: absolute;
-            top: 12px;
-            right: 10px;
-          }
-        }
-      }
+      &:hover i, &.sorted i {visibility: visible;}
+    }
+  }
+
+  thead > tr > th, colgroup > col {
+    &.icon, &.avatar {
+      width: 30px;
     }
   }
 
