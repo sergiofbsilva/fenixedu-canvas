@@ -4922,7 +4922,7 @@ dd {
 @media (min-width: 768px) {
   .dl-horizontal dt {
     float: left;
-    width: 225px;
+    width: 175px;
     padding-right: 20px;
     margin-top: 0;
     clear: left;
@@ -4930,9 +4930,9 @@ dd {
     border-top: none;
   }
   .dl-horizontal dd {
-    padding-top: 18px;
-    padding-left: 225px;
-    margin-bottom: 18px;
+    padding-top: 15px;
+    padding-left: 175px;
+    margin-bottom: 15px;
     border-top: 1px solid #f3f3f3;
   }
   .dl-horizontal dd:first-child {
@@ -5738,7 +5738,7 @@ th {
   width: 100%;
   max-width: 100%;
   margin-bottom: 21px;
-  table-layout: initial;
+  table-layout: fixed;
   /*// Remove top border from thead by default
   > caption + thead,
   > colgroup + thead,
@@ -5861,7 +5861,7 @@ margin-left: .2em;*/
 .table > tfoot > tr.add > td input::-moz-placeholder,
 .table > tfoot > tr.new_tr_element > td textarea::-moz-placeholder,
 .table > tfoot > tr.add > td textarea::-moz-placeholder {
-  color: #444;
+  color: #888;
   opacity: 1;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
@@ -5871,7 +5871,7 @@ margin-left: .2em;*/
 .table > tfoot > tr.add > td input:-ms-input-placeholder,
 .table > tfoot > tr.new_tr_element > td textarea:-ms-input-placeholder,
 .table > tfoot > tr.add > td textarea:-ms-input-placeholder {
-  color: #444;
+  color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
@@ -5880,7 +5880,7 @@ margin-left: .2em;*/
 .table > tfoot > tr.add > td input::-webkit-input-placeholder,
 .table > tfoot > tr.new_tr_element > td textarea::-webkit-input-placeholder,
 .table > tfoot > tr.add > td textarea::-webkit-input-placeholder {
-  color: #444;
+  color: #888;
   -webkit-transition: color .25s ease-in;
        -o-transition: color .25s ease-in;
           transition: color .25s ease-in;
@@ -5894,7 +5894,7 @@ margin-left: .2em;*/
   width: 100%;
   width: 102.5%;
   height: 35px;
-  padding: 10px 10px;
+  padding: 5px 10px;
   padding-left: 39px;
   font-size: 15px;
   line-height: 1.5;
@@ -5997,8 +5997,14 @@ textarea.table > tfoot > tr.add > td textarea:focus {
 .table > tfoot > tr.folder > td:before {
   content: "\e92b";
 }
+.table > tfoot > tr.file {
+  cursor: pointer;
+}
 .table > tfoot > tr.file > td:before {
   content: "\e923";
+}
+.table > tfoot > tr.file input {
+  cursor: pointer;
 }
 .table > tfoot > tr.user > td:before {
   content: "\e8fa";
@@ -6025,55 +6031,37 @@ textarea.table > tfoot > tr.add > td textarea:focus {
 .table > thead > tr > th:first-of-type {
   border-left: 1px solid #ddd;
 }
-.table > thead > tr > th span.order {
-  float: right;
-}
-.table > thead > tr > th span.order:before {
-  font-size: 10px;
-}
-.table > thead > tr > th.sort {
+.table > thead > tr > th.sort,
+.table > thead > tr > th.sorted {
   position: relative;
   cursor: pointer;
 }
-.table > thead > tr > th.sort i {
+.table > thead > tr > th.sort i,
+.table > thead > tr > th.sorted i {
   position: absolute;
-  top: 6px;
+  top: 30%;
   right: 10px;
+  visibility: hidden;
 }
-.table > thead > tr > th.sort i:before {
+.table > thead > tr > th.sort i:before,
+.table > thead > tr > th.sorted i:before {
   font-size: 16px;
   color: #bbb;
 }
-.table > thead > tr > th.sort:not(.sorted):hover:before {
-  content: "\e936";
+.table > thead > tr > th.sort:hover i,
+.table > thead > tr > th.sorted:hover i,
+.table > thead > tr > th.sort.sorted i,
+.table > thead > tr > th.sorted.sorted i {
+  visibility: visible;
 }
-.table > thead > tr > th.sort:not(.sorted):hover:before {
-  position: relative;
-  position: absolute;
-  top: 12px;
-  right: 10px;
-  display: inline-block;
-  font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-  font-size: 16px;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  color: #bbb;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.table thead > tr > th.icon,
+.table colgroup > col.icon,
+.table thead > tr > th.avatar,
+.table colgroup > col.avatar {
+  width: 30px;
 }
 .table.faded > tbody > tr > td {
+  position: relative;
   overflow: hidden;
   text-overflow: clip;
   white-space: nowrap;
@@ -6094,6 +6082,7 @@ margin-left: .2em;*/
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1);
   background-repeat: repeat-x;
 }
+.table.faded > tbody > tr:hover > td:after,
 .table.faded > tbody > tr.active > td:after {
   width: 25px;
   background-image: -webkit-linear-gradient(right, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
@@ -6102,6 +6091,10 @@ margin-left: .2em;*/
   background-image:         linear-gradient(to left, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f3f3f3', endColorstr='#fff3f3f3', GradientType=1);
   background-repeat: repeat-x;
+}
+.table.faded > tbody > tr:hover > td,
+.table.faded > tbody > tr.active > td {
+  border-bottom: 1px solid #ddd;
 }
 .table > tbody + tbody {
   border-top: 1px solid #ddd;
@@ -6206,6 +6199,9 @@ margin-left: .2em;*/
   background: #ddd;
   -webkit-box-shadow: -1px 1px 1px #fff;
           box-shadow: -1px 1px 1px #fff;
+}
+.table-hover > tbody > tr:hover > td {
+  cursor: pointer;
 }
 table col[class*="col-"] {
   position: static;
@@ -6463,6 +6459,9 @@ select[multiple],
 select[size] {
   height: auto;
 }
+select {
+  max-width: 100%;
+}
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
@@ -6481,7 +6480,7 @@ output {
   display: block;
   width: 100%;
   height: 35px;
-  padding: 10px 10px;
+  padding: 5px 10px;
   font-size: 15px;
   line-height: 1.5;
   color: #444;
@@ -8514,6 +8513,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .navbar.navbar-fenixedu {
   min-height: 60px;
+  margin-bottom: -1px;
   background-color: #fff;
   border-color: #f3f3f3;
 }
@@ -10928,24 +10928,37 @@ margin-left: .2em;*/
 }
 .submenu .navbar {
   width: 100%;
-  min-height: 0;
+  height: 45px;
   margin-bottom: 0;
-  text-align: justify;
   border: none;
 }
 .submenu .navbar > .navbar-nav {
   float: none;
   width: 100%;
+  text-align: justify;
 }
 .submenu .navbar > .navbar-nav:after {
   display: inline-block;
   width: 100%;
   content: '';
 }
+.submenu .navbar > .navbar-nav > li {
+  display: inline;
+}
 .submenu .navbar > .navbar-nav > li > a {
   padding-top: 12px;
   padding-bottom: 12px;
   color: #f3f3f3;
+}
+.submenu .navbar > .navbar-nav > li > a.active {
+  color: #fff;
+}
+.submenu .navbar > .navbar-nav > li > a.active:after {
+  border-bottom-color: white;
+}
+.submenu .navbar > .navbar-nav > li:last-child:empty {
+  display: inline-block;
+  width: 100%;
 }
 .submenu .navbar > .navbar-nav.collapse {
   display: none;
