@@ -5816,6 +5816,49 @@ th {
   height: 1px;
   margin-bottom: -1px;
 }
+.table > thead > tr > th.icon,
+.table > tbody > tr > th.icon,
+.table > tfoot > tr > th.icon,
+.table > thead > tr > td.icon,
+.table > tbody > tr > td.icon,
+.table > tfoot > tr > td.icon,
+.table > thead > tr > th.avatar,
+.table > tbody > tr > th.avatar,
+.table > tfoot > tr > th.avatar,
+.table > thead > tr > td.avatar,
+.table > tbody > tr > td.avatar,
+.table > tfoot > tr > td.avatar {
+  padding-left: 5px;
+}
+.table > thead > tr > th.icon [class*="icon-"],
+.table > tbody > tr > th.icon [class*="icon-"],
+.table > tfoot > tr > th.icon [class*="icon-"],
+.table > thead > tr > td.icon [class*="icon-"],
+.table > tbody > tr > td.icon [class*="icon-"],
+.table > tfoot > tr > td.icon [class*="icon-"],
+.table > thead > tr > th.avatar [class*="icon-"],
+.table > tbody > tr > th.avatar [class*="icon-"],
+.table > tfoot > tr > th.avatar [class*="icon-"],
+.table > thead > tr > td.avatar [class*="icon-"],
+.table > tbody > tr > td.avatar [class*="icon-"],
+.table > tfoot > tr > td.avatar [class*="icon-"] {
+  font-size: 21px;
+  color: #39f;
+}
+.table > thead > tr > th.icon + td,
+.table > tbody > tr > th.icon + td,
+.table > tfoot > tr > th.icon + td,
+.table > thead > tr > td.icon + td,
+.table > tbody > tr > td.icon + td,
+.table > tfoot > tr > td.icon + td,
+.table > thead > tr > th.avatar + td,
+.table > tbody > tr > th.avatar + td,
+.table > tfoot > tr > th.avatar + td,
+.table > thead > tr > td.avatar + td,
+.table > tbody > tr > td.avatar + td,
+.table > tfoot > tr > td.avatar + td {
+  padding-left: 5px;
+}
 .table > tfoot > tr.new_tr_element > td,
 .table > tfoot > tr.add > td {
   position: relative;
@@ -6054,11 +6097,11 @@ textarea.table > tfoot > tr.add > td textarea:focus {
 .table > thead > tr > th.sorted.sorted i {
   visibility: visible;
 }
-.table thead > tr > th.icon,
-.table colgroup > col.icon,
-.table thead > tr > th.avatar,
-.table colgroup > col.avatar {
-  width: 30px;
+.table thead > tr > th.col-icon,
+.table colgroup > col.col-icon,
+.table thead > tr > th.col-avatar,
+.table colgroup > col.col-avatar {
+  width: 28px;
 }
 .table.faded > tbody > tr > td {
   position: relative;
