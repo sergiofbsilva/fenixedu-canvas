@@ -10704,8 +10704,10 @@ button.close {
   font-size: 26.25px;
   font-weight: 600;
 }
-.empty-box p span i:before {
+.empty-box p span i {
   display: block!important;
+}
+.empty-box p span i:before {
   font-size: 58.5px !important;
 }
 .drop-box {
@@ -10728,8 +10730,10 @@ button.close {
   font-size: 26.25px;
   font-weight: 600;
 }
-.drop-box p span i:before {
+.drop-box p span i {
   display: block!important;
+}
+.drop-box p span i:before {
   font-size: 58.5px !important;
 }
 .dragover .drop-box {
@@ -10783,8 +10787,10 @@ body.dragover:after {
   font-size: 26.25px;
   font-weight: 600;
 }
-.empty p span i:before {
+.empty p span i {
   display: block!important;
+}
+.empty p span i:before {
   font-size: 58.5px !important;
 }
 .navbar-fenixedu > .container {

@@ -16,14 +16,16 @@
 			font-weight: 600;
 			font-size: (@font-size-h3 * 1.25);
 			display: block;
-			
-			i:before {
+
+			i {
 				display: block!important;
-				font-size: (@font-size-h1 * 1.5)!important;
+
+				&:before {
+					font-size: (@font-size-h1 * 1.5)!important;
+				}
 			}
 		}
 	}
-
 }
 
 // Drag n' Drop Box
