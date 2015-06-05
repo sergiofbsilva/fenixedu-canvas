@@ -175,13 +175,13 @@ th {
 
     }
 
-    &:hover, &.active {
-    > td:after {
-      width: 25px;
-      #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
-    }
-    > td {border-bottom: 1px solid @table-border-color;}
-    }
+    &.active {
+      > td:after {
+        width: 25px;
+        #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
+      }
+      > td {border-bottom: 1px solid @table-border-color;}
+      }
   }
 
 
@@ -337,6 +337,14 @@ th {
       cursor: pointer;
     }
   }
+}
+
+.table-hover.faded > tbody > tr:hover {
+  > td:after {
+    width: 25px;
+    #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
+  }
+  > td {border-bottom: 1px solid @table-border-color;}
 }
 
 

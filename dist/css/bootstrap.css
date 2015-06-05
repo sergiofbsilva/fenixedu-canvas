@@ -6125,7 +6125,6 @@ textarea.table > tfoot > tr.add > td textarea:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1);
   background-repeat: repeat-x;
 }
-.table.faded > tbody > tr:hover > td:after,
 .table.faded > tbody > tr.active > td:after {
   width: 25px;
   background-image: -webkit-linear-gradient(right, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
@@ -6135,7 +6134,6 @@ textarea.table > tfoot > tr.add > td textarea:focus {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f3f3f3', endColorstr='#fff3f3f3', GradientType=1);
   background-repeat: repeat-x;
 }
-.table.faded > tbody > tr:hover > td,
 .table.faded > tbody > tr.active > td {
   border-bottom: 1px solid #ddd;
 }
@@ -6245,6 +6243,18 @@ textarea.table > tfoot > tr.add > td textarea:focus {
 }
 .table-hover > tbody > tr:hover > td {
   cursor: pointer;
+}
+.table-hover.faded > tbody > tr:hover > td:after {
+  width: 25px;
+  background-image: -webkit-linear-gradient(right, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  background-image:      -o-linear-gradient(right, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#f3f3f3), to(rgba(243, 243, 243, 0)));
+  background-image:         linear-gradient(to left, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00f3f3f3', endColorstr='#fff3f3f3', GradientType=1);
+  background-repeat: repeat-x;
+}
+.table-hover.faded > tbody > tr:hover > td {
+  border-bottom: 1px solid #ddd;
 }
 table col[class*="col-"] {
   position: static;
