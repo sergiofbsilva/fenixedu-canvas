@@ -10686,6 +10686,28 @@ button.close {
     display: none !important;
   }
 }
+.empty-box {
+  display: table;
+  width: 100%;
+  height: 165px;
+  color: #bbb;
+  text-align: center;
+}
+.empty-box p {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+.empty-box p span {
+  display: block;
+  font-family: "titillium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26.25px;
+  font-weight: 600;
+}
+.empty-box p span i:before {
+  display: block!important;
+  font-size: 58.5px !important;
+}
 .drop-box {
   display: table;
   width: 100%;
@@ -10706,78 +10728,9 @@ button.close {
   font-size: 26.25px;
   font-weight: 600;
 }
-.drop-box p span:before {
-  position: relative;
-  display: inline-block;
-  font-family: "fenixedu-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-  content: "\e8e1";
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-.drop-box p span:before {
+.drop-box p span i:before {
   display: block!important;
   font-size: 58.5px !important;
-}
-.drop-box.shared p span:before {
-  position: relative;
-  display: inline-block;
-  font-family: "fenixedu-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-  content: "\e8e7";
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-.drop-box.repository p span:before {
-  content: "\e84b";
-}
-.drop-box.favorite p span:before {
-  position: relative;
-  display: inline-block;
-  font-family: "fenixedu-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-  content: "\e902";
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .dragover .drop-box {
   color: #39f;
@@ -10809,6 +10762,30 @@ body.dragover:before {
 }
 body.dragover:after {
   bottom: 0;
+}
+.empty {
+  display: table;
+  width: 100%;
+  height: 165px;
+  color: #bbb;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+.empty p {
+  display: table-cell;
+  vertical-align: middle;
+  cursor: default;
+}
+.empty p span {
+  display: block;
+  font-family: "titillium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 26.25px;
+  font-weight: 600;
+}
+.empty p span i:before {
+  display: block!important;
+  font-size: 58.5px !important;
 }
 .navbar-fenixedu > .container {
   padding: 0;
