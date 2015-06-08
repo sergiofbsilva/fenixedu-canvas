@@ -84,7 +84,7 @@ th {
           font-size: @font-size-h4;
         }
 
-        input, textarea {
+        input, textarea, span {
           position: relative;
           top: -5px;
           padding-left: (@table-cell-padding * 3);
@@ -102,6 +102,8 @@ th {
             .placeholder(@input-color-placeholder);
           }
         }
+
+        span {top: 0;}
       }
     }
 
@@ -181,7 +183,7 @@ th {
         #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
       }
       > td {border-bottom: 1px solid @table-border-color;}
-      }
+    }
   }
 
 
