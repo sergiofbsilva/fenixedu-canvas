@@ -6637,7 +6637,7 @@ input[type="month"].input-lg {
   line-height: 41px;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .radio,
 .checkbox {
@@ -8602,30 +8602,168 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 .navbar.navbar-fenixedu {
   min-height: 60px;
+  margin-bottom: -1px;
   background-color: #fff;
   border-color: #f3f3f3;
 }
+.navbar.navbar-fenixedu .scroller {
+  display: none;
+  float: right;
+  padding: 20px 0;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.navbar.navbar-fenixedu .scroller.scroller-left {
+  float: left;
+}
+.navbar.navbar-fenixedu .scroller > i::before {
+  color: #888;
+}
+.navbar.navbar-fenixedu .wrapper {
+  position: relative;
+  height: 60px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+.navbar.navbar-fenixedu .wrapper::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 997;
+  width: 45px;
+  height: 100%;
+  pointer-events: none;
+  content: "";
+  background-image: -webkit-linear-gradient(right, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  background-image:      -o-linear-gradient(right, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(10%, #fff), color-stop(75%, rgba(255, 255, 255, 0)));
+  background-image:         linear-gradient(to left, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1);
+  background-repeat: repeat-x;
+}
+.navbar.navbar-fenixedu .wrapper::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 997;
+  width: 45px;
+  height: 100%;
+  pointer-events: none;
+  content: "";
+  background-image: -webkit-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  background-image:      -o-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #fff), color-stop(75%, rgba(255, 255, 255, 0)));
+  background-image:         linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00ffffff', GradientType=1);
+  background-repeat: repeat-x;
+}
+.navbar.navbar-fenixedu .wrapper .list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 3000px;
+  margin-top: 0;
+  margin-left: 12px;
+}
+.navbar.navbar-fenixedu .wrapper .list li {
+  position: relative;
+  display: table-cell;
+  padding-right: 80px;
+  color: #ddd;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
 .navbar.navbar-fenixedu .navbar-brand {
+  padding: 0;
+  margin-top: 0;
+  font-size: 15px;
   color: #a2a2a2;
+}
+.navbar.navbar-fenixedu .navbar-brand:before {
+  position: relative;
+  display: inline-block;
+  font-family: "fenixedu-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+  content: "\e8f6";
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 .navbar.navbar-fenixedu .navbar-brand:hover,
 .navbar.navbar-fenixedu .navbar-brand:focus {
   color: #888;
   background-color: transparent;
 }
+.navbar.navbar-fenixedu .navbar-brand::before {
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 1px 7.5px;
+  font-family: "fenixedu-icons";
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed
+margin-left: .2em;*/
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+  font-size: 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-align: center;
+  text-decoration: inherit;
+  text-transform: none;
+
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 .navbar.navbar-fenixedu .navbar-text {
   color: #888;
 }
-.navbar.navbar-fenixedu .navbar-nav > li > a {
+.navbar.navbar-fenixedu .navbar-nav .dropdown {
+  position: absolute;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown .dropdown-toggle {
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: 300;
   color: #888;
 }
-.navbar.navbar-fenixedu .navbar-nav > li > a:hover,
-.navbar.navbar-fenixedu .navbar-nav > li > a:focus {
+.navbar.navbar-fenixedu .navbar-nav .dropdown .dropdown-toggle:hover,
+.navbar.navbar-fenixedu .navbar-nav .dropdown .dropdown-toggle:focus {
   color: #444;
   background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown:first-of-type {
+  left: 40px;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown:last-of-type {
+  right: 40px;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown:last-of-type > ul.dropdown-menu::before {
+  right: 21px;
+  left: auto;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown:last-of-type > ul.dropdown-menu::after {
+  right: 22px;
+  left: auto;
 }
 .navbar.navbar-fenixedu .navbar-nav .active > a,
 .navbar.navbar-fenixedu .navbar-nav .active > a:hover,
@@ -8652,6 +8790,32 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar.navbar-fenixedu .navbar-nav > .disabled > a:focus {
   color: #bbb;
   background-color: transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown-menu::before {
+  position: absolute;
+  top: -7px;
+  left: 21px;
+  display: inline-block;
+  content: '';
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ddd;
+  border-left: 7px solid transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav .dropdown-menu::after {
+  position: absolute;
+  top: -6px;
+  left: 22px;
+  display: inline-block;
+  content: '';
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid transparent;
+}
+.navbar.navbar-fenixedu .navbar-nav .avatar img {
+  width: 22px;
+  height: auto;
+  margin-right: 5px;
+  border-radius: 2px;
 }
 .navbar.navbar-fenixedu .navbar-toggle {
   border-color: #ddd;
@@ -8713,6 +8877,49 @@ fieldset[disabled] .navbar.navbar-fenixedu .btn-link:hover,
 .navbar.navbar-fenixedu .btn-link[disabled]:focus,
 fieldset[disabled] .navbar.navbar-fenixedu .btn-link:focus {
   color: #bbb;
+}
+.navbar.navbar-fenixedu .submenu {
+  background-color: #39f;
+}
+.navbar.navbar-fenixedu .submenu .navbar {
+  width: 100%;
+  height: 45px;
+  margin-bottom: 0;
+  border: none;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav {
+  float: none;
+  width: 100%;
+  text-align: justify;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav:after {
+  display: inline-block;
+  width: 100%;
+  content: '';
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav > li {
+  display: inline;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav > li > a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #f3f3f3;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav > li > a.active {
+  color: #fff;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav > li > a.active:after {
+  border-bottom-color: white;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav > li:last-child:empty {
+  display: inline-block;
+  width: 100%;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav.collapse {
+  display: none;
+}
+.navbar.navbar-fenixedu .submenu .navbar > .navbar-nav.collapse.in {
+  display: inline-block;
 }
 .breadcrumb {
   padding: 12px 10px;
@@ -10828,200 +11035,43 @@ body.dragover:after {
 .empty p span i:before {
   font-size: 58.5px !important;
 }
-.navbar-fenixedu > .container {
-  padding: 0;
-}
-.navbar-fenixedu > .container > ul > li {
+.alert-floating {
   position: absolute;
-}
-.navbar-fenixedu > .container > ul > li > ul.dropdown-menu::before {
-  position: absolute;
-  top: -7px;
-  left: 21px;
-  display: inline-block;
-  content: '';
-  border-right: 7px solid transparent;
-  border-bottom: 7px solid #ddd;
-  border-left: 7px solid transparent;
-}
-.navbar-fenixedu > .container > ul > li > ul.dropdown-menu::after {
-  position: absolute;
-  top: -6px;
-  left: 22px;
-  display: inline-block;
-  content: '';
-  border-right: 6px solid transparent;
-  border-bottom: 6px solid #fff;
-  border-left: 6px solid transparent;
-}
-.navbar-fenixedu > .container > ul > li:first-of-type {
-  left: 40px;
-}
-.navbar-fenixedu > .container > ul > li:first-of-type h1 {
-  padding: 0;
-  margin-top: 0;
-  font-size: 15px;
-}
-.navbar-fenixedu > .container > ul > li:first-of-type h1:before {
-  position: relative;
-  display: inline-block;
-  font-family: "fenixedu-icons";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-  content: "\e8f6";
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-}
-.navbar-fenixedu > .container > ul > li:first-of-type h1::before {
-  position: relative;
-  display: inline-block;
-  float: left;
-  margin: 1px 7.5px;
-  font-family: "fenixedu-icons";
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed
-margin-left: .2em;*/
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-  font-size: 19px;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-align: center;
-  text-decoration: inherit;
-  text-transform: none;
-
-  speak: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.navbar-fenixedu > .container > ul > li:last-of-type {
-  right: 40px;
-}
-.navbar-fenixedu > .container > ul > li:last-of-type .img-circle {
-  width: 30px;
-  height: 30px;
-}
-.navbar-fenixedu > .container > ul > li:last-of-type > ul.dropdown-menu::before {
-  right: 21px;
-  left: auto;
-}
-.navbar-fenixedu > .container > ul > li:last-of-type > ul.dropdown-menu::after {
-  right: 22px;
-  left: auto;
-}
-.scroller {
-  display: none;
-  float: right;
-  padding: 20px 0;
-  text-align: center;
-  white-space: nowrap;
+  top: 70px;
+  right: 100px;
+  z-index: 1000;
+  max-width: 500px;
+  padding-left: 62px;
   cursor: pointer;
 }
-.scroller.scroller-left {
-  float: left;
-}
-.scroller > i::before {
-  color: #888;
-}
-.wrapper {
-  position: relative;
-  height: 60px;
-  margin: 0 auto;
-  overflow: hidden;
-  text-overflow: clip;
-  white-space: nowrap;
-}
-.wrapper::after {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 997;
-  width: 45px;
-  height: 100%;
-  pointer-events: none;
-  content: "";
-  background-image: -webkit-linear-gradient(right, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  background-image:      -o-linear-gradient(right, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  background-image: -webkit-gradient(linear, right top, left top, color-stop(10%, #fff), color-stop(75%, rgba(255, 255, 255, 0)));
-  background-image:         linear-gradient(to left, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffffff', GradientType=1);
-  background-repeat: repeat-x;
-}
-.wrapper::before {
+.alert-floating .icon {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 997;
-  width: 45px;
+  width: 50px;
   height: 100%;
-  pointer-events: none;
-  content: "";
-  background-image: -webkit-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  background-image:      -o-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #fff), color-stop(75%, rgba(255, 255, 255, 0)));
-  background-image:         linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 75%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#00ffffff', GradientType=1);
-  background-repeat: repeat-x;
+  color: #fff;
 }
-.wrapper .list {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 3000px;
-  margin-top: 0;
-  margin-left: 12px;
+.alert-floating .icon::before {
+  top: 12px;
+  font-size: 18px;
 }
-.wrapper .list li {
-  position: relative;
-  display: table-cell;
-  padding-right: 80px;
-  color: #ddd;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
+.alert-floating.alert-success .icon {
+  background: #9ac338;
 }
-.submenu {
-  background-color: #39f;
+.alert-floating.alert-info .icon {
+  background: #777;
 }
-.submenu .navbar {
-  width: 100%;
-  min-height: 0;
-  margin-bottom: 0;
-  text-align: justify;
-  border: none;
+.alert-floating.alert-warning .icon {
+  background: #f90;
 }
-.submenu .navbar > .navbar-nav {
-  float: none;
-  width: 100%;
+.alert-floating.alert-danger .icon {
+  background: #b22;
 }
-.submenu .navbar > .navbar-nav:after {
-  display: inline-block;
-  width: 100%;
-  content: '';
+.alert-floating.alert-dismissible .close {
+  visibility: hidden;
 }
-.submenu .navbar > .navbar-nav > li > a {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  color: #f3f3f3;
-}
-.submenu .navbar > .navbar-nav.collapse {
-  display: none;
-}
-.submenu .navbar > .navbar-nav.collapse.in {
-  display: inline-block;
+.alert-floating.alert-dismissible:hover .close {
+  visibility: visible;
 }
 /*# sourceMappingURL=bootstrap.css.map */

@@ -40,7 +40,6 @@
 &.dragover .drop-box {border: 1px dashed @brand-primary; color: @brand-primary; .transition(all 0.15s ease-in-out); }
 &.dragover-err .drop-box {border: 1px dashed @brand-danger; color: @brand-danger;}
 
-
 // On body
 
 body.dragover {
@@ -69,4 +68,54 @@ body.dragover {
 	.empty-box;
 	background: transparent;
 	border: none;
+}
+
+// Floating alerts
+// -------------------------
+
+.alert-floating {
+	padding-left: (50 + @alert-padding);
+	cursor: pointer;
+	max-width: 500px;
+	position: absolute;
+	top: 70px;
+	right: 100px;
+	z-index: 1000;
+
+	.icon {
+		width: 50px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		color: #fff;
+
+		&::before {
+			top: @alert-padding;
+			font-size: @font-size-h4;
+		}
+	}
+
+	&.alert-success {
+		.icon {background: @brand-success;}
+	}
+	&.alert-info {
+		.icon {background: @brand-info;}
+	}
+	&.alert-warning {
+		.icon {background: @brand-warning;}
+	}
+	&.alert-danger {
+		.icon {background: @brand-danger;}
+	}
+
+	&.alert-dismissible {
+		.close {
+			visibility: hidden;
+		}
+
+		&:hover .close {
+			visibility: visible;
+		}
+	}
 }
