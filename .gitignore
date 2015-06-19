@@ -1,3 +1,6 @@
+# Ignore Utils Scripts
+server.py
+
 # Ignore docs files
 _gh_pages
 _site

@@ -6637,7 +6637,7 @@ input[type="month"].input-lg {
   line-height: 41px;
 }
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .radio,
 .checkbox {
@@ -10711,6 +10711,7 @@ body.dragover:after {
   font-size: 58.5px !important;
 }
 .alert-floating {
+  position: relative;
   max-width: 500px;
   padding-left: 62px;
   cursor: pointer;
