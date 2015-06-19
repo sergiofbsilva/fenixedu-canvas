@@ -43,3 +43,29 @@ bower_components
 
 # compass sass cache
 .sass-cache/
+
+
+# FenixEdu Specific
+webjar/*.class
+
+# Package Files #
+webjar/*.jar
+webjar/*.war
+webjar/*.ear
+
+# Eclipse #
+webjar/.settings/
+webjar/.project
+webjar/.classpath
+webjar/output/
+
+# IntelliJ #
+
+webjar/.idea/
+webjar/*.iml
+
+# Maven #
+webjar/target/
+webjar/bin/
+
+webjar/target
