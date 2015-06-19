@@ -4786,7 +4786,7 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 9.5px;
-  margin: 42px 0 21px;
+  margin: 21px 0 21px;
   border-bottom: 1px solid #f3f3f3;
 }
 .page-header small {
@@ -6637,7 +6637,7 @@ input[type="month"].input-lg {
   line-height: 41px;
 }
 .form-group {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .radio,
 .checkbox {
