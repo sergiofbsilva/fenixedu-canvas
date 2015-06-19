@@ -10948,6 +10948,30 @@ margin-left: .2em;*/
   margin-top: -4px;
   border-radius: 2px;
 }
+.navbar.navbar-fenixedu .navbar-nav .navbar-icon {
+  display: inline-block;
+  padding: 19.5px 10px !important;
+}
+.navbar.navbar-fenixedu .navbar-nav .navbar-icon .icon {
+  float: left;
+  margin-top: -2px;
+  font-size: 23px;
+  color: #bbb;
+}
+.navbar.navbar-fenixedu .navbar-nav .navbar-divider {
+  height: 60px;
+  padding: 17.5px 5px;
+}
+.navbar.navbar-fenixedu .navbar-nav .navbar-divider:after {
+  display: block;
+  height: 100%;
+  content: "";
+  border-left: 1px solid #ddd;
+}
+.navbar.navbar-fenixedu .navbar-nav #navbar-help {
+  position: absolute;
+  right: 85px;
+}
 .navbar.navbar-fenixedu .navbar-nav .dropdown {
   position: absolute;
 }
