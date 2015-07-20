@@ -9,3 +9,275 @@
 @brand-info:            #777777 ;
 @brand-warning:         #ff9900 ;
 @brand-danger:          #bb2222 ;
+
+
+@text-color:            darken(@gray-darker, 25%);
+@link-color:            darken(@brand-primary, 10%);
+@link-hover-color:      darken(@link-color, 10%);
+
+// Typography
+
+@font-family-sans-serif:  "sourcesanspro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-monospace:   "inconsolata", Menlo, Monaco, Consolas, "Courier New", monospace;
+
+@font-size-base:          14px;
+@font-size-small:         ceil((@font-size-base * 0.95)); // ~12px
+@font-size-h2:            floor((@font-size-base * 2.10)); // ~28px
+@font-size-h3:            ceil((@font-size-base * 1.35)); // ~18px
+@font-size-h4:            ceil((@font-size-base * 1.15)); // ~15px
+@font-size-h6:            @font-size-base; // ~12px
+
+@headings-font-family:    "titillium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+//@headings-font-weight:  500;
+@headings-color:          @gray-dark;
+
+//@icon-font-name:          "glyphicons-halflings-regular";
+//@icon-font-svg-id:        "glyphicons_halflingsregular";
+
+@padding-base-horizontal:   22px;
+@padding-large-horizontal:  35px;
+
+@padding-small-vertical:    4px;
+@padding-small-horizontal:  20px;
+
+@padding-xs-horizontal:     18px;
+
+@line-height-large:         1;
+
+@border-radius-base:        2px;
+@border-radius-large:       3px;
+@border-radius-small:       1px;
+
+@component-active-color:   @brand-primary;
+
+@component-active-bg:       #fff;
+
+@caret-width-base:          5px;
+
+// Tables
+
+@table-cell-padding:            10px;
+@table-condensed-cell-padding:  7.5px;
+@table-bg-accent:               @gray-lighter;
+@table-bg-hover:                @gray-lighter;
+@table-border-color:            @gray-light;
+
+// Buttons
+
+@btn-font-family:                @headings-font-family;
+@btn-default-color:              @gray-dark;
+@btn-default-bg:                 lighten(@gray-lighter, 2%);
+@btn-default-border:             @gray-light;
+
+@btn-link-disabled-color:        @gray-dark;
+
+// Forms
+
+@input-color:                    @gray-darker;
+@input-border:                   @gray-light;
+@input-border-radius:            @border-radius-large;
+@input-border-focus:             @gray;
+
+@input-color-placeholder:        @gray-dark;
+
+@input-padding-vertical:                5px;
+@input-padding-horizontal:              10px;
+
+@legend-border-color:            @gray-light;
+
+// Dropdown
+
+@dropdown-border:                @gray-light;
+@dropdown-divider-bg:            @gray-light;
+@dropdown-link-hover-color:      @gray-darker;
+@dropdown-link-hover-bg:         @gray-lighter;
+
+@dropdown-header-color:          @gray;
+@dropdown-caret-color:           @gray;
+
+// Grid
+
+@grid-gutter-width:         20px;
+
+// Navbar
+
+@navbar-height:                    60px;
+@navbar-default-color:             @gray-dark;
+@navbar-default-bg:                #fff;
+@navbar-default-border:            @gray-light;
+
+@navbar-default-link-color:                @gray-dark;
+@navbar-default-link-hover-color:          @gray-darker;
+
+@navbar-default-link-active-color:         @gray-darker;
+@navbar-default-link-active-bg:            transparent;
+@navbar-default-link-disabled-color:       @gray;
+
+@navbar-default-toggle-hover-bg:           @gray-light;
+@navbar-default-toggle-icon-bar-bg:        @gray-dark;
+@navbar-default-toggle-border-color:       @gray-light;
+
+@navbar-inverse-bg:                         darken(@gray-darker, 10%);
+@navbar-inverse-link-hover-color:           @gray-lighter;
+@navbar-inverse-link-disabled-color:        @gray-darker;
+@navbar-inverse-brand-hover-color:          @gray-lighter;
+
+@navbar-inverse-toggle-hover-bg:            @gray-darker;
+@navbar-inverse-toggle-icon-bar-bg:         @gray-lighter;
+@navbar-inverse-toggle-border-color:        @gray-darker;
+
+// General nav
+
+@nav-link-padding:                          10px @padding-base-horizontal;
+@nav-tabs-border-color:                     @gray-light;
+@nav-tabs-link-hover-border-color:          @gray-light;
+@nav-tabs-link-color:                       @gray-dark;
+@nav-tabs-active-link-color:                @gray-darker;
+@nav-tabs-active-link-hover-border-color:   @gray-light;
+@nav-tabs-justified-link-border-color:      @gray-light;
+@nav-pills-border-radius:                   @border-radius-small;
+
+// Pagination
+
+@pagination-color:                     @gray-dark;
+@pagination-border:                    @gray-light;
+@pagination-hover-color:               @gray-darker;
+@pagination-hover-border:              @gray-light;
+@pagination-active-color:              @brand-primary;
+@pagination-active-bg:                 #fff;
+@pagination-active-border:             @gray-light;
+@pagination-disabled-border:           @gray-light;
+
+// Pager
+
+@pager-border-radius:                  18px;
+
+// States
+
+@state-success-text:             @brand-success;
+@state-success-bg:               #fff;
+@state-success-border:           @brand-success;
+
+@state-info-text:                @brand-info;
+@state-info-bg:                  #fff;
+@state-info-border:              @brand-info;
+
+@state-warning-text:             @brand-warning;
+@state-warning-bg:               #fff;
+@state-warning-border:           @brand-warning;
+
+@state-danger-text:              @brand-danger;
+@state-danger-bg:                #fff;
+@state-danger-border:            @brand-danger;
+
+// Tooltips
+
+@tooltip-max-width:           190px;
+@tooltip-color:               @gray-lighter;
+@tooltip-bg:                  darken(@gray-dark, 20%);
+@tooltip-opacity:             .95;
+
+// Popover
+
+@popover-border-color:                @gray;
+@popover-fallback-border-color:       @gray;
+
+// Labels
+
+@label-default-bg:            @gray;
+
+// Modals
+
+@modal-inner-padding:         25px;
+@modal-title-padding:         25px;
+
+@modal-content-border-color:                   @gray-light;
+@modal-content-fallback-border-color:          @gray-light;
+
+@modal-backdrop-bg:           @gray-dark;
+@modal-backdrop-opacity:      .75;
+
+@modal-header-border-color:   #eee;
+
+@modal-lg:                    750px;
+@modal-md:                    500px;
+@modal-sm:                    250px;
+
+// Alerts
+
+@alert-padding:               12px;
+@alert-link-font-weight:      400;
+
+// Progress
+
+@progress-bg:                 @gray-lighter;
+
+// List Groups
+
+@list-group-border:             @gray-light;
+@list-group-hover-bg:           @gray-lighter;
+@list-group-active-border:      @gray-light;
+@list-group-active-text-color:  @gray-darker;
+@list-group-disabled-color:     @gray;
+@list-group-link-color:         @gray-darker;
+@list-group-link-heading-color: @gray-darker;
+
+// Panels
+
+@panel-inner-border:          @gray-light;
+@panel-footer-bg:             #fff;
+
+@panel-default-border:        @gray-light;
+@panel-default-heading-bg:    @gray-lighter;
+
+@panel-primary-text:          @state-info-text;
+@panel-primary-heading-bg:    @state-info-bg;
+
+// Wells
+
+@well-bg:                     @gray-lighter;
+@well-border:                 @gray-light;
+
+// Badge
+
+@badge-link-hover-color:      @gray-lighter;
+@badge-bg:                    @brand-primary;
+@badge-active-color:          #fff;
+@badge-active-bg:             @brand-primary;
+@badge-font-weight:           400;
+@badge-border-radius:         @border-radius-large;
+
+// Breadcrumbs
+
+@breadcrumb-padding-vertical:   12px;
+@breadcrumb-padding-horizontal: 10px;
+@breadcrumb-bg:                 transparent;
+@breadcrumb-color:              @gray-darker;
+@breadcrumb-active-color:       @gray-darker;
+@breadcrumb-separator:          "\203A";
+
+@close-font-weight:           400;
+
+// Code
+
+@code-color:                  @brand-danger;
+@code-bg:                     @gray-lighter;
+@code-border-color:           @gray-light;
+
+@kbd-color:                   @gray-darker;
+@kbd-bg:                      @gray-lighter;
+@kbd-border-color:            @gray-light;
+
+@pre-bg:                      @gray-lighter;
+@pre-color:                   @gray-darker;
+@pre-border-color:            @gray-light;
+
+// Typography
+
+@component-offset-horizontal: 175px;
+@text-muted:                  @gray;
+@abbr-border-color:           @gray;
+@headings-small-color:        @gray;
+@blockquote-small-color:      @gray-dark;
+@blockquote-font-size:        (@font-size-base * 1.10);
+@blockquote-border-color:     @brand-primary;

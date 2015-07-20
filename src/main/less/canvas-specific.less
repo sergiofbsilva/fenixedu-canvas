@@ -1,0 +1,436 @@
+.btn-icon {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    background-color: transparent!important;
+    border-color: transparent!important;
+    box-shadow: none!important;
+    .button-size(0; @table-cell-padding; @font-size-h4; @line-height-base; @border-radius-base);
+
+    &:hover {
+        text-decoration: none;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    i {
+        &:before {font-size: @font-size-h4;}
+    }
+
+    &.btn-default i:before {color: @gray;}
+    &.btn-primary i:before {color: @btn-primary-bg;}
+    &.btn-success i:before {color: @btn-success-bg;}
+    &.btn-info i:before {color: @btn-info-bg;}
+    &.btn-warning i:before {color: @btn-warning-bg;}
+    &.btn-danger i:before {color: @btn-danger-bg;}
+}
+
+
+// Useful mixins
+// -------------------------
+
+.empty-box {
+    width: 100%;
+    height: 165px;
+    .text-center();
+    color: @gray;
+    display: table;
+
+    p {
+        display: table-cell;
+        vertical-align: middle;
+        cursor: default;
+
+        span {
+            font-family: @headings-font-family;
+            font-weight: 600;
+            font-size: (@font-size-h3 * 1.25);
+            display: block;
+
+            i {
+                display: block!important;
+
+                &:before {
+                    font-size: (@font-size-h1 * 1.5)!important;
+                }
+            }
+        }
+    }
+}
+
+.triangle-up (@triangle-size, @triangle-color) {
+    display: block;
+    border-style: solid;
+    border-width: 0 @triangle-size @triangle-size @triangle-size;
+    border-color: transparent transparent @triangle-color transparent;      
+}
+
+.triangle-left (@triangle-size, @triangle-color) {
+    display: block;
+    border-style: solid;
+    border-width: @triangle-size @triangle-size @triangle-size 0;
+    border-color: transparent @triangle-color transparent transparent;      
+}
+
+.triangle-right (@triangle-size, @triangle-color) {
+    display: block;
+    border-style: solid;
+    border-width: @triangle-size 0 @triangle-size @triangle-size;
+    border-color: transparent transparent transparent @triangle-color;      
+}
+
+.triangle-down (@triangle-size, @triangle-color) {
+    display: block;
+    border-style: solid;
+    border-width: @triangle-size @triangle-size 0 @triangle-size;
+    border-color: @triangle-color transparent transparent transparent;      
+}
+
+.corner-gradient-left (@color: rgba(255, 255, 255, 1)) {
+    position: relative;
+    overflow: hidden;
+    .text-overflow();
+    &:before {
+        content: "";
+        pointer-events: none;
+        width: 45px;
+        height: 100%;
+        #gradient.horizontal(@color, rgba(255, 255, 255, 0), 10%, 75%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        display: block;
+    }
+}
+
+.corner-gradient-right (@color: rgba(255, 255, 255, 1)) {
+    position: relative;
+    overflow: hidden;
+    .text-overflow();
+    &:after {
+        content: "";
+        pointer-events: none;
+        width: 45px;
+        height: 100%;
+        #gradient.horizontal-inverse(@color, rgba(255, 255, 255, 0), 10%, 75%);
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 999;
+        display: block;
+    }
+}
+
+// Drag n' Drop Box
+// -------------------------
+
+.drop-box {
+    background: @gray-lighter;
+    border: 1px dashed @gray;
+    .empty-box;
+
+    .dragover & {
+        border: 1px dashed @brand-primary; color: @brand-primary;
+        .transition(all 0.15s ease-in-out);
+    }
+    .dragover-err & {
+        border: 1px dashed @brand-danger; 
+        color: @brand-danger;
+    }
+}
+
+// On body
+
+body.dragover, body.dragover-err {
+    opacity: 0.90;
+    &:before, &:after {
+        content: "";
+        position: fixed;
+        left: 0;
+        right: 0;
+        height: 3px;
+        z-index: 999;
+    }
+
+    &:before {top: 0;}
+    &:after {bottom: 0;}
+}
+
+body.dragover {
+    border-right: 3px solid @brand-primary;
+    border-left: 3px solid @brand-primary;
+    &:before, &:after {background: @brand-primary;}
+}
+
+body.dragover-err {
+    border-right: 3px solid @brand-danger;
+    border-left: 3px solid @brand-danger;
+    &:before, &:after {background: @brand-danger;}
+}
+
+// Empty States Box
+// -------------------------
+
+.empty {
+    .empty-box;
+    background: transparent;
+    border: none;
+}
+
+// Floating alerts
+// -------------------------
+
+.alert-floating {
+    padding-left: (50px + @alert-padding);
+    cursor: pointer;
+    max-width: 500px;
+
+    .icon {
+        width: 50px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        color: #fff;
+
+        &::before {
+            top: @alert-padding;
+            font-size: @font-size-h4;
+        }
+    }
+
+    &.alert-success {
+        .icon {background: @brand-success;}
+    }
+    &.alert-info {
+        .icon {background: @brand-info;}
+    }
+    &.alert-warning {
+        .icon {background: @brand-warning;}
+    }
+    &.alert-danger {
+        .icon {background: @brand-danger;}
+    }
+
+    &.alert-dismissible {
+        .close {
+            visibility: hidden;
+        }
+        &:hover .close {
+            visibility: visible;
+        }
+    }
+}
+
+// Custom FenixEdu Navbar
+// -------------------------
+
+.navbar.navbar-general {
+    min-height: @navbar-height;
+    position: relative;
+
+    .navbar-nav {
+        > li {
+            position: relative;
+            height: @navbar-height;
+            > a {padding: @navbar-padding-vertical (@navbar-padding-horizontal * 3);}
+        }
+    }
+
+    .navbar-divider {
+        display: inline-block;
+        height: @navbar-height;
+        padding: (@navbar-padding-vertical - 2) (@navbar-padding-horizontal / 2);
+
+        &:after {
+            content: "";
+            border-left: 1px solid @gray-light;
+            height: 100%;
+            display: block;
+        }
+    }
+
+    .navbar-icon {
+        display: inline-block;
+        padding: @navbar-padding-vertical @navbar-padding-horizontal!important;
+        background-color: transparent;
+        border: none;
+        float: left;
+        
+        .icon {
+            color: @gray;
+            font-size: 22px; //fix to 23px after updating the icon font
+            float: left;
+            margin-top: -2px;
+        }
+        &:hover, &:focus {text-decoration: none;}
+    }
+
+
+    // Brand and side dropdowns specific
+
+    #navbar-floating-items {
+        > li {
+            > a {padding: @navbar-padding-vertical (@navbar-padding-horizontal * 4);}
+
+            &[id*="navbar-"] {
+                position: absolute;
+                &#navbar-brand {left: 0; a {color: @gray-darker;}}
+                &#navbar-help {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));}
+                &#navbar-choser {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
+                &#navbar-userarea {right: 0; .dropdown-menu {margin-right: (@navbar-padding-horizontal * 4);}}
+
+                &.dropdown {
+                    .dropdown-menu {
+                        &:before {
+                            content: '';
+                            position: absolute;
+                            top: -7px;
+                            right: 3px;
+                            .triangle-up(7px, @gray-light);
+                            .translate(-50%, 0);
+                        }
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            top: -6px;
+                            right: 5px;
+                            .triangle-up(6px, #fff);
+                            .translate(-50%, 0);
+                        }
+                    }
+                }
+            }
+
+            .avatar {
+                display: inline-block;
+                padding: @navbar-padding-vertical (@navbar-padding-horizontal * 4) @navbar-padding-vertical @navbar-padding-horizontal!important;
+                img {
+                    width: (@navbar-height / 2);
+                    height: auto;
+                    border-radius: @border-radius-base;
+                    margin-top: -5px;
+                }
+            }
+        }
+    }
+
+
+    // Breadcrumb navbar specific
+
+    #navbar-breadcrumb {
+        > li + li {
+            .icon-right-open-big;
+            &:before {
+                .icon;
+                color: @gray;
+                position: absolute;
+                top: ((@navbar-height / 2) - (@line-height-computed / 3));
+                font-size: @font-size-small;
+            }
+        }
+    }
+
+  // Second level menu specific
+
+  .submenu {
+    background-color: @gray-lighter;
+    border-top: 1px solid @gray-light;
+
+    .navbar {
+        width: 100%;
+        margin-bottom: 0;
+        position: relative;
+
+        &:before {
+            content: "";
+            width: 25%;
+            height: 75px;
+            #gradient.vertical(rgba(255, 255, 255, 0), @gray-lighter, 10%, 75%);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 999;
+        }
+
+        > a {
+            position: absolute;
+            bottom: (@navbar-padding-vertical / 2);
+            text-align: center;
+            z-index: 999;
+            width: 25%;
+
+            > i:before {
+                color: @gray;
+                font-size: @font-size-small;
+            }
+        }
+ 
+        .navbar-nav {
+            // .corner-gradient-right(rgba(243, 243, 243, 1));
+            white-space: normal;
+            padding: (@navbar-padding-vertical / 2) 0;
+            max-height: (@navbar-height * 5);
+            overflow-x: hidden!important;
+
+            > li {
+                width: 100%;
+                height: auto;
+                float: none;
+                display: inline-block;
+                -webkit-column-break-before: always;
+                break-before: column; 
+
+                > a {
+                    padding: (@navbar-padding-vertical / 2) (@navbar-padding-horizontal * 3);
+                }
+            }
+
+            &:first-of-type {
+                max-width: 25%;
+
+                > .active > a {
+                    .icon-right-open-big;
+                    &:before {
+                        .icon;
+                        color: @gray;
+                        top: (@navbar-padding-vertical / 2.5);
+                        font-size: @font-size-small;
+                        float: right;
+                    }
+                }
+            }
+
+            &:last-of-type {
+                max-width: 75%;
+                -webkit-columns: 284.5px auto;
+                -moz-columns: 284.5px auto;
+                columns: 284.5px auto;
+                -moz-column-fill: auto;
+                column-fill: auto;
+                column-gap: 0;
+            }
+        }
+    }
+  }
+}
+
+.progress.progress-thin {
+  height: 8px;
+  position: relative;
+}
+
+.progress-label {
+  font-size: @font-size-small;
+  line-height: @line-height-computed;
+  text-decoration: none;
+  border-bottom: 1px dotted @gray;
+  cursor: default;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+
+body {
+    font-weight: 300;
+}
