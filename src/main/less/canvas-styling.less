@@ -84,13 +84,13 @@
 // close.less
 
 .close {
-	//.icon();
-	//.icon-cancel-squared();
+	.icon();
+	.icon-cancel-squared();
 
 	// font-size: (@font-size-base * 1.5); // REMOVED
 	// .opacity(.2); // REMOVED
 	color: inherit;
-	// span {display: none;}
+	span {display: none;}
 
 	&:hover,&:focus {
 		// color: @close-color; // REMOVED
@@ -178,8 +178,6 @@ select {
 }
 
 .form-control-feedback {
-	top: (@line-height-computed + 10);
-
 	&:before {font-size: @font-size-large;}
 }
 
@@ -195,10 +193,6 @@ select {
 			text-align: left;
 		}
 	}
-}
-
-.has-feedback .form-control-feedback {
-	right: (@grid-gutter-width);
 }
 
 // input-groups.less
