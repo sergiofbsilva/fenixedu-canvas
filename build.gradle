@@ -24,8 +24,9 @@ configurations {
 
 // Variables
 
-def bootstrapVersion = '3.2.0'
-def showcaseCssFile = "${buildDir}/showcase/bootstrap-${bootstrapVersion}/_gh_pages/dist/css/bootstrap.min.css"
+def bootstrapVersion = '3.3.5'
+def showcaseCssFile = "${buildDir}/showcase/bootstrap-${bootstrapVersion}/_gh_pages/dist/css/bootstrap.css"
+def minShowcaseCssFile = showcaseCssFile.replace(".css", ".min.css")
 
 dependencies {
     bootstrap "org.webjars:bootstrap:$bootstrapVersion"
@@ -143,10 +144,19 @@ task spawnJekyll(dependsOn: 'copyAssets') << {
         }
     }
 
+    def timer = new Timer()
+    timer.scheduleAtFixedRate({
+        if(file(showcaseCssFile).lastModified() > file(minShowcaseCssFile).lastModified()) {
+            file(minShowcaseCssFile).text = file(showcaseCssFile).text
+            logger.info("Copied ${showcaseCssFile} into ${minShowcaseCssFile}")
+        }
+    } as TimerTask, 5000, 5000);
+
     // Delete the original file, so lesscDaemon will re-create it
     file(showcaseCssFile).delete()
     gradle.buildFinished {
         println "Done. Killing jekyll..."
+        timer.cancel()
         process.destroy()
     }
     Runtime.getRuntime().addShutdownHook(new Thread({
