@@ -1,0 +1,160 @@
+// Repository and build configuration
+
+repositories {
+   mavenCentral()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "com.github.houbie:lesscss-gradle-plugin:1.0.3-less-1.7.0"
+    }
+}
+
+
+apply plugin: 'java'
+apply plugin: 'lesscss'
+
+configurations {
+    bootstrap
+}
+
+// Variables
+
+def bootstrapVersion = '3.2.0'
+def showcaseCssFile = "${buildDir}/showcase/bootstrap-${bootstrapVersion}/_gh_pages/dist/css/bootstrap.min.css"
+
+dependencies {
+    bootstrap "org.webjars:bootstrap:$bootstrapVersion"
+}
+
+// Task Configurations
+
+lessc {
+    sourceDir "$buildDir/bootstrap/META-INF/resources/webjars/bootstrap/$bootstrapVersion/less", "src/main/less"
+    include "canvas.less"
+    destinationDir = "$buildDir/css"
+
+    options.sourceMap = true
+    options.minify = true
+
+    dependsOn 'unzipBootstrap'
+}
+
+lesscDaemon {
+    interval = 100
+
+    project.getTasksByName("lessc", false).each {
+        it.options.minify = false
+        it.preCompile { src, unit ->
+            unit.destination = project.file(showcaseCssFile)
+        }
+    }
+
+    dependsOn 'unzipBootstrap'
+    mustRunAfter 'spawnJekyll'
+}
+
+jar {
+    from ("src/main/assets") {
+        into "META-INF/resoures/fenixedu-canvas"
+    }
+    from ("$buildDir/bootstrap/META-INF/resources/webjars/bootstrap/${bootstrapVersion}") {
+        into "META-INF/resoures/fenixedu-canvas"
+    }
+    from ("${buildDir}/css") {
+        into "META-INF/resoures/fenixedu-canvas/css"
+    }
+    dependsOn 'unzipBootstrap' , 'lessc'
+}
+
+// Tasks
+
+task unzipBootstrap(type: Copy) {
+    dependsOn configurations.bootstrap
+    into file("${buildDir}/bootstrap")
+    from {
+        configurations.bootstrap.asFileTree.each {
+            from zipTree(it)
+        }
+        null
+    }
+}
+
+task downloadShowcase {
+    ext.target = new File(buildDir, "showcase.zip")
+    outputs.upToDateWhen {
+        target.exists()
+    }
+    doLast {
+        target.parentFile.mkdirs()
+        println "Downloading Bootstrap v${bootstrapVersion} from GitHub..."
+        target.withOutputStream { out ->
+            new URL ("https://github.com/twbs/bootstrap/archive/v${bootstrapVersion}.zip").openConnection().inputStream.with { input ->
+                out << input
+                input.close()
+            }
+            out.close()
+        }
+        println "Download finished, extracting..."
+        copy {
+            from zipTree(target)
+            into file("${buildDir}/showcase")
+        }
+    }
+}
+
+task copyAssets(dependsOn: 'downloadShowcase') << {
+    copy {
+        from "src/main/assets"
+        into "${buildDir}/showcase/bootstrap-${bootstrapVersion}/docs/dist"
+    }
+    copy {
+        from "src/main/showcase"
+        into "${buildDir}/showcase/bootstrap-${bootstrapVersion}/docs"
+    }
+}
+
+task jekyll(dependsOn: 'copyAssets') << {
+    exec {
+        workingDir "${buildDir}/showcase/bootstrap-${bootstrapVersion}/"
+        executable "sh"
+        args "-c", "jekyll serve"
+    }
+}
+
+task spawnJekyll(dependsOn: 'copyAssets') << {
+    def builder = new ProcessBuilder("sh", "-c", "jekyll serve")
+    builder.redirectErrorStream(true)
+    builder.directory(file("${buildDir}/showcase/bootstrap-${bootstrapVersion}/"))
+    Process process = builder.start()
+
+    InputStream stdout = process.getInputStream()
+    BufferedReader reader = new BufferedReader(new InputStreamReader(stdout))
+
+    def line
+    while ((line = reader.readLine()) != null) {
+        println line
+        if (line.contains("Server running")) {
+            break;
+        }
+    }
+
+    // Delete the original file, so lesscDaemon will re-create it
+    file(showcaseCssFile).delete()
+    gradle.buildFinished {
+        println "Done. Killing jekyll..."
+        process.destroy()
+    }
+    Runtime.getRuntime().addShutdownHook(new Thread({
+        if(process.isAlive()) {
+            println "Forcibly killing Jekyll"
+            process.destroyForcibly()
+        }
+    }));
+}
+
+task showcase(dependsOn:  ['lesscDaemon', 'spawnJekyll'])
