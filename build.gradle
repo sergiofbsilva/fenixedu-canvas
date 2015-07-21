@@ -48,10 +48,12 @@ lessc {
 lesscDaemon {
     interval = 100
 
-    project.getTasksByName("lessc", false).each {
-        it.options.minify = false
-        it.preCompile { src, unit ->
-            unit.destination = project.file(showcaseCssFile)
+    doFirst {
+        project.getTasksByName("lessc", false).each {
+            it.options.minify = false
+            it.preCompile { src, unit ->
+                unit.destination = project.file(showcaseCssFile)
+            }
         }
     }
 
