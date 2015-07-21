@@ -17,6 +17,9 @@ buildscript {
 
 apply plugin: 'java'
 apply plugin: 'lesscss'
+apply plugin: 'maven'
+
+project.group = 'org.fenixedu'
 
 configurations {
     bootstrap
