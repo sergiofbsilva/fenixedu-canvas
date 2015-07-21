@@ -1,0 +1,19 @@
+<div class="bs-docs-section">
+  <h1 id="icons" class="page-header">Canvas Icons</h1>
+
+  <h2>Available Icons</h2>
+  <p>Add text here...</p>
+  <div class="bs-glyphicons">
+    <ul class="bs-glyphicons-list">
+      {% for iconClassName in site.data.icons %}
+        <li>
+          <span class="icon {{ iconClassName }}" style="font-size: 22px" aria-hidden="true"></span>
+          <span class="glyphicon-class">icon {{ iconClassName }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <h2>How to use</h2>
+  <p>Add text here...</p>
+</div>
