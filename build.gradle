@@ -66,13 +66,13 @@ lesscDaemon {
 
 jar {
     from ("src/main/assets") {
-        into "META-INF/resoures/fenixedu-canvas"
+        into "META-INF/resources/fenixedu-canvas"
     }
     from ("$buildDir/bootstrap/META-INF/resources/webjars/bootstrap/${bootstrapVersion}") {
-        into "META-INF/resoures/fenixedu-canvas"
+        into "META-INF/resources/fenixedu-canvas"
     }
     from ("${buildDir}/css") {
-        into "META-INF/resoures/fenixedu-canvas/css"
+        into "META-INF/resources/fenixedu-canvas/css"
     }
     dependsOn 'unzipBootstrap' , 'lessc'
 }
