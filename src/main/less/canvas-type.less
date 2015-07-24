@@ -8,27 +8,22 @@
     src: url('@{fileName}.eot');
     src: url('@{fileName}.eot?#iefix') format('embedded-opentype'),
          url('@{fileName}.woff') format('woff'),
+         url('@{fileName}.woff2') format('woff2'),
          url('@{fileName}.ttf') format('truetype'),
          url('@{fileName}.svg') format('svg');
-    text-rendering: optimizeLegibility;
   }
 }
 
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-ExtraLight', normal, 200);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-ExtraLightIt', italic, 200);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-Light', normal, 300);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-LightIt', italic, 300);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-Regular', normal, 400);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-It', italic, 400);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-Semibold', normal, 600);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-SemiboldIt', italic, 600);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-Bold', normal, 700);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-BoldIt', italic, 700);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-Black', normal, 900);
-.font-face('sourcesanspro', '../fonts/sourcesanspro/SourceSansPro-BlackIt', italic, 900);
-
-.font-face('inconsolata', '../fonts/inconsolata/inconsolata-regular', normal, 400);
-.font-face('inconsolata', '../fonts/inconsolata/inconsolata-bold', normal, 700);
+.font-face('opensans', '../fonts/opensans/OpenSans-Light', normal, 300);
+.font-face('opensans', '../fonts/opensans/OpenSans-LightItalic', italic, 300);
+.font-face('opensans', '../fonts/opensans/OpenSans-Regular', normal, 400);
+.font-face('opensans', '../fonts/opensans/OpenSans-Italic', italic, 400);
+.font-face('opensans', '../fonts/opensans/OpenSans-Semibold', normal, 600);
+.font-face('opensans', '../fonts/opensans/OpenSans-SemiboldItalic', italic, 600);
+.font-face('opensans', '../fonts/opensans/OpenSans-Bold', normal, 700);
+.font-face('opensans', '../fonts/opensans/OpenSans-BoldItalic', italic, 700);
+.font-face('opensans', '../fonts/opensans/OpenSans-ExtraBold', normal, 800);
+.font-face('opensans', '../fonts/opensans/OpenSans-ExtraBoldItalic', italic, 800);
 
 .font-face('titillium', '../fonts/titillium/titillium-thin', normal, 200);
 .font-face('titillium', '../fonts/titillium/titillium-thinitalic', italic, 200);
@@ -50,7 +45,7 @@ h1, .h1 { font-size: @font-size-h1; font-style: normal; font-weight: 300; }
 h2, .h2 { font-size: @font-size-h2; font-style: normal; font-weight: 300; }
 h3, .h3 { font-size: @font-size-h3; font-style: normal; font-weight: 400; }
 h4, .h4 { font-size: @font-size-h4; font-style: normal; font-weight: 400; }
-h5, .h5 { font-size: @font-size-h5; font-style: normal; font-weight: 700; -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}
+h5, .h5 { font-size: @font-size-h5; font-style: normal; font-weight: 400; }
 h6, .h6 { font-size: @font-size-h6; font-style: normal; font-weight: 400; }
 
 .lead {
