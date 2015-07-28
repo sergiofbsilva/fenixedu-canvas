@@ -142,39 +142,56 @@ kbd {
 // forms.less
 
 label {
-	margin-bottom: 8px;
-	color: @gray-darker;
-	font-family: @headings-font-family;
-	font-weight: 400;
-}
-
-select {
-	 max-width: 100%;
+	font-weight: 600;
 }
 
 .form-control {
-	padding: @input-padding-vertical @input-padding-horizontal;
-	line-height: @line-height-small;
-	box-shadow: none;
+	.box-shadow(none);
+	padding: @padding-base-vertical @padding-xs-horizontal;
+	max-width: 100%;
 }
 
-.form-group {
-	margin-bottom: 10px;
-}
+select[multiple].form-control {
+	padding: @padding-base-vertical;
 
-.radio, .checkbox {
-	label {
-		font-weight: 300;
+	option {
+		padding: @padding-base-vertical;
+		&[selected] {
+			.border-radius(@border-radius-base);
+		}
 	}
+}
+
+.input-sm {
+  .input-size(@input-height-small; @padding-small-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @input-border-radius-small);
+}
+
+.form-group-sm {
+  .form-control {
+  	padding: @padding-small-vertical @padding-xs-horizontal;
+  }
+
+  .form-control-static {
+  	padding: (@padding-small-vertical + 1) @padding-xs-horizontal;
+  }
+}
+
+.input-lg {
+  .input-size(@input-height-large; @padding-large-vertical; @padding-xs-horizontal; @font-size-large; @line-height-large; @input-border-radius-large);
+}
+
+.form-group-lg {
+  .form-control {
+  	padding: @padding-large-vertical @padding-xs-horizontal;
+  }
+
+  .form-control-static { 
+  	padding: (@padding-large-vertical + 1) @padding-xs-horizontal;
+  }
 }
 
 .radio-inline, .checkbox-inline {
 	font-weight: 400;
-}
-
-.input-lg {
-	// BEWARE: This is screwing up forms in Linux
-	.input-size(@input-height-large; @padding-large-vertical; @padding-small-horizontal; @font-size-large; @line-height-large; @border-radius-large);
 }
 
 .form-control-feedback {
@@ -198,11 +215,25 @@ select {
 // input-groups.less
 
 .input-group-addon {
+	color: @gray-dark;
 	padding: @padding-base-vertical @padding-xs-horizontal;
 
-	&.input-lg {
-		padding: @padding-large-vertical @padding-small-horizontal;
+	&.input-sm {
+		padding: @padding-large-vertical @padding-xs-horizontal;
 	}
+
+	&.input-lg {
+		padding: @padding-large-vertical @padding-xs-horizontal;
+	}
+}
+
+.input-group-btn {
+  &:first-child {
+    > .btn,
+    > .btn-group {
+      margin-right: -2px;
+    }
+  }
 }
 
 // labels.less
