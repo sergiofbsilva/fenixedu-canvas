@@ -15,6 +15,40 @@
 	}
 }
 
+.alert-dismissable, // The misspelled .alert-dismissable was deprecated in 3.2.0.
+.alert-dismissible {
+	.close {
+		color: @close-color;
+	}
+}
+
+.alert-success {
+	.close {
+		color: @alert-success-text;
+		&:hover, &:focus {color: @alert-success-text;}
+	}
+}
+
+.alert-info {
+	.close {
+		&:hover, &:focus {color: @alert-info-text;}
+	}
+}
+
+.alert-warning {
+	.close {
+		color: @alert-warning-text;
+		&:hover, &:focus {color: @alert-warning-text;}
+	}
+}
+
+.alert-danger {
+	.close {
+		color: @alert-danger-text;
+		&:hover, &:focus {color: @alert-danger-text;}
+	}
+}
+
 // badges.less
 
 .badge {
@@ -86,16 +120,18 @@
 .close {
 	.icon();
 	.icon-cancel-squared();
+	.opacity(1);
+	visibility: hidden;
 
-	// font-size: (@font-size-base * 1.5); // REMOVED
-	// .opacity(.2); // REMOVED
-	color: inherit;
-	span {display: none;}
+	&:hover,
+  	&:focus {
+  		.opacity(1);
+  	}
 
-	&:hover,&:focus {
-		// color: @close-color; // REMOVED
-		// .opacity(.5); // REMOVED
-	}
+  	&:before {
+  		visibility: visible;
+  		float: right;
+  	}
 }
 
 // code.less
@@ -270,7 +306,7 @@ select[multiple].form-control {
 	color: @gray;
 	position: absolute;
 	right: @modal-title-padding;
-	top: 40%;
+	top: @modal-inner-padding;
 }
 
 .modal-title {
