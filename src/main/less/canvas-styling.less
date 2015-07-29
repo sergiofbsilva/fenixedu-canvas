@@ -212,6 +212,17 @@ select[multiple].form-control {
 	}
 }
 
+.has-success {
+  .form-control-validation(@state-success-text; @state-success-text; @input-group-addon-bg);
+}
+.has-warning {
+  .form-control-validation(@state-warning-text; @state-warning-text; @input-group-addon-bg);
+}
+.has-error {
+  .form-control-validation(@state-danger-text; @state-danger-text; @input-group-addon-bg);
+}
+
+
 // input-groups.less
 
 .input-group-addon {
