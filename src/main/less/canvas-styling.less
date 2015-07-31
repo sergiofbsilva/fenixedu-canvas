@@ -87,13 +87,29 @@
 
 // button-groups.less
 
-.btn-default.dropdown-toggle .caret, .btn-default .dropdown-toggle .caret{
-	border-top:   @caret-width-base solid @gray;
+.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+	.caret {
+		border-top: @caret-width-base solid #fff;
+	}
 }
 
-.dropup .btn-default.dropdown-toggle .caret, .dropup .btn-default .dropdown-toggle .caret {
-	border-bottom:   @caret-width-base solid @gray;
-	border-top: 0;
+.dropup {
+	.btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+		.caret {
+			border-top: 0;
+			border-bottom: @caret-width-base solid #fff;
+		}
+	}
+
+	.btn-default {
+		.caret {
+			border-bottom: @caret-width-base solid @gray;
+		}
+	}
+}
+
+.btn-group.open .dropdown-toggle {
+  .box-shadow(none);
 }
 
 // buttons.less
@@ -160,8 +176,7 @@ kbd {
 // dropdowns.less
 
 .caret {
-	margin-left: 0px;
-	border-top:   @caret-width-base solid #fff;
+	border-top:   @caret-width-base solid @gray;
 }
 
 .dropdown-menu {
@@ -174,6 +189,13 @@ kbd {
 
 .dropdown-header {
 	padding: 6px 20px;
+}
+
+.dropup,
+.navbar-fixed-bottom .dropdown {
+	.caret {
+		border-bottom: @caret-width-base solid @gray;
+	}
 }
 
 // forms.less
