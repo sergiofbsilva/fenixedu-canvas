@@ -360,19 +360,26 @@ select[multiple].form-control {
 	}
 }
 
-.navbar-nav {
-	/* REMOVED
-	> li > a {
-		padding-top:    10px;
-		padding-bottom: 10px;
-		line-height: @line-height-computed;
-	}
-	*/
+// Pills
+// -------------------------
+.nav-pills {
+  > li {
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+      	color: @gray-dark;
+	border: 1px solid @gray-light;
+      }
+    }
+  }
+}
 
+.navbar-nav {
 	@media (min-width: @grid-float-breakpoint) {
 		> li {
 			> a {
-				padding-top: @navbar-padding-vertical;
 				padding-left: @navbar-padding-horizontal;
 				padding-right: @navbar-padding-horizontal;
 				line-height: @line-height-computed;
@@ -382,7 +389,8 @@ select[multiple].form-control {
 }
 
 .navbar-form {
-	padding: @navbar-padding-vertical @navbar-padding-horizontal;
+	.box-shadow(none);
+	font-family: @headings-font-family!important;
 }
 
 // navs.less
@@ -390,11 +398,9 @@ select[multiple].form-control {
 .nav {
 	.titleStyle(inherit);
 
-	> li {
-		.open > a {
-			&, &:hover, &:focus {
-				border-color: @nav-tabs-link-hover-border-color;
-			}
+	.open > a {
+		&, &:hover, &:focus {
+			border-color: @nav-tabs-link-hover-border-color;
 		}
 	}
 
@@ -421,6 +427,13 @@ select[multiple].form-control {
 		&.active > a {
 			border-top: 1px solid @brand-primary!important;
 			color: @nav-tabs-active-link-color!important;
+		}
+
+		&.disabled > a {
+			&:hover,
+			&:focus {
+				background-color: @nav-link-hover-bg;
+			}
 		}
 	}
 }

@@ -267,19 +267,27 @@ body.dragover-err {
         &:hover, &:focus {text-decoration: none;}
     }
 
+    .navbar-form {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .form-control {
+            height: (@navbar-height * 0.67);
+        }
+    }
+
 
     // Brand and side dropdowns specific
 
-    #navbar-floating-items {
+    .navbar-floating-items {
         > li {
             > a {padding: @navbar-padding-vertical (@navbar-padding-horizontal * 4);}
 
-            &[id*="navbar-"] {
+            &[class*="navbar-"] {
                 position: absolute;
-                &#navbar-brand {left: 0; a {color: @gray-darker;}}
-                &#navbar-help {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));}
-                &#navbar-choser {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
-                &#navbar-userarea {right: 0; .dropdown-menu {margin-right: (@navbar-padding-horizontal * 4);}}
+                &.navbar-brand {left: 0; a {color: @gray-darker;}; padding: initial;}
+                &.navbar-help {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));}
+                &.navbar-choser {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
+                &.navbar-userarea {right: 0; .dropdown-menu {margin-right: (@navbar-padding-horizontal * 4);}}
 
                 &.dropdown {
                     .dropdown-menu {
@@ -319,7 +327,7 @@ body.dragover-err {
 
     // Breadcrumb navbar specific
 
-    #navbar-breadcrumb {
+    .navbar-breadcrumb {
         > li + li {
             .icon-right-open-big;
             &:before {
