@@ -55,6 +55,27 @@
 .badge {
 	padding: 2px 5px 3px;
 	font-size: ceil((@font-size-small * 0.80));
+	border-width: 1px;
+	border-style: solid;
+	border-color: @brand-primary;
+	margin-left: 5px;
+
+	// Account for badges in navs
+  	// .list-group-item.active > &,
+  	.nav-pills > li > a > &,
+  	.nav-tabs > li > a > & {
+    		color: @badge-active-color;
+    		background-color: @badge-active-bg;
+    		border: none;
+   		margin-top: -2px;
+  	}
+  	.list-group-item.active > & {
+  		color: @badge-color;
+  		background-color: transparent;
+  	}
+	.nav-pills > li > a > & {
+    		margin-left: 5px;
+  	}
 }
 
 // breadcrumbs.less
