@@ -246,7 +246,7 @@ select[multiple].form-control {
   	padding: @padding-large-vertical @padding-xs-horizontal;
   }
 
-  .form-control-static { 
+  .form-control-static {
   	padding: (@padding-large-vertical + 1) @padding-xs-horizontal;
   }
 }
@@ -260,7 +260,6 @@ select[multiple].form-control {
 }
 
 .help-block {
-	margin-top: 8px;
 	color: @gray-dark;
 	font-style: italic;
 }
@@ -342,7 +341,7 @@ select[multiple].form-control {
 .modal-header span.explanation, .modal-header small.explanation, .modal-header small {
 	font-family: @font-family-base;
 	font-size: @font-size-small;
-	font-style: italic; 
+	font-style: italic;
 	color: @gray-dark;
 	cursor: default;
 }
@@ -492,7 +491,8 @@ b, strong {
 
 .pager {
 	li {
-		> a, > span {
+		> a, 
+		> span {
 			padding: 2px 25px;
 		}
 	}
@@ -501,11 +501,21 @@ b, strong {
 // pagination.less
 
 .pagination {
+	margin: 0;
+	
 	> li {
-		> a, > span {
+		> a, 
+		> span {
 			.titleStyle();
 		}
 	}
+	> li > a,
+  	> li > span {
+    	&:hover,
+    	&:focus {
+      		.border-radius(@border-radius-base);
+    	}
+  	}
 }
 
 // panels.less
