@@ -62,28 +62,28 @@
     display: block;
     border-style: solid;
     border-width: 0 @triangle-size @triangle-size @triangle-size;
-    border-color: transparent transparent @triangle-color transparent;      
+    border-color: transparent transparent @triangle-color transparent;
 }
 
 .triangle-left (@triangle-size, @triangle-color) {
     display: block;
     border-style: solid;
     border-width: @triangle-size @triangle-size @triangle-size 0;
-    border-color: transparent @triangle-color transparent transparent;      
+    border-color: transparent @triangle-color transparent transparent;
 }
 
 .triangle-right (@triangle-size, @triangle-color) {
     display: block;
     border-style: solid;
     border-width: @triangle-size 0 @triangle-size @triangle-size;
-    border-color: transparent transparent transparent @triangle-color;      
+    border-color: transparent transparent transparent @triangle-color;
 }
 
 .triangle-down (@triangle-size, @triangle-color) {
     display: block;
     border-style: solid;
     border-width: @triangle-size @triangle-size 0 @triangle-size;
-    border-color: @triangle-color transparent transparent transparent;      
+    border-color: @triangle-color transparent transparent transparent;
 }
 
 .corner-gradient-left (@color: rgba(255, 255, 255, 1)) {
@@ -135,7 +135,7 @@
         .transition(all 0.15s ease-in-out);
     }
     .dragover-err & {
-        border: 1px dashed @brand-danger; 
+        border: 1px dashed @brand-danger;
         color: @brand-danger;
     }
 }
@@ -257,7 +257,7 @@ body.dragover-err {
         background-color: transparent;
         border: none;
         float: left;
-        
+
         .icon {
             color: @gray;
             font-size: 22px; //fix to 23px after updating the icon font
@@ -374,7 +374,7 @@ body.dragover-err {
                 font-size: @font-size-small;
             }
         }
- 
+
         .navbar-nav {
             // .corner-gradient-right(rgba(243, 243, 243, 1));
             white-space: normal;
@@ -388,7 +388,7 @@ body.dragover-err {
                 float: none;
                 display: inline-block;
                 -webkit-column-break-before: always;
-                break-before: column; 
+                break-before: column;
 
                 > a {
                     padding: (@navbar-padding-vertical / 2) (@navbar-padding-horizontal * 3);
@@ -437,4 +437,9 @@ body.dragover-err {
   cursor: default;
   margin-bottom: 8px;
   display: inline-block;
+}
+
+//input readonly with code
+.form-control.code{
+       font-family: @font-family-monospace;
 }
