@@ -397,6 +397,125 @@ body.dragover-err {
   }
 }
 
+// Switch
+// -------------------------
+
+//Switch variants mixin
+
+.switch-variant(@background: @brand-success){
+    input{
+        & + label {
+            &:before{
+                background-color: @gray-light;
+                border: 1px solid @gray;
+            }
+            &:after{
+                background-color: @gray-lighter;
+                border: 1px solid @gray;
+            }
+        }
+        &:checked {
+            & + label {
+                &:before {
+                    background-color: @background;
+                    border: 1px solid darken(@background, 10%);
+                }
+                &:after {
+                    border: 1px solid darken(@background, 10%);
+                }
+            }
+        }
+    }
+}
+
+// Switch sizes mixin
+
+.switch-size(@switch-height: @font-size-base; @switch-width: 35px; @switch-handler-margin: (@padding-small-vertical / 2)){
+    input {
+        & + label {
+            height: @switch-height;
+            width: @switch-width;
+            &:before {
+                height: @switch-height * 1.3;
+                width: @switch-width;
+            }
+            &:after {
+                height: (@switch-height - (@switch-handler-margin * 2))* 1.3;
+                width: ((@switch-width / 2) - (@switch-handler-margin * 2));
+                top: @switch-handler-margin*1.3;
+                left: @switch-handler-margin;
+            }
+        }
+        &:checked + label:after{
+            left: (@switch-width / 2) + (@switch-handler-margin);
+        }
+    }
+}
+
+.switch {
+    vertical-align: middle;
+    display: inline-block;
+    input {
+        max-height: 0;
+        max-width: 0;
+        opacity: 0;
+        & + label {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            text-indent: -5000px;
+            margin: 0;
+            padding: 0;
+            &:before, &:after{
+                content: "";
+                position: absolute;
+                display: block;
+                border-radius: @border-radius-small;
+                .transition(.25s ease-in-out);
+            }
+        }
+        &:disabled,
+        &.disabled,
+        &[disabled]{
+            & + label {
+                &:before, &:after {
+                    .opacity(0.45);
+                    cursor: @cursor-disabled;
+                }
+            }
+
+        }
+    }
+    .switch-variant();
+    .switch-size();
+}
+
+.switch-primary{
+    .switch-variant(@brand-primary);
+}
+.switch-default{
+    .switch-variant(@gray-dark);
+}
+.switch-success{
+    .switch-variant(@brand-success);
+}
+.switch-warning{
+    .switch-variant(@brand-warning);
+}
+.switch-danger{
+    .switch-variant(@brand-danger);
+}
+.switch-info{
+    .switch-variant(@brand-info);
+}
+
+.switch-lg {
+  .switch-size((@padding-large-vertical * 2); 60px; @padding-small-vertical);
+}
+.switch-xs {
+  .switch-size;
+}
+
 .progress.progress-thin {
   height: 8px;
   position: relative;
