@@ -397,10 +397,58 @@ body.dragover-err {
   }
 }
 
+// Custom description lists
+// -------------------------
+
+.dl-entity, .dl-entity-horizontal {
+  dt {
+    padding-top: (@table-cell-padding * 1.5);
+    margin-bottom: (@table-cell-padding * 1.5);
+    border-top: 1px solid @gray-lighter;
+
+    &:first-of-type {
+      border-top: none;
+      + dd {
+        border-top: none;
+      }
+    }
+  }
+
+  dd {
+    margin-bottom: (@table-cell-padding * 1.5);
+  }
+}
+
+// Horizontal variant
+
+.dl-entity-horizontal {
+  .dl-horizontal();
+  @media (min-width: @grid-float-breakpoint) {
+    dt {
+      text-align: left;
+      border-top: none;
+      margin-bottom: 0;
+      width: @dl-entity-horizontal-offset;
+    }
+    dd {
+      padding-left: @dl-entity-horizontal-offset;
+      padding-top: (@table-cell-padding * 1.5);
+      margin-left: 0;
+      border-top: 1px solid @gray-lighter;
+      &:first-child {border-top: none;}
+
+      + dd {
+        border-top: none;
+        padding-top: 0;
+      }
+    }
+  }
+}
+
 // Switch
 // -------------------------
 
-//Switch variants mixin
+// Switch variants mixin
 
 .switch-variant(@background: @brand-success){
     input{

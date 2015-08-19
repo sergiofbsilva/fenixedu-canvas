@@ -286,6 +286,20 @@ select[multiple].form-control {
 }
 
 .form-horizontal {
+
+	.control-label {
+		min-width: @dl-entity-horizontal-offset;
+	}
+
+	.form-group {
+		border-top: 1px solid @gray-lighter;
+		padding-top: @form-group-margin-bottom;
+
+		&:first-child, &:last-child {
+			border-top: none;
+		}
+	}
+
 	@media (min-width: @screen-sm-min) {
 		.control-label {
 			text-align: left;
@@ -351,7 +365,7 @@ select[multiple].form-control {
 	color: @gray;
 	position: absolute;
 	right: @modal-title-padding;
-	top: @modal-inner-padding;
+	top: @modal-title-padding;
 }
 
 .modal-title {
