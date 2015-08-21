@@ -187,7 +187,7 @@ code {
 
 kbd {
 	border: 1px solid @kbd-border-color;
-	border-radius: @border-radius-base;
+	.border-radius(@border-radius-base);
 	box-shadow: none;
 
 	kbd {
@@ -347,13 +347,13 @@ select[multiple].form-control {
 .label {
 	padding: .2em .75em .3em;
 	font-weight: 400;
-	border-radius: @border-radius-base;
+	.border-radius(@border-radius-base);
 }
 
 // modals.less
 
 .modal-content {
-	border-radius: @border-radius-base;
+	.border-radius(@border-radius-base);
 	.box-shadow(0 2.5px 6px rgba(204,204,204,.55));
 }
 
@@ -477,7 +477,7 @@ select[multiple].form-control {
 		> a {
 			margin-right: -1px;
 			border: 1px solid @nav-tabs-border-color;
-			border-radius: 0;
+			.border-radius(0);
 			background-color: @nav-link-hover-bg;
 			color: @nav-tabs-link-color;
 		}
@@ -506,12 +506,12 @@ select[multiple].form-control {
 
 .nav-tabs-justified {
 	> li > a {
-		border-radius: 0;
+		.border-radius(0);
 	}
 
 	@media (min-width: @screen-sm-min) {
 		> li > a {
-			border-radius: 0;
+			.border-radius(0);
 		}
 	}
 }

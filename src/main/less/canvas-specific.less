@@ -290,7 +290,7 @@ body.dragover-err {
                 img {
                     width: (@navbar-height / 2);
                     height: auto;
-                    border-radius: @border-radius-base;
+                    .border-radius(@border-radius-base);
                     margin-top: -5px;
                 }
             }
@@ -518,7 +518,7 @@ body.dragover-err {
                 content: "";
                 position: absolute;
                 display: block;
-                border-radius: @border-radius-small;
+                .border-radius(@border-radius-small);
                 .transition(.25s ease-in-out);
             }
         }
