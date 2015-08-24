@@ -61,7 +61,7 @@
 
 @table-cell-padding:            10px;
 @table-condensed-cell-padding:  7.5px;
-@table-bg-accent:               @gray-lighter;
+@table-bg-accent:               lighten(@gray-lighter, 2%);
 @table-bg-hover:                @gray-lighter;
 @table-border-color:            @gray-light;
 
@@ -140,13 +140,16 @@
 // Pagination
 
 @pagination-color:                     @gray-dark;
-@pagination-border:                    @gray-light;
+@pagination-border:                    transparent;
+
 @pagination-hover-color:               @gray-darker;
+@pagination-hover-bg:                  @gray-lighter;
 @pagination-hover-border:              @gray-light;
+
 @pagination-active-color:              @brand-primary;
-@pagination-active-bg:                 #fff;
-@pagination-active-border:             @gray-light;
-@pagination-disabled-border:           @gray-light;
+@pagination-active-bg:                 transparent;
+@pagination-active-border:             transparent;
+@pagination-disabled-border:           transparent;
 
 // Pager
 
@@ -199,14 +202,18 @@
 
 @modal-header-border-color:   #eee;
 
-@modal-lg:                    750px;
-@modal-md:                    500px;
-@modal-sm:                    250px;
+@modal-lg:                    850px;
+@modal-md:                    650px;
+@modal-sm:                    350px;
 
 // Alerts
 
 @alert-padding:               12px;
 @alert-link-font-weight:      400;
+
+@alert-info-text:             @brand-primary;
+@alert-info-border:           @brand-primary;
+
 
 // Progress
 
@@ -228,9 +235,9 @@
 @panel-footer-bg:             #fff;
 
 @panel-default-border:        @gray-light;
-@panel-default-heading-bg:    @gray-lighter;
+@panel-default-heading-bg:    #fff;
 
-@panel-primary-text:          @state-info-text;
+@panel-primary-text:          @brand-primary;
 @panel-primary-heading-bg:    @state-info-bg;
 
 // Wells
@@ -241,9 +248,12 @@
 // Badge
 
 @badge-link-hover-color:      @gray-lighter;
-@badge-bg:                    @brand-primary;
+@badge-color:                   @brand-primary;
+@badge-bg:                    transparent;
+
 @badge-active-color:          #fff;
 @badge-active-bg:             @brand-primary;
+
 @badge-font-weight:           400;
 @badge-border-radius:         @border-radius-large;
 
@@ -257,6 +267,7 @@
 @breadcrumb-separator:          "\203A";
 
 @close-font-weight:           400;
+@close-color:                 @gray;
 
 // Code
 
@@ -274,10 +285,10 @@
 
 // Typography
 
-@component-offset-horizontal: 175px;
 @text-muted:                  @gray;
 @abbr-border-color:           @gray;
 @headings-small-color:        @gray;
 @blockquote-small-color:      @gray-dark;
 @blockquote-font-size:        (@font-size-base * 1.10);
 @blockquote-border-color:     @brand-primary;
+@dl-entity-horizontal-offset: percentage((2 / @grid-columns));
