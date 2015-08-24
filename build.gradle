@@ -173,3 +173,31 @@ task spawnJekyll(dependsOn: 'copyAssets') << {
 }
 
 task showcase(dependsOn:  ['lesscDaemon', 'spawnJekyll'])
+
+// Maven deployment
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'https://repo.fenixedu.org/fenixedu-releases') {
+                authentication(userName: project.hasProperty('username') ? project.username : "",
+                               password: project.hasProperty('password') ? project.password : "")
+            }
+            pom.project {
+                licenses {
+                    license {
+                        name 'GNU Lesser General Public License v3.0'
+                        url 'https://www.gnu.org/licenses/lgpl-3.0.txt'
+                        distribution 'repo'
+                    }
+                }
+                repositories {
+                    repository {
+                        id 'fenixedu-maven-repository'
+                        url 'https://repo.fenixedu.org/fenixedu-maven-repository'
+                    }
+                }
+            }
+        }
+    }
+}
