@@ -7,8 +7,8 @@
     font-weight: @weight;
     src: url('@{fileName}.eot');
     src: url('@{fileName}.eot?#iefix') format('embedded-opentype'),
-         url('@{fileName}.woff') format('woff'),
          url('@{fileName}.woff2') format('woff2'),
+         url('@{fileName}.woff') format('woff'),
          url('@{fileName}.ttf') format('truetype'),
          url('@{fileName}.svg') format('svg');
   }
@@ -37,7 +37,18 @@
 .font-face('titillium', '../fonts/titillium/titillium-bolditalic', italic, 700);
 .font-face('titillium', '../fonts/titillium/titillium-black', normal, 900);
 
-.font-face('fenixedu-icons', '../fonts/fenixedu-icons/fenixedu-icons', normal, normal);
+// TODO: Replace with the mixin when this font has woff2 variant
+
+@font-face {
+  font-family: 'fenixedu-icons';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fenixedu-icons/fenixedu-icons.eot');
+  src: url('../fonts/fenixedu-icons/fenixedu-icons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/fenixedu-icons/fenixedu-icons.woff') format('woff'),
+       url('../fonts/fenixedu-icons/fenixedu-icons.ttf') format('truetype'),
+       url('../fonts/fenixedu-icons/fenixedu-icons.svg') format('svg');
+}
 
 // Assorted
 
