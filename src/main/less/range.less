@@ -1,0 +1,131 @@
+// .slider {
+//     input[type="range"] {
+//         display: inline-block;
+//         width: calc(100% - 8em);
+//         background-color: @gray-light;
+//         .border-radius(@border-radius-base);
+//         -webkit-appearance: none;
+//         -moz-appearance:    none;
+//         appearance:         none;
+//         height: 5px;
+//         outline: none;
+//         &::-webkit-slider-thumb {
+//             width: 15px;
+//             height: 15px;
+//             z-index: 1;
+//             cursor: pointer;
+//             border: 4px solid #fff;
+//             background: @brand-primary;
+//             .box-shadow(0px 0px 0px 2px @gray-light);
+//             .border-radius(8px);
+//             -webkit-appearance: none;
+//             -moz-appearance:    none;
+//             appearance:         none;
+
+//         }
+//     }
+//     output {
+//         display: inline-block;
+//         vertical-align: baseline;
+//         color: @gray;
+//         margin-left: 5px;
+//     }
+// }
+// -------------------------------------------------------
+// -------------------------------------------------------
+
+//RANGE NORMALIZER
+.slider input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: calc(100% - 8em); /* Specific width is required for Firefox. */
+}
+.slider input[type="range"]:focus {
+  outline: none;  //Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though.
+}
+.slider input[type="range"]::-ms-track {
+  width: calc(100% - 8em);
+  cursor: pointer;
+  background: transparent;  //Hides the slider so custom styles can be added
+  border-color: transparent;
+  color: transparent;
+}
+
+//THUMB
+.slider input[type="range"]{
+    display: inline-block;
+    &::-webkit-slider-thumb {
+      height: 15px;
+      width: 15px;
+      border: 4px solid #fff;
+      background: @brand-primary;
+      .box-shadow(0px 0px 0px 2px @gray-light);
+      .border-radius(8px);
+      cursor: pointer;
+      -webkit-appearance: none;
+      margin-top: -6px;
+    }
+    &::-moz-range-thumb {
+      height: 7px;
+      width: 7px;
+      border: 4px solid #fff;
+      background: @brand-primary;
+      .box-shadow(0px 0px 0px 2px @gray-light);
+      .border-radius(8px);
+      cursor: pointer;
+    }
+    &::-ms-thumb {
+      height: 15px;
+      width: 15px;
+      border: 4px solid #fff;
+      background: @brand-primary;
+      .box-shadow(0px 0px 0px 2px @gray-light);
+      .border-radius(8px);
+      cursor: pointer;
+    }
+}
+
+//TRACK
+.slider input[type="range"]::-webkit-slider-runnable-track {
+  width: calc(100% - 8em);
+  height: 5px;
+  cursor: pointer;
+  background-color: @gray-light;
+  .border-radius(@border-radius-base);
+}
+.slider input[type="range"]::-moz-range-track {
+  width: calc(100% - 8em);
+  height: 5px;
+  cursor: pointer;
+  background-color: @gray-light;
+  .border-radius(@border-radius-base);
+}
+
+ // this is for IE 10+ and the upper and lower mean that you can
+ //style the track to the left and to the right of the thumb
+input[type="range"]::-ms-track {
+  width: calc(100% - 8em);
+  height: 5px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+input[type="range"]::-ms-fill-lower {
+  background-color: @gray-light;
+  .border-radius(@border-radius-base);
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: @gray-light;
+  .border-radius(@border-radius-base);
+}
+
+//OUTPUT
+.slider{
+    output {
+        display: inline-block;
+        vertical-align: baseline;
+        color: @gray;
+        margin-left: 5px;
+        text-align: right;
+    }
+}
