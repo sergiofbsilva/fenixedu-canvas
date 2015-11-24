@@ -132,6 +132,17 @@ task jekyll(dependsOn: 'copyAssets') << {
     }
 }
 
+task site(dependsOn: ['copyAssets', 'lessc']) << {
+  exec {
+      workingDir "${buildDir}/showcase/bootstrap-${bootstrapVersion}/"
+      executable "sh"
+      args "-c", "jekyll build --destination ${buildDir}/site"
+  }
+  // Site built, copy Canvas CSS
+  file("${buildDir}/site/dist/css/bootstrap.css").text =
+    file("${buildDir}/css/canvas.css").text
+}
+
 task spawnJekyll(dependsOn: 'copyAssets') << {
     def builder = new ProcessBuilder("sh", "-c", "jekyll serve")
     builder.redirectErrorStream(true)
