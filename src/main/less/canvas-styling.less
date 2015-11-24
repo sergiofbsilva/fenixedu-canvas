@@ -526,9 +526,15 @@ b, strong {
 
 .pager {
 	li {
-		> a, 
+		> a,
 		> span {
-			padding: 2px 25px;
+      			padding: @padding-base-vertical @padding-base-horizontal;
+			color: @pagination-color;
+		}
+		> a:hover,
+		> a:focus {
+      			border: 1px solid @pagination-hover-border;
+      			color: @pagination-hover-color;
 		}
 	}
 }
@@ -537,9 +543,9 @@ b, strong {
 
 .pagination {
 	margin: 0;
-	
+
 	> li {
-		> a, 
+		> a,
 		> span {
 			.titleStyle();
 		}
