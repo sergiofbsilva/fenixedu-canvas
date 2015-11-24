@@ -61,7 +61,6 @@
 
 .corner-gradient-left (@color: rgba(255, 255, 255, 1)) {
     position: relative;
-    overflow: hidden;
     .text-overflow();
     &:before {
         content: "";
@@ -79,7 +78,6 @@
 
 .corner-gradient-right (@color: rgba(255, 255, 255, 1)) {
     position: relative;
-    overflow: hidden;
     .text-overflow();
     &:after {
         content: "";
@@ -209,6 +207,13 @@ body.dragover-err {
             height: @navbar-height;
             > a {padding: @navbar-padding-vertical (@navbar-padding-horizontal * 3);}
         }
+
+        @media (max-width: @grid-float-breakpoint-max) {
+            margin: 0;
+            > li {
+                float: left;
+            }
+        }
     }
 
     .navbar-divider {
@@ -258,12 +263,14 @@ body.dragover-err {
             &[class*="navbar-"] {
                 position: absolute;
                 &.navbar-brand {left: 0; a {color: @gray-darker;}; padding: initial;}
-                &.navbar-help {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));}
+                &.navbar-help {/*right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));*/ right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
                 &.navbar-choser {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
                 &.navbar-userarea {right: 0; .dropdown-menu {margin-right: (@navbar-padding-horizontal * 4);}}
 
                 &.dropdown {
                     .dropdown-menu {
+                        li a {text-transform: capitalize;}
+
                         &:before {
                             content: '';
                             position: absolute;
@@ -297,105 +304,65 @@ body.dragover-err {
         }
     }
 
-
     // Breadcrumb navbar specific
 
-    .navbar-breadcrumb {
-        > li + li {
-            .icon-right-open-big;
-            &:before {
-                .icon;
-                color: @gray;
-                position: absolute;
-                top: ((@navbar-height / 2) - (@line-height-computed / 3));
-                font-size: @font-size-small;
-            }
-        }
-    }
-
-  // Second level menu specific
-
-  .submenu {
-    background-color: @gray-lighter;
-    border-top: 1px solid @gray-light;
-
-    .navbar {
+    .navbar-header {
         width: 100%;
-        margin-bottom: 0;
-        position: relative;
+    }
 
-        &:before {
-            content: "";
-            width: 25%;
-            height: 75px;
-            #gradient.vertical(rgba(255, 255, 255, 0), @gray-lighter, 10%, 75%);
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            z-index: 999;
-        }
+    .navbar-nav.navbar-breadcrumb {
+        width: 100%;
+        height: @navbar-height;
 
-        > a {
-            position: absolute;
-            bottom: (@navbar-padding-vertical / 2);
-            text-align: center;
-            z-index: 999;
-            width: 25%;
-
-            > i:before {
-                color: @gray;
-                font-size: @font-size-small;
-            }
-        }
-
-        .navbar-nav {
-            // .corner-gradient-right(rgba(243, 243, 243, 1));
-            white-space: normal;
-            padding: (@navbar-padding-vertical / 2) 0;
-            max-height: (@navbar-height * 5);
-            overflow-x: hidden!important;
-
-            > li {
-                width: 100%;
-                height: auto;
-                float: none;
-                display: inline-block;
-                -webkit-column-break-before: always;
-                break-before: column;
-
-                > a {
-                    padding: (@navbar-padding-vertical / 2) (@navbar-padding-horizontal * 3);
+        > li {
+            + li {
+                .icon-right-open-big;
+                &:before {
+                    .icon;
+                    color: @gray;
+                    position: absolute;
+                    top: ((@navbar-height / 2) - (@line-height-computed / 3));
+                    left: (-@navbar-padding-horizontal * 1.75);
+                    font-size: @font-size-small;
                 }
             }
 
-            &:first-of-type {
-                max-width: 25%;
-
-                > .active > a {
-                    .icon-right-open-big;
-                    &:before {
-                        .icon;
-                        color: @gray;
-                        top: (@navbar-padding-vertical / 2.5);
-                        font-size: @font-size-small;
-                        float: right;
-                    }
+            > a {
+                padding: @navbar-padding-vertical (@navbar-padding-horizontal * 3) @navbar-padding-vertical 0!important;
+            
+                @media (max-width: @grid-float-breakpoint-max) {
+                    padding: @navbar-padding-vertical (@navbar-padding-horizontal * 3) @navbar-padding-vertical @navbar-padding-horizontal!important;
                 }
-            }
-
-            &:last-of-type {
-                max-width: 75%;
-                -webkit-columns: 284.5px auto;
-                -moz-columns: 284.5px auto;
-                columns: 284.5px auto;
-                -moz-column-fill: auto;
-                column-fill: auto;
-                column-gap: 0;
             }
         }
     }
+}
+
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    .transition(all .25s ease-out);
+
+        &[class*="-left"] {
+            left: 0;
+            .sidebar-offcanvas {left: -50%; /* 6 columns */}
+            &.active {left: 50%; /* 6 columns */}
+        }
+
+        &[class*="-right"] {
+            right: 0;
+            .sidebar-offcanvas {right: -50%; /* 6 columns */}
+            &.active {right: 50%; /* 6 columns */}
+        }
+
+        .sidebar-offcanvas {
+            position: absolute;
+            top: 0;
+            width: 50%;/* 6 columns */
+        }
   }
 }
+
 
 // Custom description lists
 // -------------------------
