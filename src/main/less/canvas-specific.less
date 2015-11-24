@@ -159,7 +159,7 @@ body.dragover-err {
     cursor: pointer;
     max-width: 500px;
 
-    .icon {
+    [class*="icon-"] {
         width: 50px;
         position: absolute;
         top: 0;
@@ -174,16 +174,16 @@ body.dragover-err {
     }
 
     &.alert-success {
-        .icon {background: @brand-success;}
+        [class*="icon-"] {background: @brand-success;}
     }
     &.alert-info {
-        .icon {background: @brand-primary;}
+        [class*="icon-"] {background: @brand-primary;}
     }
     &.alert-warning {
-        .icon {background: @brand-warning;}
+        [class*="icon-"] {background: @brand-warning;}
     }
     &.alert-danger {
-        .icon {background: @brand-danger;}
+        [class*="icon-"] {background: @brand-danger;}
     }
 
     &.alert-dismissible {
@@ -231,7 +231,7 @@ body.dragover-err {
         border: none;
         float: left;
 
-        .icon {
+        [class*="icon-"] {
             color: @gray;
             font-size: 22px; //fix to 23px after updating the icon font
             float: left;
@@ -247,7 +247,6 @@ body.dragover-err {
             height: (@navbar-height * 0.67);
         }
     }
-
 
     // Brand and side dropdowns specific
 

@@ -64,9 +64,9 @@
   	// .list-group-item.active > &,
   	.nav-pills > li > a > &,
   	.nav-tabs > li > a > & {
-    		color: @badge-active-color;
-    		background-color: @badge-active-bg;
-    		border: none;
+    	color: @badge-active-color;
+    	background-color: @badge-active-bg;
+    	border: none;
    		margin-top: -2px;
   	}
   	.list-group-item.active > & {
@@ -74,7 +74,7 @@
   		background-color: transparent;
   	}
 	.nav-pills > li > a > & {
-    		margin-left: 5px;
+    	margin-left: 5px;
   	}
 }
 
@@ -373,7 +373,7 @@ select[multiple].form-control {
 	cursor: default;
 }
 
-.modal-header span.explanation, .modal-header small.explanation, .modal-header small {
+.modal-header small, .modal-header .detail {
 	font-family: @font-family-base;
 	font-size: @font-size-small;
 	font-style: italic;
@@ -428,7 +428,7 @@ select[multiple].form-control {
       &:hover,
       &:focus {
       	color: @gray-dark;
-	border: 1px solid @gray-light;
+		border: 1px solid @gray-light;
       }
     }
   }
@@ -463,11 +463,11 @@ select[multiple].form-control {
 	}
 
 	.caret {
-		border-top:   @caret-width-base solid @gray;
+		border-top: @caret-width-base solid @gray;
 	}
 
 	.dropup .caret {
-		border-bottom:   @caret-width-base solid @gray;
+		border-bottom: @caret-width-base solid @gray;
 		border-top: 0;
 	}
 }
@@ -483,8 +483,13 @@ select[multiple].form-control {
 		}
 
 		&.active > a {
-			border-top: 1px solid @brand-primary!important;
-			color: @nav-tabs-active-link-color!important;
+			&,
+      		&:hover,
+      		&:focus {
+				border-top: 1px solid @brand-primary!important;
+				color: @nav-tabs-active-link-color!important;
+				border-bottom-color: #fff;
+			}
 		}
 
 		&.disabled > a {
