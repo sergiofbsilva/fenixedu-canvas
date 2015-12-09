@@ -174,7 +174,7 @@
 		font-weight: 600;
 	}
 
-	&.faded > tbody > tr {
+	&.faded > tbody > tr { /* Broken; The fade should be done in the next major at the td level */
 
 	> td {
 		&:after {
@@ -182,7 +182,7 @@
 		        pointer-events: none;
 		        width: 45px;
 		        height: ((@table-cell-padding * 2) + @line-height-computed);
-		        #gradient.horizontal-inverse(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), 10%, 75%);
+		        #gradient.horizontal-inverse(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0), 0%, 100%);
 		        position: absolute;
 		        top: 1px;
 		        right: 0;
@@ -193,7 +193,7 @@
 		    .text-overflow();
 		    text-overflow: clip;
 		    position: absolute;
-			width: 100%;
+			width: calc(~"100% - "@table-cell-padding * 2);
 			top: @table-cell-padding;
 			left: @table-cell-padding;
 		}
@@ -301,7 +301,7 @@
 .table-hover.faded > tbody > tr:hover {
   > td:after {
     width: 25px;
-    //#gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
+    #gradient.horizontal-inverse(rgba(243, 243, 243, 1), rgba(243, 243, 243, 0), 0%, 100%);
   }
   > td {border-bottom: 1px solid @table-border-color;}
 }
