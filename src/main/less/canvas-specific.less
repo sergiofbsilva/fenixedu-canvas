@@ -220,6 +220,7 @@ body.dragover-err {
         display: inline-block;
         height: @navbar-height;
         padding: (@navbar-padding-vertical - 2) (@navbar-padding-horizontal / 2);
+        float: left;
 
         &:after {
             content: "";
@@ -242,7 +243,6 @@ body.dragover-err {
             float: left;
             margin-top: -2px;
         }
-        &:hover, &:focus {text-decoration: none;}
     }
 
     .navbar-form {
@@ -255,49 +255,48 @@ body.dragover-err {
 
     // Brand and side dropdowns specific
 
-    .navbar-floating-items {
+    .navbar-brand {
+        position: absolute;
+        left: (@navbar-padding-horizontal * 2);
+        padding: (@navbar-padding-vertical / 1.25) @navbar-padding-horizontal;
+
+        img {height: 100%;}
+    }
+
+    #navbar-floating-items > ul {
+        position: absolute;
+        right: (@navbar-padding-horizontal * 2);
         > li {
-            > a {padding: @navbar-padding-vertical (@navbar-padding-horizontal * 4);}
-
-            &[class*="navbar-"] {
-                position: absolute;
-                &.navbar-brand {left: 0; a {color: @gray-darker;}; padding: initial;}
-                &.navbar-help {/*right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 8));*/ right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
-                &.navbar-choser {right: ((@navbar-height / 2) + (@navbar-padding-horizontal * 5));}
-                &.navbar-userarea {right: 0; .dropdown-menu {margin-right: (@navbar-padding-horizontal * 4);}}
-
-                &.dropdown {
-                    .dropdown-menu {
-                        li a {text-transform: capitalize;}
-
-                        &:before {
-                            content: '';
-                            position: absolute;
-                            top: -7px;
-                            right: 3px;
-                            .triangle-up(7px, @gray-light);
-                            .translate(-50%, 0);
-                        }
-                        &:after {
-                            content: '';
-                            position: absolute;
-                            top: -6px;
-                            right: 5px;
-                            .triangle-up(6px, #fff);
-                            .translate(-50%, 0);
-                        }
-                    }
-                }
+            &.navbar-userarea .navbar-icon {
+                float: none;
+                padding: (@navbar-padding-vertical / 1.5) @navbar-padding-horizontal!important;
             }
 
-            .avatar {
-                display: inline-block;
-                padding: @navbar-padding-vertical (@navbar-padding-horizontal * 4) @navbar-padding-vertical @navbar-padding-horizontal!important;
-                img {
-                    width: (@navbar-height / 2);
-                    height: auto;
-                    .border-radius(@border-radius-base);
-                    margin-top: -5px;
+            .dropdown {
+                .dropdown-menu {
+                    margin: -1px 0 0; // override default ul
+                    li a {text-transform: capitalize;}
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: -7px;
+                        right: 3px;
+                        .triangle-up(7px, @gray-light);
+                        .translate(-50%, 0);
+                    }
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        top: -6px;
+                        right: 5px;
+                        .triangle-up(6px, #fff);
+                        .translate(-50%, 0);
+                    }
+                }
+                &.open > a {
+                    border-color: transparent;
+                    background-color: transparent;
                 }
             }
         }
